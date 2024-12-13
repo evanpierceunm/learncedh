@@ -1,0 +1,43 @@
+name: Update JSON File
+
+on:
+  schedule:
+    # Run the action every 24 hours
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allow manual triggers
+
+jobs:
+  update-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Fetch new data
+      - name: Fetch data from API
+        id: fetch_data
+        run: |
+          curl -X POST -H "Content-Type: application/json" \
+          -d '{"query": "query { commanders(first: 50, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS) { edges { node { name stats(filters: { timePeriod: THREE_MONTHS }) { conversionRate metaShare } } } } }"}' \
+          https://edhtop16.com/api/graphql > new-data.json
+
+          jq '.data.commanders.edges | map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' new-data.json > parsed-data.json
+
+      # Step 3: Update the JSON file
+      - name: Update JSON file
+        run: |
+          echo "{\"lastUpdated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"data\": $(cat parsed-data.json)}" > ranked-decks.json
+        shell: bash
+
+      # Step 4: Commit and push the changes
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add ranked-decks.json
+          git commit -m "Update ranked-decks.json"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
