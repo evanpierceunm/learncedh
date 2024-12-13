@@ -21,23 +21,43 @@ jobs:
         run: |
           total_data="[]"
           after_cursor="null"
-          while :; do
+          total_count=0
+          limit=300
+
+          while [ $total_count -lt $limit ]; do
             response=$(curl -s -X POST -H "Content-Type: application/json" \
               -d '{"query": "query ($after: String) { commanders(first: 100, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS, after: $after) { edges { cursor node { name stats(filters: { timePeriod: THREE_MONTHS }) { conversionRate metaShare } } } pageInfo { endCursor hasNextPage } } }", "variables": {"after": '"$after_cursor"'}}' \
               https://edhtop16.com/api/graphql)
 
-            # Extract edges and append to total_data
+            # Extract edges
             edges=$(echo "$response" | jq '.data.commanders.edges')
+            edge_count=$(echo "$edges" | jq 'length')
+            total_count=$((total_count + edge_count))
+
+            # Check if total count exceeds the limit
+            if [ $total_count -ge $limit ]; then
+              # Trim to the first 300 entries
+              remaining_count=$((limit - (total_count - edge_count)))
+              edges=$(echo "$edges" | jq ".[0:$remaining_count]")
+              total_count=$limit
+            fi
+
+            # Append edges to total_data
             total_data=$(echo "$total_data $edges" | jq -s 'add')
 
-            # Check if more pages are available
-            hasNextPage=$(echo "$response" | jq '.data.commanders.pageInfo.hasNextPage')
-            if [ "$hasNextPage" != "true" ]; then
+            # Break if the limit is reached
+            if [ $total_count -ge $limit ]; then
               break
             fi
 
             # Update after_cursor
             after_cursor=$(echo "$response" | jq '.data.commanders.pageInfo.endCursor')
+
+            # Break if no more pages are available
+            hasNextPage=$(echo "$response" | jq '.data.commanders.pageInfo.hasNextPage')
+            if [ "$hasNextPage" != "true" ]; then
+              break
+            fi
           done
 
           # Parse and save the data
