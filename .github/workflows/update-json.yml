@@ -15,15 +15,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Fetch new data
+      # Step 2: Fetch data from API with pagination
       - name: Fetch data from API
         id: fetch_data
         run: |
-          curl -X POST -H "Content-Type: application/json" \
-          -d '{"query": "query { commanders(first: 300, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS) { edges { node { name stats(filters: { timePeriod: THREE_MONTHS }) { conversionRate metaShare } } } } }"}' \
-          https://edhtop16.com/api/graphql > new-data.json
+          total_data="[]"
+          after_cursor="null"
+          while :; do
+            response=$(curl -s -X POST -H "Content-Type: application/json" \
+              -d '{"query": "query ($after: String) { commanders(first: 100, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS, after: $after) { edges { cursor node { name stats(filters: { timePeriod: THREE_MONTHS }) { conversionRate metaShare } } } pageInfo { endCursor hasNextPage } } }", "variables": {"after": '"$after_cursor"'}}' \
+              https://edhtop16.com/api/graphql)
 
-          jq '.data.commanders.edges | map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' new-data.json > parsed-data.json
+            # Extract edges and append to total_data
+            edges=$(echo "$response" | jq '.data.commanders.edges')
+            total_data=$(echo "$total_data $edges" | jq -s 'add')
+
+            # Check if more pages are available
+            hasNextPage=$(echo "$response" | jq '.data.commanders.pageInfo.hasNextPage')
+            if [ "$hasNextPage" != "true" ]; then
+              break
+            fi
+
+            # Update after_cursor
+            after_cursor=$(echo "$response" | jq '.data.commanders.pageInfo.endCursor')
+          done
+
+          # Parse and save the data
+          echo "$total_data" | jq 'map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' > parsed-data.json
 
       # Step 3: Update the JSON file
       - name: Update JSON file
