@@ -20,7 +20,7 @@ jobs:
         id: fetch_data
         run: |
           curl -X POST -H "Content-Type: application/json" \
-          -d '{"query": "query { commanders(first: 50, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS) { edges { node { name stats(filters: { timePeriod: THREE_MONTHS }) { conversionRate metaShare } } } } }"}' \
+          -d '{"query": "query { commanders(first: 200, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS) { edges { node { name stats(filters: { timePeriod: THREE_MONTHS }) { conversionRate metaShare } } } } }"}' \
           https://edhtop16.com/api/graphql > new-data.json
 
           jq '.data.commanders.edges | map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' new-data.json > parsed-data.json
