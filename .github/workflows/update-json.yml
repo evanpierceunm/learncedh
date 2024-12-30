@@ -36,7 +36,7 @@ jobs:
 
             # Check if total count exceeds the limit
             if [ $total_count -ge $limit ]; then
-              # Trim to the first 300 entries
+              # Trim to the first X entries
               remaining_count=$((limit - (total_count - edge_count)))
               edges=$(echo "$edges" | jq ".[0:$remaining_count]")
               total_count=$limit
