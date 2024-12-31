@@ -26,29 +26,7 @@ jobs:
 
           while [ $total_count -lt $limit ]; do
             response=$(curl -s -X POST -H "Content-Type: application/json" \
-              -d '{
-                "query": "query ($after: String) { \
-                  commanders(first: 100, sortBy: POPULARITY, minEntries: 0, minTournamentSize: 16, timePeriod: THREE_MONTHS, after: $after) { \
-                    edges { \
-                      cursor \
-                      node { \
-                        name \
-                        stats(filters: { timePeriod: THREE_MONTHS }) { \
-                          conversionRate \
-                          metaShare \
-                        } \
-                      } \
-                    } \
-                    pageInfo { \
-                      endCursor \
-                      hasNextPage \
-                    } \
-                  } \
-                }",
-                "variables": {
-                  "after": '"$after_cursor"'
-                }
-              }' \
+              -d '{"query": "query ($after: String) { commanders(first: 100, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS, after: $after) { edges { cursor node { name stats(filters: { timePeriod: THREE_MONTHS, minSize: 16 }) { conversionRate metaShare } } } pageInfo { endCursor hasNextPage } } }", "variables": {"after": '"$after_cursor"'}}' \
               https://edhtop16.com/api/graphql)
 
             # Extract edges
@@ -83,11 +61,7 @@ jobs:
           done
 
           # Parse and save the data
-          echo "$total_data" | jq 'map({
-            name: .node.name,
-            conversionRate: .node.stats.conversionRate,
-            metaShare: .node.stats.metaShare
-          })' > parsed-data.json
+          echo "$total_data" | jq 'map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' > parsed-data.json
 
       # Step 3: Update the JSON file
       - name: Update JSON file
