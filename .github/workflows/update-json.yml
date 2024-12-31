@@ -26,7 +26,34 @@ jobs:
 
           while [ $total_count -lt $limit ]; do
             response=$(curl -s -X POST -H "Content-Type: application/json" \
-              -d '{"query": "query ($after: String) { commanders(first: 100, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS, after: $after) { edges { cursor node { name stats(filters: { timePeriod: THREE_MONTHS }) { conversionRate metaShare } } } pageInfo { endCursor hasNextPage } } }", "variables": {"after": '"$after_cursor"'}}' \
+              -d '{
+                "query": "query ($after: String) { \
+                  commanders( \
+                    first: 100, \
+                    sortBy: POPULARITY, \
+                    minEntries: 0, \
+                    minTournamentSize: 16, \
+                    timePeriod: THREE_MONTHS, \
+                    after: $after \
+                  ) { \
+                    edges { \
+                      cursor \
+                      node { \
+                        name \
+                        stats(filters: { timePeriod: THREE_MONTHS }) { \
+                          conversionRate \
+                          metaShare \
+                        } \
+                      } \
+                    } \
+                    pageInfo { \
+                      endCursor \
+                      hasNextPage \
+                    } \
+                  } \
+                }",
+                "variables": { "after": '"$after_cursor"' }
+              }' \
               https://edhtop16.com/api/graphql)
 
             # Extract edges
@@ -34,9 +61,8 @@ jobs:
             edge_count=$(echo "$edges" | jq 'length')
             total_count=$((total_count + edge_count))
 
-            # Check if total count exceeds the limit
+            # If total count exceeds the limit, trim the excess
             if [ $total_count -ge $limit ]; then
-              # Trim to the first X entries
               remaining_count=$((limit - (total_count - edge_count)))
               edges=$(echo "$edges" | jq ".[0:$remaining_count]")
               total_count=$limit
@@ -53,7 +79,7 @@ jobs:
             # Update after_cursor
             after_cursor=$(echo "$response" | jq '.data.commanders.pageInfo.endCursor')
 
-            # Break if no more pages are available
+            # Break if no more pages
             hasNextPage=$(echo "$response" | jq '.data.commanders.pageInfo.hasNextPage')
             if [ "$hasNextPage" != "true" ]; then
               break
@@ -61,7 +87,11 @@ jobs:
           done
 
           # Parse and save the data
-          echo "$total_data" | jq 'map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' > parsed-data.json
+          echo "$total_data" | jq 'map({
+            name: .node.name,
+            conversionRate: .node.stats.conversionRate,
+            metaShare: .node.stats.metaShare
+          })' > parsed-data.json
 
       # Step 3: Update the JSON file
       - name: Update JSON file
