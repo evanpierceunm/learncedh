@@ -19,45 +19,100 @@ jobs:
       - name: Fetch data from API
         id: fetch_data
         run: |
+          # Start with an empty array of data
           total_data="[]"
-          after_cursor="null"
+
+          # Start pagination with no cursor (null in JSON)
+          after_cursor=null
+
+          # Counters
           total_count=0
           limit=500
 
           while [ $total_count -lt $limit ]; do
+            # Build the JSON body dynamically to handle 'after_cursor' correctly.
+            # If after_cursor is 'null', it will be inserted as JSON null,
+            # otherwise it will be a quoted string (e.g. "abc123...").
+            if [ "$after_cursor" = "null" ]; then
+              request_body="$(jq -n --arg minTournamentSize "16" '
+                {
+                  query: "query ($after: String) {
+                    commanders(
+                      first: 100,
+                      sortBy: POPULARITY,
+                      minEntries: 0,
+                      minTournamentSize: 16,
+                      timePeriod: THREE_MONTHS,
+                      after: $after
+                    ) {
+                      edges {
+                        cursor
+                        node {
+                          name
+                          stats(filters: { timePeriod: THREE_MONTHS }) {
+                            conversionRate
+                            metaShare
+                          }
+                        }
+                      }
+                      pageInfo {
+                        endCursor
+                        hasNextPage
+                      }
+                    }
+                  }",
+                  variables: {}
+                }
+              ')"
+            else
+              # after_cursor is some actual string
+              request_body="$(jq -n --arg after_val "$after_cursor" '
+                {
+                  query: "query ($after: String) {
+                    commanders(
+                      first: 100,
+                      sortBy: POPULARITY,
+                      minEntries: 0,
+                      minTournamentSize: 16,
+                      timePeriod: THREE_MONTHS,
+                      after: $after
+                    ) {
+                      edges {
+                        cursor
+                        node {
+                          name
+                          stats(filters: { timePeriod: THREE_MONTHS }) {
+                            conversionRate
+                            metaShare
+                          }
+                        }
+                      }
+                      pageInfo {
+                        endCursor
+                        hasNextPage
+                      }
+                    }
+                  }",
+                  variables: { after: $after_val }
+                }
+              ')"
+            fi
+
+            # Execute the GraphQL request
             response=$(curl -s -X POST -H "Content-Type: application/json" \
-              -d '{
-                "query": "query ($after: String) { \
-                  commanders( \
-                    first: 100, \
-                    sortBy: POPULARITY, \
-                    minEntries: 0, \
-                    minTournamentSize: 16, \
-                    timePeriod: THREE_MONTHS, \
-                    after: $after \
-                  ) { \
-                    edges { \
-                      cursor \
-                      node { \
-                        name \
-                        stats(filters: { timePeriod: THREE_MONTHS }) { \
-                          conversionRate \
-                          metaShare \
-                        } \
-                      } \
-                    } \
-                    pageInfo { \
-                      endCursor \
-                      hasNextPage \
-                    } \
-                  } \
-                }",
-                "variables": { "after": '"$after_cursor"' }
-              }' \
+              -d "$request_body" \
               https://edhtop16.com/api/graphql)
 
-            # Extract edges
-            edges=$(echo "$response" | jq '.data.commanders.edges')
+            # Check for an empty or invalid response
+            # If 'jq' fails to parse, exit to avoid infinite loops
+            if ! echo "$response" | jq . > /dev/null 2>&1; then
+              echo "Error: Invalid JSON response from API:"
+              echo "$response"
+              exit 1
+            fi
+
+            # Extract edges array
+            edges=$(echo "$response" | jq '.data.commanders.edges // []')
             edge_count=$(echo "$edges" | jq 'length')
             total_count=$((total_count + edge_count))
 
@@ -68,25 +123,28 @@ jobs:
               total_count=$limit
             fi
 
-            # Append edges to total_data
-            total_data=$(echo "$total_data $edges" | jq -s 'add')
+            # Merge this page's edges into total_data
+            total_data=$(echo "$total_data" "$edges" | jq -s 'add')
 
-            # Break if the limit is reached
+            # Stop if limit reached
             if [ $total_count -ge $limit ]; then
               break
             fi
 
-            # Update after_cursor
-            after_cursor=$(echo "$response" | jq '.data.commanders.pageInfo.endCursor')
+            # Figure out next after_cursor from pageInfo
+            next_cursor=$(echo "$response" | jq -r '.data.commanders.pageInfo.endCursor // "null"')
+            hasNextPage=$(echo "$response" | jq -r '.data.commanders.pageInfo.hasNextPage')
 
-            # Break if no more pages
-            hasNextPage=$(echo "$response" | jq '.data.commanders.pageInfo.hasNextPage')
-            if [ "$hasNextPage" != "true" ]; then
+            if [ "$next_cursor" = "null" ] || [ "$hasNextPage" != "true" ]; then
+              # No more pages
               break
+            else
+              # Prepare for next loop
+              after_cursor="$next_cursor"
             fi
           done
 
-          # Parse and save the data
+          # We only want name, conversionRate, metaShare in final JSON
           echo "$total_data" | jq 'map({
             name: .node.name,
             conversionRate: .node.stats.conversionRate,
