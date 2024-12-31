@@ -2,39 +2,28 @@ name: Update Ranked Decks JSON
 
 on:
   schedule:
-    # Run every 24 hours at midnight UTC
     - cron: "0 0 * * *"
-  workflow_dispatch: # Allow manual triggering
+  workflow_dispatch:
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Fetch data from API with pagination
       - name: Fetch data from API
         id: fetch_data
         run: |
-          # Start with an empty array of data
           total_data="[]"
-
-          # Start pagination with no cursor (null in JSON)
           after_cursor=null
-
-          # Counters
           total_count=0
           limit=500
 
           while [ $total_count -lt $limit ]; do
-            # Build the JSON body dynamically to handle 'after_cursor' correctly.
-            # If after_cursor is 'null', it will be inserted as JSON null,
-            # otherwise it will be a quoted string (e.g. "abc123...").
+            # Build request body for GraphQL
             if [ "$after_cursor" = "null" ]; then
-              request_body="$(jq -n --arg minTournamentSize "16" '
+              request_body="$(jq -n '
                 {
                   query: "query ($after: String) {
                     commanders(
@@ -65,7 +54,6 @@ jobs:
                 }
               ')"
             else
-              # after_cursor is some actual string
               request_body="$(jq -n --arg after_val "$after_cursor" '
                 {
                   query: "query ($after: String) {
@@ -98,72 +86,62 @@ jobs:
               ')"
             fi
 
-            # Execute the GraphQL request
             response=$(curl -s -X POST -H "Content-Type: application/json" \
               -d "$request_body" \
               https://edhtop16.com/api/graphql)
 
-            # Check for an empty or invalid response
-            # If 'jq' fails to parse, exit to avoid infinite loops
             if ! echo "$response" | jq . > /dev/null 2>&1; then
               echo "Error: Invalid JSON response from API:"
               echo "$response"
               exit 1
             fi
 
-            # Extract edges array
             edges=$(echo "$response" | jq '.data.commanders.edges // []')
             edge_count=$(echo "$edges" | jq 'length')
             total_count=$((total_count + edge_count))
 
-            # If total count exceeds the limit, trim the excess
             if [ $total_count -ge $limit ]; then
               remaining_count=$((limit - (total_count - edge_count)))
               edges=$(echo "$edges" | jq ".[0:$remaining_count]")
               total_count=$limit
             fi
 
-            # Merge this page's edges into total_data
             total_data=$(echo "$total_data" "$edges" | jq -s 'add')
 
-            # Stop if limit reached
             if [ $total_count -ge $limit ]; then
               break
             fi
 
-            # Figure out next after_cursor from pageInfo
             next_cursor=$(echo "$response" | jq -r '.data.commanders.pageInfo.endCursor // "null"')
             hasNextPage=$(echo "$response" | jq -r '.data.commanders.pageInfo.hasNextPage')
 
             if [ "$next_cursor" = "null" ] || [ "$hasNextPage" != "true" ]; then
-              # No more pages
               break
             else
-              # Prepare for next loop
               after_cursor="$next_cursor"
             fi
           done
 
-          # We only want name, conversionRate, metaShare in final JSON
           echo "$total_data" | jq 'map({
             name: .node.name,
             conversionRate: .node.stats.conversionRate,
             metaShare: .node.stats.metaShare
           })' > parsed-data.json
 
-      # Step 3: Update the JSON file
-      - name: Update JSON file
-        run: |
+          # Build final ranked-decks.json
           echo "{\"lastUpdated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"data\": $(cat parsed-data.json)}" > ranked-decks.json
-        shell: bash
 
-      # Step 4: Commit and push changes
+      # Debug step: Print final JSON to see what changed
+      - name: Debug: Print final JSON
+        run: cat ranked-decks.json
+
       - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add ranked-decks.json
-          git commit -m "Update ranked-decks.json"
+          # Force a commit even if nothing changed:
+          git commit -m "Update ranked-decks.json" --allow-empty
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
