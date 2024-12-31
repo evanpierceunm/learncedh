@@ -2,16 +2,20 @@ name: Update Ranked Decks JSON
 
 on:
   schedule:
+    # Run every 24 hours at midnight UTC
     - cron: "0 0 * * *"
-  workflow_dispatch:
+  workflow_dispatch: # Allow manual triggering
 
 jobs:
   update-json:
     runs-on: ubuntu-latest
+
     steps:
+      # Step 1: Check out the repository
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      # Step 2: Fetch data from API with pagination
       - name: Fetch data from API
         id: fetch_data
         run: |
@@ -21,7 +25,7 @@ jobs:
           limit=500
 
           while [ $total_count -lt $limit ]; do
-            # Build request body for GraphQL
+            # Build JSON body (if 'after_cursor' is null, omit it from variables)
             if [ "$after_cursor" = "null" ]; then
               request_body="$(jq -n '
                 {
@@ -54,6 +58,7 @@ jobs:
                 }
               ')"
             else
+              # Use the actual after_cursor value
               request_body="$(jq -n --arg after_val "$after_cursor" '
                 {
                   query: "query ($after: String) {
@@ -86,32 +91,39 @@ jobs:
               ')"
             fi
 
+            # Execute the GraphQL request
             response=$(curl -s -X POST -H "Content-Type: application/json" \
               -d "$request_body" \
               https://edhtop16.com/api/graphql)
 
+            # Ensure response is valid JSON
             if ! echo "$response" | jq . > /dev/null 2>&1; then
               echo "Error: Invalid JSON response from API:"
               echo "$response"
               exit 1
             fi
 
+            # Extract edges
             edges=$(echo "$response" | jq '.data.commanders.edges // []')
             edge_count=$(echo "$edges" | jq 'length')
             total_count=$((total_count + edge_count))
 
+            # If total_count exceeds the limit, truncate
             if [ $total_count -ge $limit ]; then
               remaining_count=$((limit - (total_count - edge_count)))
               edges=$(echo "$edges" | jq ".[0:$remaining_count]")
               total_count=$limit
             fi
 
+            # Merge edges into total_data
             total_data=$(echo "$total_data" "$edges" | jq -s 'add')
 
+            # Break if limit reached
             if [ $total_count -ge $limit ]; then
               break
             fi
 
+            # Get the next cursor
             next_cursor=$(echo "$response" | jq -r '.data.commanders.pageInfo.endCursor // "null"')
             hasNextPage=$(echo "$response" | jq -r '.data.commanders.pageInfo.hasNextPage')
 
@@ -122,25 +134,27 @@ jobs:
             fi
           done
 
+          # Filter to the data we want
           echo "$total_data" | jq 'map({
             name: .node.name,
             conversionRate: .node.stats.conversionRate,
             metaShare: .node.stats.metaShare
           })' > parsed-data.json
 
-          # Build final ranked-decks.json
-          echo "{\"lastUpdated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"data\": $(cat parsed-data.json)}" > ranked-decks.json
+          # Build the final ranked-decks.json
+          echo "{\"lastUpdated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"data\": $(cat parsed-data.json)}" \
+            > ranked-decks.json
 
-      # Debug step: Print final JSON to see what changed
+      # Debug: Print final JSON to confirm
       - name: Debug: Print final JSON
         run: cat ranked-decks.json
 
+      # Step 3: Commit and push changes
       - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           git add ranked-decks.json
-          # Force a commit even if nothing changed:
           git commit -m "Update ranked-decks.json" --allow-empty
           git push
         env:
