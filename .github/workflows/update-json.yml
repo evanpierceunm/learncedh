@@ -144,9 +144,6 @@ jobs:
           echo "{\"lastUpdated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"data\": $(cat parsed-data.json)}" \
             > ranked-decks.json
 
-      - name: Debug: Print final JSON
-        run: cat ranked-decks.json
-
       - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions"
