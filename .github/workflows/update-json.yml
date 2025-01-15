@@ -22,7 +22,7 @@ jobs:
           total_data="[]"
           after_cursor="null"
           total_count=0
-          limit=900
+          limit=1500
 
           while [ $total_count -lt $limit ]; do
             response=$(curl -s -X POST -H "Content-Type: application/json" \
