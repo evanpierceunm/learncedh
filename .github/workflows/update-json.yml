@@ -26,7 +26,7 @@ jobs:
 
           while [ $total_count -lt $limit ]; do
             response=$(curl -s -X POST -H "Content-Type: application/json" \
-              -d '{"query": "query ($after: String) { commanders(first: 100, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS, after: $after) { edges { cursor node { name stats(filters: { timePeriod: THREE_MONTHS, minSize: 16 }) { conversionRate metaShare } entries(first: 3, filters: { timePeriod: THREE_MONTHS }) { edges { node { player { name } decklist standing tournament { name size } } } } } } pageInfo { endCursor hasNextPage } } }", "variables": {"after": '"$after_cursor"'}}' \
+              -d '{"query": "query ($after: String) { commanders(first: 100, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS, after: $after) { edges { cursor node { name stats(filters: { timePeriod: THREE_MONTHS, minSize: 16 }) { conversionRate metaShare } entries(first: 3, filters: { timePeriod: THREE_MONTHS, minEventSize: 16 }) { edges { node { player { name } decklist standing tournament { name size } } } } } } pageInfo { endCursor hasNextPage } } }", "variables": {"after": '"$after_cursor"'}}' \
               https://edhtop16.com/api/graphql)
 
             # If the API returns GraphQL errors, stop early with useful logs
