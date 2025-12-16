@@ -15,8 +15,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Fetch data from API with pagination (commanders list + stats)
-      - name: Fetch commander stats from API
+      # Step 2: Fetch commander stats + top 3 recent entries with pagination
+      - name: Fetch data from API
         id: fetch_data
         run: |
           total_data="[]"
@@ -26,72 +26,71 @@ jobs:
 
           while [ $total_count -lt $limit ]; do
             response=$(curl -s -X POST -H "Content-Type: application/json" \
-              -d '{"query": "query ($after: String) { commanders(first: 100, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS, after: $after) { edges { cursor node { name stats(filters: { timePeriod: THREE_MONTHS, minSize: 16 }) { conversionRate metaShare } } } pageInfo { endCursor hasNextPage } } }", "variables": {"after": '"$after_cursor"'}}' \
+              -d '{"query": "query ($after: String) { commanders(first: 100, sortBy: POPULARITY, minEntries: 0, timePeriod: THREE_MONTHS, after: $after) { edges { cursor node { name stats(filters: { timePeriod: THREE_MONTHS, minSize: 16 }) { conversionRate metaShare } entries(first: 3, filters: { timePeriod: THREE_MONTHS }) { edges { node { player { name } decklist standing tournament { name size } } } } } } pageInfo { endCursor hasNextPage } } }", "variables": {"after": '"$after_cursor"'}}' \
               https://edhtop16.com/api/graphql)
 
-            # Extract edges
+            # If the API returns GraphQL errors, stop early with useful logs
+            hasErrors=$(echo "$response" | jq -r '(.errors // empty) | length')
+            if [ "$hasErrors" != "" ] && [ "$hasErrors" != "0" ]; then
+              echo "GraphQL returned errors:"
+              echo "$response" | jq '.errors'
+              exit 1
+            fi
+
             edges=$(echo "$response" | jq '.data.commanders.edges')
             edge_count=$(echo "$edges" | jq 'length')
             total_count=$((total_count + edge_count))
 
-            # Check if total count exceeds the limit
+            # Trim if exceeding limit
             if [ $total_count -ge $limit ]; then
-              # Trim to the first X entries
               remaining_count=$((limit - (total_count - edge_count)))
               edges=$(echo "$edges" | jq ".[0:$remaining_count]")
               total_count=$limit
             fi
 
-            # Append edges to total_data
             total_data=$(echo "$total_data $edges" | jq -s 'add')
 
-            # Break if the limit is reached
             if [ $total_count -ge $limit ]; then
               break
             fi
 
-            # Update after_cursor
             after_cursor=$(echo "$response" | jq '.data.commanders.pageInfo.endCursor')
+            hasNextPage=$(echo "$response" | jq -r '.data.commanders.pageInfo.hasNextPage')
 
-            # Break if no more pages are available
-            hasNextPage=$(echo "$response" | jq '.data.commanders.pageInfo.hasNextPage')
             if [ "$hasNextPage" != "true" ]; then
               break
             fi
           done
 
-          # Parse and save the data
-          echo "$total_data" | jq 'map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' > parsed-data.json
+          # Build ranked stats list
+          echo "$total_data" | jq '
+            map({
+              name: .node.name,
+              conversionRate: (.node.stats.conversionRate // 0),
+              metaShare: (.node.stats.metaShare // 0)
+            })
+          ' > parsed-data.json
 
-            # Step 3: Fetch recent top-performing decklists (single query)
-      - name: Fetch recent decklists
-        run: |
-          response=$(curl -s -X POST -H "Content-Type: application/json" \
-            -d '{
-              "query": "query { entries(first: 500, sortBy: DATE_DESC, filters: { timePeriod: THREE_MONTHS }) { edges { node { commander { name } player { name } decklist standing tournament { name size } } } } }"
-            }' \
-            https://edhtop16.com/api/graphql)
-
-          echo "$response" | jq '
-            .data.entries.edges
-            | map(.node)
-            | group_by(.commander.name)
-            | map({
-                (.[0].commander.name): (
-                  .[0:3]
-                  | map({
-                      player: .player.name,
-                      decklist: .decklist,
-                      standing: .standing,
-                      tournamentName: .tournament.name,
-                      tournamentSize: .tournament.size
-                    })
-                )
-              })
-            | add
+          # Build recentTopDecks map keyed by commander name
+          echo "$total_data" | jq '
+            map({
+              key: .node.name,
+              val: (
+                (.node.entries.edges // [])
+                | map(.node)
+                | map({
+                    player: (.player.name // ""),
+                    decklist: (.decklist // ""),
+                    standing: (.standing // null),
+                    tournamentName: (.tournament.name // ""),
+                    tournamentSize: (.tournament.size // null)
+                  })
+              )
+            })
+            | from_entries
           ' > recent-top-decks.json
 
-      # Step 4: Update the JSON file (stats + recent decks)
+      # Step 3: Update the JSON file
       - name: Update JSON file
         run: |
           echo "{\"lastUpdated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"data\": $(cat parsed-data.json), \"recentTopDecks\": $(cat recent-top-decks.json)}" > ranked-decks.json
