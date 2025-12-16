@@ -63,46 +63,33 @@ jobs:
           # Parse and save the data
           echo "$total_data" | jq 'map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' > parsed-data.json
 
-      # Step 3: Build recentTopDecks map by querying each commander (top 3 entries)
-      - name: Fetch recent top decklists per commander
+            # Step 3: Fetch recent top-performing decklists (single query)
+      - name: Fetch recent decklists
         run: |
-          # Extract commander names (one per line)
-          jq -r '.[].name' parsed-data.json > commander-names.txt
+          response=$(curl -s -X POST -H "Content-Type: application/json" \
+            -d '{
+              "query": "query { entries(first: 500, sortBy: DATE_DESC, filters: { timePeriod: THREE_MONTHS }) { edges { node { commander { name } player { name } decklist standing tournament { name size } } } } }"
+            }' \
+            https://edhtop16.com/api/graphql)
 
-          # Initialize JSON object map
-          echo '{}' > recent-top-decks.json
-
-          # Query each commander for top 3 entries in last 3 months
-          # NOTE: This is ~1800 requests in worst case. If you hit rate limits, reduce limit or sample.
-          while IFS= read -r commander; do
-            if [ -z "$commander" ]; then
-              continue
-            fi
-
-            response=$(curl -s -X POST -H "Content-Type: application/json" \
-              -d "$(jq -n --arg commander "$commander" '{
-                query: "query ($timePeriod: TimePeriod!, $minEventSize: Int!) { commander(name: \"\($commander)\") { entries(first: 3, filters: { timePeriod: $timePeriod }) { edges { node { player { name } decklist standing tournament { name size } } } } } }",
-                variables: { timePeriod: "THREE_MONTHS", minEventSize: 16 }
-              }')" \
-              https://edhtop16.com/api/graphql)
-
-            # Build array of entries (or empty)
-            decks=$(echo "$response" | jq '(
-              .data.commander.entries.edges // []
-            ) | map({
-              player: (.node.player.name // ""),
-              decklist: (.node.decklist // ""),
-              standing: (.node.standing // null),
-              tournamentName: (.node.tournament.name // ""),
-              tournamentSize: (.node.tournament.size // null)
-            })')
-
-            # Write into map by commander name
-            tmp=$(mktemp)
-            jq --arg commander "$commander" --argjson decks "$decks" '. + {($commander): $decks}' recent-top-decks.json > "$tmp"
-            mv "$tmp" recent-top-decks.json
-
-          done < commander-names.txt
+          echo "$response" | jq '
+            .data.entries.edges
+            | map(.node)
+            | group_by(.commander.name)
+            | map({
+                (.[0].commander.name): (
+                  .[0:3]
+                  | map({
+                      player: .player.name,
+                      decklist: .decklist,
+                      standing: .standing,
+                      tournamentName: .tournament.name,
+                      tournamentSize: .tournament.size
+                    })
+                )
+              })
+            | add
+          ' > recent-top-decks.json
 
       # Step 4: Update the JSON file (stats + recent decks)
       - name: Update JSON file
