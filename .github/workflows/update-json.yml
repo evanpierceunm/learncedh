@@ -73,9 +73,10 @@ jobs:
 
           # Build recentTopDecks map keyed by commander name
           echo "$total_data" | jq '
+            map(select((.node.name // "") != "")) |
             map({
               key: .node.name,
-              val: (
+              value: (
                 (.node.entries.edges // [])
                 | map(.node)
                 | map({
