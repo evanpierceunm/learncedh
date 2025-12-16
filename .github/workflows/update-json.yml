@@ -15,8 +15,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # Step 2: Fetch data from API with pagination
-      - name: Fetch data from API
+      # Step 2: Fetch data from API with pagination (commanders list + stats)
+      - name: Fetch commander stats from API
         id: fetch_data
         run: |
           total_data="[]"
@@ -63,13 +63,54 @@ jobs:
           # Parse and save the data
           echo "$total_data" | jq 'map({name: .node.name, conversionRate: .node.stats.conversionRate, metaShare: .node.stats.metaShare})' > parsed-data.json
 
-      # Step 3: Update the JSON file
+      # Step 3: Build recentTopDecks map by querying each commander (top 3 entries)
+      - name: Fetch recent top decklists per commander
+        run: |
+          # Extract commander names (one per line)
+          jq -r '.[].name' parsed-data.json > commander-names.txt
+
+          # Initialize JSON object map
+          echo '{}' > recent-top-decks.json
+
+          # Query each commander for top 3 entries in last 3 months
+          # NOTE: This is ~1800 requests in worst case. If you hit rate limits, reduce limit or sample.
+          while IFS= read -r commander; do
+            if [ -z "$commander" ]; then
+              continue
+            fi
+
+            response=$(curl -s -X POST -H "Content-Type: application/json" \
+              -d "$(jq -n --arg commander "$commander" '{
+                query: "query ($timePeriod: TimePeriod!, $minEventSize: Int!) { commander(name: \"\($commander)\") { entries(first: 3, filters: { timePeriod: $timePeriod }) { edges { node { player { name } decklist standing tournament { name size } } } } } }",
+                variables: { timePeriod: "THREE_MONTHS", minEventSize: 16 }
+              }')" \
+              https://edhtop16.com/api/graphql)
+
+            # Build array of entries (or empty)
+            decks=$(echo "$response" | jq '(
+              .data.commander.entries.edges // []
+            ) | map({
+              player: (.node.player.name // ""),
+              decklist: (.node.decklist // ""),
+              standing: (.node.standing // null),
+              tournamentName: (.node.tournament.name // ""),
+              tournamentSize: (.node.tournament.size // null)
+            })')
+
+            # Write into map by commander name
+            tmp=$(mktemp)
+            jq --arg commander "$commander" --argjson decks "$decks" '. + {($commander): $decks}' recent-top-decks.json > "$tmp"
+            mv "$tmp" recent-top-decks.json
+
+          done < commander-names.txt
+
+      # Step 4: Update the JSON file (stats + recent decks)
       - name: Update JSON file
         run: |
-          echo "{\"lastUpdated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"data\": $(cat parsed-data.json)}" > ranked-decks.json
+          echo "{\"lastUpdated\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\", \"data\": $(cat parsed-data.json), \"recentTopDecks\": $(cat recent-top-decks.json)}" > ranked-decks.json
         shell: bash
 
-      # Step 4: Commit and push changes
+      # Step 5: Commit and push changes
       - name: Commit changes
         run: |
           git config --global user.name "GitHub Actions"
