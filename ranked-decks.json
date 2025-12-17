@@ -1,4 +1,4 @@
-{"lastUpdated": "2025-12-16T21:05:22Z", "data": [
+{"lastUpdated": "2025-12-17T00:56:54Z", "data": [
   {
     "name": "",
     "conversionRate": 0.11404435058078141,
@@ -120,14 +120,14 @@
     "metaShare": 0.00539436673987593
   },
   {
-    "name": "K'rrik, Son of Yawgmoth",
-    "conversionRate": 0.1984126984126984,
-    "metaShare": 0.004854930065888337
-  },
-  {
     "name": "Ob Nixilis, Captive Kingpin",
     "conversionRate": 0.13559322033898305,
     "metaShare": 0.004546680537895426
+  },
+  {
+    "name": "K'rrik, Son of Yawgmoth",
+    "conversionRate": 0.1984126984126984,
+    "metaShare": 0.004854930065888337
   },
   {
     "name": "Rocco, Cabaretti Caterer",
@@ -4639,29 +4639,6 @@
       "tournamentSize": 17
     }
   ],
-  "K'rrik, Son of Yawgmoth": [
-    {
-      "player": "Jess Cantrell",
-      "decklist": "https://topdeck.gg/deck/landfall-3er-clasificatorio-al-nacional-de-cedh/wmEZh09DzrT2LTtSVI3k0VAUJgk1",
-      "standing": 2,
-      "tournamentName": "Landfall 3er clasificatorio al nacional de cEDH",
-      "tournamentSize": 63
-    },
-    {
-      "player": "James Lidgey",
-      "decklist": "https://topdeck.gg/deck/commander-invitational-qualifier-mages-sanctum/eFWjXr48FLgKfr7ajHHslQ53qNi1",
-      "standing": 2,
-      "tournamentName": "Commander Invitational Qualifier - Mages Sanctum",
-      "tournamentSize": 33
-    },
-    {
-      "player": "Cristóbal Rojas",
-      "decklist": "https://topdeck.gg/deck/3er-torneo-mortal-kraumbat/pDoi7Cl3MgMJFRQUKgfOmYshNpr2",
-      "standing": 2,
-      "tournamentName": "3er Torneo Mortal Kraumbat",
-      "tournamentSize": 27
-    }
-  ],
   "Ob Nixilis, Captive Kingpin": [
     {
       "player": "Michael Levine ",
@@ -4683,6 +4660,29 @@
       "standing": 2,
       "tournamentName": "cEDH Ragnarok Parma",
       "tournamentSize": 28
+    }
+  ],
+  "K'rrik, Son of Yawgmoth": [
+    {
+      "player": "Jess Cantrell",
+      "decklist": "https://topdeck.gg/deck/landfall-3er-clasificatorio-al-nacional-de-cedh/wmEZh09DzrT2LTtSVI3k0VAUJgk1",
+      "standing": 2,
+      "tournamentName": "Landfall 3er clasificatorio al nacional de cEDH",
+      "tournamentSize": 63
+    },
+    {
+      "player": "James Lidgey",
+      "decklist": "https://topdeck.gg/deck/commander-invitational-qualifier-mages-sanctum/eFWjXr48FLgKfr7ajHHslQ53qNi1",
+      "standing": 2,
+      "tournamentName": "Commander Invitational Qualifier - Mages Sanctum",
+      "tournamentSize": 33
+    },
+    {
+      "player": "Cristóbal Rojas",
+      "decklist": "https://topdeck.gg/deck/3er-torneo-mortal-kraumbat/pDoi7Cl3MgMJFRQUKgfOmYshNpr2",
+      "standing": 2,
+      "tournamentName": "3er Torneo Mortal Kraumbat",
+      "tournamentSize": 27
     }
   ],
   "Rocco, Cabaretti Caterer": [
