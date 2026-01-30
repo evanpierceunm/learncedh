@@ -1,1728 +1,1733 @@
-{"lastUpdated": "2026-01-29T01:12:58Z", "data": [
+{"lastUpdated": "2026-01-30T01:12:21Z", "data": [
   {
     "name": "Kraum, Ludevic's Opus / Tymna the Weaver",
-    "conversionRate": 0.3073798239675017,
-    "metaShare": 0.060485687374585366
+    "conversionRate": 0.3071718538565629,
+    "metaShare": 0.060188955856002604
   },
   {
     "name": "Kinnan, Bonder Prodigy",
     "conversionRate": 0.2618849040867389,
-    "metaShare": 0.049101109791555755
+    "metaShare": 0.04882717054894934
   },
   {
     "name": "Rograkh, Son of Rohgahh / Thrasios, Triton Hero",
     "conversionRate": 0.25615050651230103,
-    "metaShare": 0.02829763708587575
+    "metaShare": 0.028139762176250204
   },
   {
     "name": "Rograkh, Son of Rohgahh / Silas Renn, Seeker Adept",
-    "conversionRate": 0.25442834138486314,
-    "metaShare": 0.02543101683115607
+    "conversionRate": 0.25562700964630225,
+    "metaShare": 0.025329858283108
   },
   {
     "name": "Sisay, Weatherlight Captain",
-    "conversionRate": 0.32437275985663083,
-    "metaShare": 0.02285105860190835
+    "conversionRate": 0.32321428571428573,
+    "metaShare": 0.02280501710376283
   },
   {
     "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
     "conversionRate": 0.21149897330595482,
-    "metaShare": 0.0199434866292641
+    "metaShare": 0.01983222023130803
   },
   {
     "name": "Thrasios, Triton Hero / Tymna the Weaver",
     "conversionRate": 0.21171171171171171,
-    "metaShare": 0.018182562758507718
+    "metaShare": 0.018081120703697672
+  },
+  {
+    "name": "Magda, Brazen Outlaw",
+    "conversionRate": 0.22857142857142856,
+    "metaShare": 0.01282782212086659
   },
   {
     "name": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
     "conversionRate": 0.29651162790697677,
-    "metaShare": 0.014087390966051026
-  },
-  {
-    "name": "Magda, Brazen Outlaw",
-    "conversionRate": 0.2268370607028754,
-    "metaShare": 0.01281788771038945
+    "metaShare": 0.01400879622088288
   },
   {
     "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
-    "conversionRate": 0.1590909090909091,
-    "metaShare": 0.012613129120766616
+    "conversionRate": 0.16129032258064516,
+    "metaShare": 0.012624205896725851
   },
   {
     "name": "Dargo, the Shipwrecker / Tymna the Weaver",
     "conversionRate": 0.2883895131086142,
-    "metaShare": 0.010934108685859372
+    "metaShare": 0.01087310636911549
   },
   {
     "name": "Thrasios, Triton Hero / Yoshimaru, Ever Faithful",
     "conversionRate": 0.23346303501945526,
-    "metaShare": 0.010524591506613702
+    "metaShare": 0.010465873920834012
   },
   {
     "name": "Vivi Ornitier",
     "conversionRate": 0.1752136752136752,
-    "metaShare": 0.009582701994348663
+    "metaShare": 0.00952923928978661
   },
   {
     "name": "Tivit, Seller of Secrets",
-    "conversionRate": 0.23809523809523808,
-    "metaShare": 0.008599860764159056
+    "conversionRate": 0.23696682464454977,
+    "metaShare": 0.008592604658739207
   },
   {
     "name": "Terra, Magical Adept // Esper Terra",
     "conversionRate": 0.16080402010050251,
-    "metaShare": 0.00814939186698882
+    "metaShare": 0.008103925720801434
   },
   {
     "name": "Lumra, Bellow of the Woods",
     "conversionRate": 0.23076923076923078,
-    "metaShare": 0.007985584995290552
+    "metaShare": 0.007941032741488841
   },
   {
     "name": "Tayam, Luminous Enigma",
     "conversionRate": 0.23125,
-    "metaShare": 0.006552274867930709
+    "metaShare": 0.006515719172503665
   },
   {
     "name": "Malcolm, Keen-Eyed Navigator / Vial Smasher the Fierce",
     "conversionRate": 0.18120805369127516,
-    "metaShare": 0.006101805970760474
+    "metaShare": 0.006067763479394038
   },
   {
     "name": "Yuriko, the Tiger's Shadow",
     "conversionRate": 0.16551724137931034,
-    "metaShare": 0.005937999099062206
+    "metaShare": 0.005904870500081446
   },
   {
     "name": "Norman Osborn // Green Goblin",
     "conversionRate": 0.11851851851851852,
-    "metaShare": 0.005528481919816536
+    "metaShare": 0.005497638051799967
   },
   {
     "name": "Marneus Calgar",
     "conversionRate": 0.1590909090909091,
-    "metaShare": 0.005405626766042835
+    "metaShare": 0.005375468317315524
   },
   {
     "name": "K'rrik, Son of Yawgmoth",
     "conversionRate": 0.15873015873015872,
-    "metaShare": 0.005159916458495434
+    "metaShare": 0.005131128848346636
   },
   {
     "name": "Glarb, Calamity's Augur",
     "conversionRate": 0.18699186991869918,
-    "metaShare": 0.005037061304721733
+    "metaShare": 0.005008959113862193
   },
   {
     "name": "Inalla, Archmage Ritualist",
-    "conversionRate": 0.23931623931623933,
-    "metaShare": 0.004791350997174332
+    "conversionRate": 0.23728813559322035,
+    "metaShare": 0.004805342889721453
   },
   {
     "name": "Ob Nixilis, Captive Kingpin",
     "conversionRate": 0.1320754716981132,
-    "metaShare": 0.004340882100004095
+    "metaShare": 0.004316663951783678
   },
   {
     "name": "Rocco, Cabaretti Caterer",
     "conversionRate": 0.21818181818181817,
-    "metaShare": 0.004504688971702363
+    "metaShare": 0.0044795569310962695
   },
   {
     "name": "Derevi, Empyrial Tactician",
     "conversionRate": 0.24489795918367346,
-    "metaShare": 0.00401326835660756
+    "metaShare": 0.003990877993158495
   },
   {
     "name": "Winota, Joiner of Forces",
     "conversionRate": 0.18269230769230768,
-    "metaShare": 0.004258978664154961
+    "metaShare": 0.004235217462127383
   },
   {
     "name": "The Wandering Minstrel",
     "conversionRate": 0.2708333333333333,
-    "metaShare": 0.003931364920758426
+    "metaShare": 0.003909431503502199
   },
   {
     "name": "Aang, at the Crossroads // Aang, Destined Savior",
     "conversionRate": 0.3076923076923077,
-    "metaShare": 0.003726606331135591
+    "metaShare": 0.0037058152793614596
   },
   {
     "name": "Urza, Lord High Artificer",
     "conversionRate": 0.15789473684210525,
-    "metaShare": 0.0038904132028338588
+    "metaShare": 0.003868708258674051
   },
   {
     "name": "Atraxa, Grand Unifier",
     "conversionRate": 0.15555555555555556,
-    "metaShare": 0.003685654613211024
+    "metaShare": 0.0036650920345333115
   },
   {
     "name": "Tevesh Szat, Doom of Fools / Thrasios, Triton Hero",
     "conversionRate": 0.30337078651685395,
-    "metaShare": 0.0036447028952864575
+    "metaShare": 0.003624368789705164
   },
   {
     "name": "Kenrith, the Returned King",
     "conversionRate": 0.2441860465116279,
-    "metaShare": 0.0035218477415127564
+    "metaShare": 0.00350219905522072
   },
   {
     "name": "Zirda, the Dawnwaker",
     "conversionRate": 0.21951219512195122,
-    "metaShare": 0.0033580408698144887
+    "metaShare": 0.0033393060759081285
   },
   {
     "name": "Dihada, Binder of Wills",
     "conversionRate": 0.25301204819277107,
-    "metaShare": 0.0033989925877390558
+    "metaShare": 0.003380029320736276
   },
   {
     "name": "Y'shtola, Night's Blessed",
     "conversionRate": 0.09722222222222222,
-    "metaShare": 0.0029485236905688193
+    "metaShare": 0.0029320736276266493
   },
   {
     "name": "Malcolm, Keen-Eyed Navigator / Tymna the Weaver",
     "conversionRate": 0.21794871794871795,
-    "metaShare": 0.003194233998116221
+    "metaShare": 0.0031764130965955366
   },
   {
     "name": "Rowan, Scion of War",
-    "conversionRate": 0.32051282051282054,
-    "metaShare": 0.003194233998116221
+    "conversionRate": 0.31645569620253167,
+    "metaShare": 0.0032171363414236847
   },
   {
     "name": "Arcum Dagsson",
     "conversionRate": 0.3880597014925373,
-    "metaShare": 0.0027437651009459847
-  },
-  {
-    "name": "Gwenom, Remorseless",
-    "conversionRate": 0.30985915492957744,
-    "metaShare": 0.0029075719726442523
+    "metaShare": 0.0027284574034859097
   },
   {
     "name": "Stella Lee, Wild Card",
     "conversionRate": 0.23529411764705882,
-    "metaShare": 0.0027847168188705517
+    "metaShare": 0.002769180648314058
+  },
+  {
+    "name": "Gwenom, Remorseless",
+    "conversionRate": 0.30985915492957744,
+    "metaShare": 0.0028913503827985012
   },
   {
     "name": "Najeela, the Blade-Blossom",
     "conversionRate": 0.2638888888888889,
-    "metaShare": 0.0029485236905688193
-  },
-  {
-    "name": "Zhulodok, Void Gorger",
-    "conversionRate": 0.12698412698412698,
-    "metaShare": 0.002579958229247717
+    "metaShare": 0.0029320736276266493
   },
   {
     "name": "The Gitrog Monster",
     "conversionRate": 0.2535211267605634,
-    "metaShare": 0.0029075719726442523
+    "metaShare": 0.0028913503827985012
+  },
+  {
+    "name": "Zhulodok, Void Gorger",
+    "conversionRate": 0.12698412698412698,
+    "metaShare": 0.002565564424173318
   },
   {
     "name": "Krark, the Thumbless / Sakashima of a Thousand Faces",
     "conversionRate": 0.26865671641791045,
-    "metaShare": 0.0027437651009459847
+    "metaShare": 0.0027284574034859097
   },
   {
     "name": "Korvold, Fae-Cursed King",
     "conversionRate": 0.140625,
-    "metaShare": 0.002620909947172284
+    "metaShare": 0.002606287669001466
   },
   {
     "name": "Rakdos, the Muscle",
-    "conversionRate": 0.22807017543859648,
-    "metaShare": 0.0023342479217003153
+    "conversionRate": 0.23214285714285715,
+    "metaShare": 0.002280501710376283
   },
   {
     "name": "Talion, the Kindly Lord",
     "conversionRate": 0.11538461538461539,
-    "metaShare": 0.0021294893320774806
+    "metaShare": 0.0021176087310636913
   },
   {
     "name": "Elsha of the Infinite",
     "conversionRate": 0.19230769230769232,
-    "metaShare": 0.0021294893320774806
+    "metaShare": 0.0021176087310636913
   },
   {
     "name": "Esika, God of the Tree // The Prismatic Bridge",
     "conversionRate": 0.2962962962962963,
-    "metaShare": 0.0022113927679266146
+    "metaShare": 0.002199055220719987
   },
   {
     "name": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
     "conversionRate": 0.23404255319148937,
-    "metaShare": 0.0019247307424546459
+    "metaShare": 0.0019139925069229515
   },
   {
     "name": "Fire Lord Azula",
     "conversionRate": 0.08888888888888889,
-    "metaShare": 0.001842827306605512
+    "metaShare": 0.0018325460172666558
   },
   {
     "name": "Thrasios, Triton Hero / Vial Smasher the Fierce",
     "conversionRate": 0.26,
-    "metaShare": 0.002047585896228347
+    "metaShare": 0.002036162241407395
   },
   {
     "name": "Chatterfang, Squirrel General",
     "conversionRate": 0.10526315789473684,
-    "metaShare": 0.0015561652811335435
+    "metaShare": 0.0015474833034696204
   },
   {
     "name": "Kediss, Emberclaw Familiar / Malcolm, Keen-Eyed Navigator",
     "conversionRate": 0.3958333333333333,
-    "metaShare": 0.001965682460379213
+    "metaShare": 0.0019547157517510994
   },
   {
     "name": "Zur the Enchanter",
     "conversionRate": 0.24444444444444444,
-    "metaShare": 0.001842827306605512
+    "metaShare": 0.0018325460172666558
   },
   {
     "name": "Ellivere of the Wild Court",
     "conversionRate": 0.10526315789473684,
-    "metaShare": 0.0015561652811335435
+    "metaShare": 0.0015474833034696204
   },
   {
     "name": "Krark, the Thumbless / Thrasios, Triton Hero",
     "conversionRate": 0.3181818181818182,
-    "metaShare": 0.0018018755886809452
+    "metaShare": 0.001791822772438508
   },
   {
     "name": "Shorikai, Genesis Engine",
     "conversionRate": 0.35,
-    "metaShare": 0.0016380687169826773
+    "metaShare": 0.0016289297931259162
   },
   {
     "name": "Bjorna, Nightfall Alchemist / Wernog, Rider's Chaplain",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0015971169990581105
+    "metaShare": 0.0015882065482977683
   },
   {
     "name": "Noctis, Prince of Lucis",
     "conversionRate": 0.1282051282051282,
-    "metaShare": 0.0015971169990581105
+    "metaShare": 0.0015882065482977683
   },
   {
     "name": "Tasigur, the Golden Fang",
     "conversionRate": 0.1724137931034483,
-    "metaShare": 0.0011875998198124411
+    "metaShare": 0.0011809741000162893
   },
   {
     "name": "Celes, Rune Knight",
     "conversionRate": 0.14705882352941177,
-    "metaShare": 0.0013923584094352758
+    "metaShare": 0.001384590324157029
   },
   {
     "name": "Niv-Mizzet, Parun",
     "conversionRate": 0.2777777777777778,
-    "metaShare": 0.0014742618452844097
+    "metaShare": 0.0014660368138133247
   },
   {
     "name": "The Master of Keys",
     "conversionRate": 0.2,
-    "metaShare": 0.0012285515377370082
+    "metaShare": 0.0012216973448444372
   },
   {
     "name": "Tana, the Bloodsower / Tymna the Weaver",
     "conversionRate": 0.16666666666666666,
-    "metaShare": 0.0009828412301896064
+    "metaShare": 0.0009773578758755497
   },
   {
     "name": "Lotho, Corrupt Shirriff",
     "conversionRate": 0.2727272727272727,
-    "metaShare": 0.0013514066915107088
+    "metaShare": 0.001343867079328881
   },
   {
     "name": "Hashaton, Scarab's Fist",
     "conversionRate": 0.14285714285714285,
-    "metaShare": 0.0011466481018878741
+    "metaShare": 0.0011402508551881414
   },
   {
     "name": "Hearthhull, the Worldseed",
     "conversionRate": 0.07407407407407407,
-    "metaShare": 0.0011056963839633073
+    "metaShare": 0.0010995276103599935
   },
   {
     "name": "Etali, Primal Conqueror",
     "conversionRate": 0.07407407407407407,
-    "metaShare": 0.0011056963839633073
+    "metaShare": 0.0010995276103599935
   },
   {
     "name": "Narset, Enlightened Master",
     "conversionRate": 0.23333333333333334,
-    "metaShare": 0.0012285515377370082
+    "metaShare": 0.0012216973448444372
   },
   {
     "name": "Selvala, Heart of the Wilds",
     "conversionRate": 0.10344827586206896,
-    "metaShare": 0.0011875998198124411
+    "metaShare": 0.0011809741000162893
   },
   {
     "name": "Gyruda, Doom of Depths",
     "conversionRate": 0.38461538461538464,
-    "metaShare": 0.0010647446660387403
+    "metaShare": 0.0010588043655318457
   },
   {
     "name": "Ashling, the Limitless",
     "conversionRate": 0.1,
-    "metaShare": 0.0008190343584913387
+    "metaShare": 0.0008144648965629581
   },
   {
     "name": "Francisco, Fowl Marauder / Thrasios, Triton Hero",
     "conversionRate": 0.32,
-    "metaShare": 0.0010237929481141735
+    "metaShare": 0.0010180811207036976
   },
   {
     "name": "Flubs, the Fool",
     "conversionRate": 0.24,
-    "metaShare": 0.0010237929481141735
+    "metaShare": 0.0010180811207036976
   },
   {
     "name": "Rograkh, Son of Rohgahh / Tymna the Weaver",
     "conversionRate": 0.37037037037037035,
-    "metaShare": 0.0011056963839633073
+    "metaShare": 0.0010995276103599935
   },
   {
     "name": "Kaalia of the Vast",
     "conversionRate": 0.20833333333333334,
-    "metaShare": 0.0009828412301896064
+    "metaShare": 0.0009773578758755497
   },
   {
     "name": "Malcolm, Keen-Eyed Navigator / Tana, the Bloodsower",
     "conversionRate": 0.22727272727272727,
-    "metaShare": 0.0009009377943404726
+    "metaShare": 0.000895911386219254
   },
   {
     "name": "Akiri, Line-Slinger / Thrasios, Triton Hero",
     "conversionRate": 0.041666666666666664,
-    "metaShare": 0.0009828412301896064
+    "metaShare": 0.0009773578758755497
+  },
+  {
+    "name": "Kodama of the East Tree / Tymna the Weaver",
+    "conversionRate": 0.32,
+    "metaShare": 0.0010180811207036976
   },
   {
     "name": "Godo, Bandit Warlord",
     "conversionRate": 0.19047619047619047,
-    "metaShare": 0.0008599860764159057
+    "metaShare": 0.0008551881413911061
   },
   {
     "name": "Halana, Kessig Ranger / Tymna the Weaver",
     "conversionRate": 0.32,
-    "metaShare": 0.0010237929481141735
+    "metaShare": 0.0010180811207036976
   },
   {
     "name": "Selvala, Explorer Returned",
     "conversionRate": 0.09090909090909091,
-    "metaShare": 0.0009009377943404726
-  },
-  {
-    "name": "Kodama of the East Tree / Tymna the Weaver",
-    "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0009828412301896064
+    "metaShare": 0.000895911386219254
   },
   {
     "name": "Ms. Bumbleflower",
     "conversionRate": 0.13636363636363635,
-    "metaShare": 0.0009009377943404726
+    "metaShare": 0.000895911386219254
   },
   {
     "name": "Animar, Soul of Elements",
     "conversionRate": 0.09090909090909091,
-    "metaShare": 0.0009009377943404726
+    "metaShare": 0.000895911386219254
   },
   {
     "name": "The Wise Mothman",
     "conversionRate": 0.17647058823529413,
-    "metaShare": 0.0006961792047176379
+    "metaShare": 0.0006922951620785145
   },
   {
     "name": "Oswald Fiddlebender",
     "conversionRate": 0.375,
-    "metaShare": 0.0009828412301896064
+    "metaShare": 0.0009773578758755497
   },
   {
     "name": "Plagon, Lord of the Beach",
     "conversionRate": 0.25,
-    "metaShare": 0.0008190343584913387
+    "metaShare": 0.0008144648965629581
   },
   {
     "name": "Tiamat",
     "conversionRate": 0.35,
-    "metaShare": 0.0008190343584913387
+    "metaShare": 0.0008144648965629581
   },
   {
     "name": "Tameshi, Reality Architect",
     "conversionRate": 0.25,
-    "metaShare": 0.0008190343584913387
+    "metaShare": 0.0008144648965629581
   },
   {
     "name": "Jhoira, Ageless Innovator",
     "conversionRate": 0.35,
-    "metaShare": 0.0008190343584913387
+    "metaShare": 0.0008144648965629581
   },
   {
     "name": "Jeska, Thrice Reborn / Tymna the Weaver",
     "conversionRate": 0.23529411764705882,
-    "metaShare": 0.0006961792047176379
+    "metaShare": 0.0006922951620785145
   },
   {
     "name": "Mm'menon, the Right Hand",
     "conversionRate": 0.15789473684210525,
-    "metaShare": 0.0007780826405667718
+    "metaShare": 0.0007737416517348102
   },
   {
     "name": "Toph, the First Metalbender",
     "conversionRate": 0,
-    "metaShare": 0.0007371309226422048
+    "metaShare": 0.0007330184069066623
   },
   {
     "name": "Baylen, the Haymaker",
     "conversionRate": 0.15789473684210525,
-    "metaShare": 0.0007780826405667718
+    "metaShare": 0.0007737416517348102
   },
   {
     "name": "Reyhan, Last of the Abzan / Rograkh, Son of Rohgahh",
     "conversionRate": 0.16666666666666666,
-    "metaShare": 0.0007371309226422048
+    "metaShare": 0.0007330184069066623
   },
   {
     "name": "Tatyova, Benthic Druid",
     "conversionRate": 0.2222222222222222,
-    "metaShare": 0.0007371309226422048
+    "metaShare": 0.0007330184069066623
   },
   {
     "name": "Yidris, Maelstrom Wielder",
     "conversionRate": 0.06666666666666667,
-    "metaShare": 0.0006142757688685041
+    "metaShare": 0.0006108486724222186
   },
   {
     "name": "Sythis, Harvest's Hand",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0006142757688685041
+    "metaShare": 0.0006108486724222186
   },
   {
     "name": "Cazur, Ruthless Stalker / Ukkima, Stalking Shadow",
     "conversionRate": 0.35294117647058826,
-    "metaShare": 0.0006961792047176379
+    "metaShare": 0.0006922951620785145
   },
   {
     "name": "Lady Octopus, Inspired Inventor",
     "conversionRate": 0.35294117647058826,
-    "metaShare": 0.0006961792047176379
+    "metaShare": 0.0006922951620785145
   },
   {
     "name": "Iron Man, Titan of Innovation",
     "conversionRate": 0.2777777777777778,
-    "metaShare": 0.0007371309226422048
+    "metaShare": 0.0007330184069066623
   },
   {
     "name": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
     "conversionRate": 0.11764705882352941,
-    "metaShare": 0.0006961792047176379
+    "metaShare": 0.0006922951620785145
   },
   {
     "name": "Katara, Waterbending Master",
     "conversionRate": 0.15384615384615385,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
   },
   {
     "name": "Rograkh, Son of Rohgahh / Tevesh Szat, Doom of Fools",
     "conversionRate": 0.26666666666666666,
-    "metaShare": 0.0006142757688685041
+    "metaShare": 0.0006108486724222186
   },
   {
     "name": "Avatar Aang // Aang, Master of Elements",
     "conversionRate": 0.25,
-    "metaShare": 0.000655227486793071
+    "metaShare": 0.0006515719172503665
   },
   {
     "name": "Ureni of the Unwritten",
     "conversionRate": 0,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Valgavoth, Harrower of Souls",
     "conversionRate": 0.07142857142857142,
-    "metaShare": 0.0005733240509439371
+    "metaShare": 0.0005701254275940707
+  },
+  {
+    "name": "Breya, Etherium Shaper",
+    "conversionRate": 0.125,
+    "metaShare": 0.0006515719172503665
   },
   {
     "name": "Cloud, Ex-SOLDIER",
     "conversionRate": 0,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
   },
   {
     "name": "Pantlaza, Sun-Favored",
     "conversionRate": 0.1111111111111111,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Helga, Skittish Seer",
     "conversionRate": 0.2727272727272727,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Zurgo Stormrender",
     "conversionRate": 0.06666666666666667,
-    "metaShare": 0.0006142757688685041
+    "metaShare": 0.0006108486724222186
   },
   {
     "name": "Nissa, Resurgent Animist",
     "conversionRate": 0.17647058823529413,
-    "metaShare": 0.0006961792047176379
+    "metaShare": 0.0006922951620785145
+  },
+  {
+    "name": "Erinis, Gloom Stalker / Street Urchin",
+    "conversionRate": 0.3125,
+    "metaShare": 0.0006515719172503665
   },
   {
     "name": "Jhoira, Weatherlight Captain",
     "conversionRate": 0.21428571428571427,
-    "metaShare": 0.0005733240509439371
+    "metaShare": 0.0005701254275940707
   },
   {
     "name": "Kess, Dissident Mage",
     "conversionRate": 0.09090909090909091,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Krenko, Mob Boss",
     "conversionRate": 0.07142857142857142,
-    "metaShare": 0.0005733240509439371
-  },
-  {
-    "name": "Breya, Etherium Shaper",
-    "conversionRate": 0.06666666666666667,
-    "metaShare": 0.0006142757688685041
+    "metaShare": 0.0005701254275940707
   },
   {
     "name": "Dargo, the Shipwrecker / Reyhan, Last of the Abzan",
     "conversionRate": 0.2,
-    "metaShare": 0.0006142757688685041
-  },
-  {
-    "name": "Erinis, Gloom Stalker / Street Urchin",
-    "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0006142757688685041
+    "metaShare": 0.0006108486724222186
   },
   {
     "name": "Dina, Soul Steeper",
     "conversionRate": 0.21428571428571427,
-    "metaShare": 0.0005733240509439371
+    "metaShare": 0.0005701254275940707
   },
   {
     "name": "Kozilek, the Great Distortion",
     "conversionRate": 0,
-    "metaShare": 0.0005733240509439371
+    "metaShare": 0.0005701254275940707
   },
   {
     "name": "Scion of the Ur-Dragon",
     "conversionRate": 0.3125,
-    "metaShare": 0.000655227486793071
-  },
-  {
-    "name": "Kodama of the East Tree / Thrasios, Triton Hero",
-    "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0004914206150948032
+    "metaShare": 0.0006515719172503665
   },
   {
     "name": "Francisco, Fowl Marauder / Malcolm, Keen-Eyed Navigator",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Chulane, Teller of Tales",
     "conversionRate": 0.5384615384615384,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
+  },
+  {
+    "name": "Kodama of the East Tree / Thrasios, Triton Hero",
+    "conversionRate": 0.3333333333333333,
+    "metaShare": 0.0004886789379377749
   },
   {
     "name": "Ashling, Flame Dancer",
     "conversionRate": 0.26666666666666666,
-    "metaShare": 0.0006142757688685041
+    "metaShare": 0.0006108486724222186
   },
   {
     "name": "Ezio Auditore da Firenze",
     "conversionRate": 0.3076923076923077,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
   },
   {
     "name": "Yawgmoth, Thran Physician",
     "conversionRate": 0.2,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Narset, Enlightened Exile",
     "conversionRate": 0.07692307692307693,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
   },
   {
     "name": "Marchesa, Dealer of Death",
     "conversionRate": 0.15384615384615385,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
   },
   {
     "name": "Terra, Herald of Hope",
     "conversionRate": 0,
-    "metaShare": 0.0004914206150948032
+    "metaShare": 0.0004886789379377749
   },
   {
     "name": "Loot, the Pathfinder",
     "conversionRate": 0.15384615384615385,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
   },
   {
     "name": "Tidus, Yuna's Guardian",
     "conversionRate": 0,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Codie, Vociferous Codex",
     "conversionRate": 0.23076923076923078,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
   },
   {
     "name": "Maralen, Fae Ascendant",
     "conversionRate": 0.07692307692307693,
-    "metaShare": 0.0005323723330193701
+    "metaShare": 0.0005294021827659228
   },
   {
     "name": "Ral, Monsoon Mage",
     "conversionRate": 0.08333333333333333,
-    "metaShare": 0.0004914206150948032
+    "metaShare": 0.0004886789379377749
   },
   {
     "name": "Teval, the Balanced Scale",
     "conversionRate": 0.1111111111111111,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Yisan, the Wanderer Bard",
     "conversionRate": 0.09090909090909091,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Raffine, Scheming Seer",
     "conversionRate": 0.36363636363636365,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Hakbal of the Surging Soul",
     "conversionRate": 0,
-    "metaShare": 0.0004914206150948032
+    "metaShare": 0.0004886789379377749
   },
   {
     "name": "Ishai, Ojutai Dragonspeaker / Jeska, Thrice Reborn",
     "conversionRate": 0.2727272727272727,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Eddie Brock // Venom, Lethal Protector",
     "conversionRate": 0,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Ishai, Ojutai Dragonspeaker / Rograkh, Son of Rohgahh",
     "conversionRate": 0.18181818181818182,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Jetmir, Nexus of Revels",
     "conversionRate": 0.08333333333333333,
-    "metaShare": 0.0004914206150948032
+    "metaShare": 0.0004886789379377749
   },
   {
     "name": "Hazel of the Rootbloom",
     "conversionRate": 0,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Bruse Tarl, Boorish Herder / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.0004914206150948032
+    "metaShare": 0.0004886789379377749
   },
   {
     "name": "Zimone, Mystery Unraveler",
     "conversionRate": 0.2,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Hapatra, Vizier of Poisons",
     "conversionRate": 0.09090909090909091,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Yeva, Nature's Herald",
     "conversionRate": 0.1,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Auntie Ool, Cursewretch",
     "conversionRate": 0.1111111111111111,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Kilo, Apogee Mind",
     "conversionRate": 0.125,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Frodo, Adventurous Hobbit / Sam, Loyal Attendant",
     "conversionRate": 0.16666666666666666,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Dargo, the Shipwrecker / Silas Renn, Seeker Adept",
     "conversionRate": 0.2727272727272727,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Lord Windgrace",
     "conversionRate": 0,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Captain Sisay",
     "conversionRate": 0.1,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Voja, Jaws of the Conclave",
     "conversionRate": 0.1,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Golbez, Crystal Collector",
     "conversionRate": 0,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Bello, Bard of the Brambles",
     "conversionRate": 0,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Satya, Aetherflux Genius",
     "conversionRate": 0,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Krark, the Thumbless / Tymna the Weaver",
     "conversionRate": 0,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Ratadrabik of Urborg",
     "conversionRate": 0.2727272727272727,
-    "metaShare": 0.0004504688971702363
+    "metaShare": 0.000447955693109627
   },
   {
     "name": "Wan Shi Tong, Librarian",
     "conversionRate": 0,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Loot, the Key to Everything",
-    "conversionRate": 0.25,
-    "metaShare": 0.0003276137433965355
+    "conversionRate": 0.2222222222222222,
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Kefka, Court Mage",
     "conversionRate": 0.1111111111111111,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Ulalek, Fused Atrocity",
     "conversionRate": 0.1,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Zada, Hedron Grinder",
     "conversionRate": 0.2857142857142857,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Nekusar, the Mindrazer",
     "conversionRate": 0.2,
-    "metaShare": 0.00040951717924566934
+    "metaShare": 0.00040723244828147904
   },
   {
     "name": "Edgar Markov",
     "conversionRate": 0,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Evelyn, the Covetous",
     "conversionRate": 0.2222222222222222,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Dargo, the Shipwrecker / Thrasios, Triton Hero",
     "conversionRate": 0.2,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Marwyn, the Nurturer",
     "conversionRate": 0.1111111111111111,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Eladamri, Korvecdal",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Urabrask // The Great Work",
     "conversionRate": 0.7777777777777778,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Xyris, the Writhing Storm",
     "conversionRate": 0.2222222222222222,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Elmar, Ulvenwald Informant / Wernog, Rider's Chaplain",
     "conversionRate": 0,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "Thalia and The Gitrog Monster",
     "conversionRate": 0.125,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Krark, the Thumbless / Silas Renn, Seeker Adept",
     "conversionRate": 0.5,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
     "conversionRate": 0,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "The Ur-Dragon",
     "conversionRate": 0.14285714285714285,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Haldan, Avid Arcanist / Pako, Arcane Retriever",
     "conversionRate": 0.375,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Longshot, Rebel Bowman",
     "conversionRate": 0.2222222222222222,
-    "metaShare": 0.0003685654613211024
+    "metaShare": 0.00036650920345333117
   },
   {
     "name": "The Cabbage Merchant",
     "conversionRate": 0.2857142857142857,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Gwen Stacy // Ghost-Spider",
     "conversionRate": 0.25,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Marath, Will of the Wild",
     "conversionRate": 0,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Yasharn, Implacable Earth",
     "conversionRate": 0.125,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Shadow the Hedgehog",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Urianger Augurelt",
     "conversionRate": 0.16666666666666666,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Jacob Hauken, Inspector // Hauken's Insight",
     "conversionRate": 0.2857142857142857,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Cecily, Haunted Mage / Wernog, Rider's Chaplain",
     "conversionRate": 0.125,
-    "metaShare": 0.0003276137433965355
+    "metaShare": 0.00032578595862518323
   },
   {
     "name": "Minsc, Beloved Ranger",
     "conversionRate": 0.5714285714285714,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
     "conversionRate": 0.16666666666666666,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Old Stickfingers",
-    "conversionRate": 0.6666666666666666,
-    "metaShare": 0.0001228551537737008
+    "conversionRate": 0.5,
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Zaxara, the Exemplary",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Eshki, Temur's Roar",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Sami, Wildcat Captain",
     "conversionRate": 0.2857142857142857,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Bruse Tarl, Boorish Herder / Kamahl, Heart of Krosa",
     "conversionRate": 0,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Zinnia, Valley's Voice",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Inspirit, Flagship Vessel",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Emry, Lurker of the Loch",
     "conversionRate": 0.14285714285714285,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Francisco, Fowl Marauder / Ishai, Ojutai Dragonspeaker",
     "conversionRate": 0.14285714285714285,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
+  },
+  {
+    "name": "Iroh, Grand Lotus",
+    "conversionRate": 0.6,
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Ghyrson Starn, Kelermorph",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Ketramose, the New Dawn",
     "conversionRate": 0.2,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Felothar the Steadfast",
     "conversionRate": 0,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "K-9, Mark I / The War Doctor",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Wilhelt, the Rotcleaver",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Cormela, Glamour Thief",
     "conversionRate": 0.16666666666666666,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Vadrik, Astral Archmage",
     "conversionRate": 0.42857142857142855,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
     "conversionRate": 0,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Tannuk, Memorial Ensign",
     "conversionRate": 0,
-    "metaShare": 0.00028666202547196853
+    "metaShare": 0.00028506271379703536
   },
   {
     "name": "Kotis, the Fangkeeper",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Kykar, Wind's Fury",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Monk Gyatso",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Kethis, the Hidden Hand",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Alaundo the Seer",
     "conversionRate": 0.16666666666666666,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Shiko and Narset, Unified",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Meren of Clan Nel Toth",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Vohar, Vodalian Desecrator",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Omnath, Locus of Creation",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Giada, Font of Hope",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Oloro, Ageless Ascetic",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Cecily, Haunted Mage / Sophina, Spearsage Deserter",
     "conversionRate": 0.6666666666666666,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Yusri, Fortune's Flame",
     "conversionRate": 0.5,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Cloakwood Hermit / Gale, Waterdeep Prodigy",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
-  },
-  {
-    "name": "Iroh, Grand Lotus",
-    "conversionRate": 0.5,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Kadena, Slinking Sorcerer",
     "conversionRate": 0.16666666666666666,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Prosper, Tome-Bound",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Aminatou, Veil Piercer",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Prossh, Skyraider of Kher",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Teferi, Temporal Archmage",
     "conversionRate": 0.4,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Gretchen Titchwillow",
     "conversionRate": 0.2,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Admiral Brass, Unsinkable",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Light-Paws, Emperor's Voice",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kumena, Tyrant of Orazca",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Eluge, the Shoreless Sea",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Jodah, the Unifier",
     "conversionRate": 0,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Atla Palani, Nest Tender",
     "conversionRate": 0.6666666666666666,
-    "metaShare": 0.0002457103075474016
+    "metaShare": 0.0002443394689688874
   },
   {
     "name": "Terra, Magical Adept",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Lucas, the Sharpshooter / Will the Wise",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Aang, at the Crossroads",
     "conversionRate": 0.5,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Norman Osborn",
     "conversionRate": 0.2,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Pramikon, Sky Rampart",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Maelstrom Wanderer",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Narset, Jeskai Waymaster",
     "conversionRate": 0.2,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Sauron, Lord of the Rings",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Sai, Master Thopterist",
     "conversionRate": 0.2,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Choco, Seeker of Paradise",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Bruse Tarl, Boorish Herder / Malcolm, Keen-Eyed Navigator",
     "conversionRate": 0.4,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Grist, the Hunger Tide",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Renari, Merchant of Marvels / Scion of Halaster",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Dargo, the Shipwrecker / Ikra Shidiqi, the Usurper",
     "conversionRate": 0.2,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Ishai, Ojutai Dragonspeaker / Krark, the Thumbless",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "The Pride of Hull Clade",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "The Jolly Balloon Man",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Anje Falkenrath",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Ojer Axonil, Deepest Might // Temple of Power",
     "conversionRate": 0.4,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Deadpool, Trading Card",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Heliod, Sun-Crowned",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Emiel the Blessed",
     "conversionRate": 0.2,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Shalai and Hallar",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "Galadriel, Light of Valinor",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "The Necrobloom",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Basim Ibn Ishaq",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Orvar, the All-Form",
     "conversionRate": 0,
-    "metaShare": 0.00020475858962283467
+    "metaShare": 0.00020361622414073952
   },
   {
     "name": "The Beamtown Bullies",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Yarok, the Desecrated",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Saheeli, the Gifted",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Storm, Force of Nature",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Atreus, Impulsive Son / Kratos, Stoic Father",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Fire Lord Ozai",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Satoru, the Infiltrator",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Davros, Dalek Creator",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Jodah, Archmage Eternal",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Mirko, Obsessive Theorist",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Aesi, Tyrant of Gyre Strait",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Arabella, Abandoned Doll",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Éowyn, Shieldmaiden",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Captain N'ghathrod",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Raggadragga, Goreguts Boss",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Azami, Lady of Scrolls",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Marina Vendrell",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Tifa Lockhart",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Unesh, Criosphinx Sovereign",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Jaws, Relentless Predator",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Ashaya, Soul of the Wild",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "The First Sliver",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Kutzil, Malamet Exemplar",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Omo, Queen of Vesuva",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Winter, Cynical Opportunist",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Breena, the Demagogue",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Sakashima of a Thousand Faces / Tymna the Weaver",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Cecily, Haunted Mage / Othelm, Sigardian Outcast",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Slimefoot and Squee",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Lathril, Blade of the Elves",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Galadriel, Elven-Queen",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Arcades, the Strategist",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
+  },
+  {
+    "name": "K-9, Mark I / The Fourteenth Doctor",
+    "conversionRate": 0,
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Liesa, Shroud of Dusk",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Eriette of the Charmed Apple",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Teval, Arbiter of Virtue",
     "conversionRate": 0,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Azusa, Lost but Seeking",
     "conversionRate": 0.25,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Atraxa, Praetors' Voice",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Hidetsugu and Kairi",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Imoti, Celebrant of Bounty",
     "conversionRate": 0.5,
-    "metaShare": 0.00016380687169826775
+    "metaShare": 0.00016289297931259162
   },
   {
     "name": "Brago, King Eternal",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "The Reaper, King No More",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sephiroth, Fabled SOLDIER",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kratos, God of War",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Shirei, Shizo's Caretaker",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Memnarch",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Gisa, the Hellraiser",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Purphoros, God of the Forge",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Kodama of the East Tree / Silas Renn, Seeker Adept",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Ezuri, Renegade Leader",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Urtet, Remnant of Memnarch",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Queen Marchesa",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Sen Triplets",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Edric, Spymaster of Trest",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Bladewing the Risen",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Trazyn the Infinite",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "The Infamous Cruelclaw",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Sauron, the Dark Lord",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kraum, Ludevic's Opus / Tevesh Szat, Doom of Fools",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Niko, Light of Hope",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Ghave, Guru of Spores",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Thada Adel, Acquisitor",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Liberator, Urza's Battlethopter",
     "conversionRate": 0.6666666666666666,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Obeka, Splitter of Seconds",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sonic the Hedgehog",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Braids, Arisen Nightmare",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Henzie \"Toolbox\" Torre",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kodama of the East Tree / Sakashima of a Thousand Faces",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Rocco, Street Chef",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Szarekh, the Silent King",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Commodore Guff",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Be'lakor, the Dark Master",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Cloud, Midgar Mercenary",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Disa the Restless",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "The Locust God",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Rev, Tithe Extractor",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Ixhel, Scion of Atraxa",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Brallin, Skyshark Rider / Shabraz, the Skyshark",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Ragost, Deft Gastronaut",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Rosheen, Roaring Prophet",
@@ -1732,192 +1737,187 @@
   {
     "name": "Omnath, Locus of All",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Grand Arbiter Augustin IV",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Flamewar, Brash Veteran // Flamewar, Streetwise Operative",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Grenzo, Dungeon Warden",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Squall, SeeD Mercenary",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Spider-Man 2099",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Mizzix of the Izmagnus",
     "conversionRate": 0.6666666666666666,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Lazav, the Multifarious",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Aminatou, the Fateshifter",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Jin Sakai, Ghost of Tsushima",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Sliver Queen",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Jackal, Genius Geneticist",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Lavinia, Azorius Renegade",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Toph, Hardheaded Teacher",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
-  },
-  {
-    "name": "K-9, Mark I / The Fourteenth Doctor",
-    "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Sefris of the Hidden Ways",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Ikra Shidiqi, the Usurper / Kraum, Ludevic's Opus",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Satoru Umezawa",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Tegwyll, Duke of Splendor",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Emmara, Soul of the Accord",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Jarad, Golgari Lich Lord",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Akiri, Line-Slinger / Malcolm, Keen-Eyed Navigator",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Meria, Scholar of Antiquity",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Prime Speaker Vannifar",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Elas il-Kor, Sadistic Pilgrim",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Samwise Gamgee",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Clavileño, First of the Blessed",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Vito, Thorn of the Dusk Rose",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Szarel, Genesis Shepherd",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Amy Rose",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Alexios, Deimos of Kosmos",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Dargo, the Shipwrecker / Malcolm, Keen-Eyed Navigator",
     "conversionRate": 0.6666666666666666,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Gev, Scaled Scorch",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Jeleva, Nephalia's Scourge",
     "conversionRate": 0.3333333333333333,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Captain America, First Avenger",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Myrkul, Lord of Bones",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Grolnok, the Omnivore",
     "conversionRate": 0,
-    "metaShare": 0.0001228551537737008
+    "metaShare": 0.0001221697344844437
   },
   {
     "name": "Brigid, Clachan's Heart // Brigid, Doun's Mind",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Ruxa, Patient Professor",
@@ -1927,32 +1927,32 @@
   {
     "name": "Kefka, Ruler of Ruin",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Hei Bai, Forest Guardian",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Sokka and Suki",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Gale, Waterdeep Prodigy / Guild Artisan",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Slicer, Hired Muscle",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Akiri, Line-Slinger / Silas Renn, Seeker Adept",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Baeloth Barrityl, Entertainer / Raised by Giants",
@@ -1962,57 +1962,57 @@
   {
     "name": "Uro, Titan of Nature's Wrath",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Phenax, God of Deception",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Nylea, Keen-Eyed",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Zevlor, Elturel Exile",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Ezuri, Claw of Progress",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Borborygmos and Fblthp",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Wort, the Raidmother",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Octavia, Living Thesis",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Nelly Borca, Impulsive Accuser",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Isshin, Two Heavens as One",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Titania, Protector of Argoth",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Balthor the Defiled",
@@ -2022,47 +2022,47 @@
   {
     "name": "Firkraag, Cunning Instigator",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Nadier, Agent of the Duskenel / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Zimone and Dina",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Temmet, Naktamun's Will",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Tinybones, Bauble Burglar",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Sliver Overlord",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Gale, Waterdeep Prodigy / Scion of Halaster",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sidisi, Brood Tyrant",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Mr. House, President and CEO",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Vial Smasher the Fierce / Yoshimaru, Ever Faithful",
@@ -2072,102 +2072,102 @@
   {
     "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Urza, Chief Artificer",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Morska, Undersea Sleuth",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Ob Nixilis of the Black Oath",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Tellah, Great Sage",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kambal, Profiteering Mayor",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Tinybones, Trinket Thief",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Sidar Jabari of Zhalfir",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Rakdos, Lord of Riots",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Vren, the Relentless",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kraum, Ludevic's Opus / Reyhan, Last of the Abzan",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Toxrill, the Corrosive",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Rose Tyler / The Tenth Doctor",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kotis, Sibsig Champion",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Dargo, the Shipwrecker / Kodama of the East Tree",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Minsc & Boo, Timeless Heroes",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Rydia, Summoner of Mist",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Lonis, Cryptozoologist",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Teshar, Ancestor's Apostle",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Wort, Boggart Auntie",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Miirym, Sentinel Wyrm",
@@ -2177,122 +2177,122 @@
   {
     "name": "Rin and Seri, Inseparable",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kwain, Itinerant Meddler",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Xenagos, God of Revels",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Lozhan, Dragons' Legacy",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "The Swarmlord",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Millicent, Restless Revenant",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Adeline, Resplendent Cathar",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Gishath, Sun's Avatar",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Muldrotha, the Gravetide",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Alela, Artful Provocateur",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Estrid, the Masked",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ao, the Dawn Sky",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Padeem, Consul of Innovation",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Drafna, Founder of Lat-Nam",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Garth One-Eye",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Jan Jansen, Chaos Crafter",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Gix, Yawgmoth Praetor",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Tifa, Martial Artist",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Dargo, the Shipwrecker / Jeska, Thrice Reborn",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Sharuum the Hegemon",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Veyran, Voice of Duality",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Cecily, Haunted Mage / Elmar, Ulvenwald Informant",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Sigarda, Font of Blessings",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Dargo, the Shipwrecker / Francisco, Fowl Marauder",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Tergrid, God of Fright // Tergrid's Lantern",
@@ -2302,152 +2302,152 @@
   {
     "name": "Niv-Mizzet, Visionary",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Six",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Ardenn, Intrepid Archaeologist / Rograkh, Son of Rohgahh",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Magus Lucea Kane",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Uril, the Miststalker",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Rashmi, Eternities Crafter",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Professor Hojo",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Dr. Eggman",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Bruse Tarl, Boorish Herder / Ikra Shidiqi, the Usurper",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Shaun, Father of Synths",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Doc Aurlock, Grizzled Genius",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kydele, Chosen of Kruphix / Rograkh, Son of Rohgahh",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Dargo, the Shipwrecker / Tevesh Szat, Doom of Fools",
     "conversionRate": 1,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kellan, Daring Traveler // Journey On",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Malcolm, Keen-Eyed Navigator / Rograkh, Son of Rohgahh",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Dargo, the Shipwrecker / Keskit, the Flesh Sculptor",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Gandalf the White",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kodama of the East Tree / Vial Smasher the Fierce",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Marvin, Murderous Mimic",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Rionya, Fire Dancer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Esior, Wardwing Familiar / Tymna the Weaver",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Kardur, Doomscourge",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Black Panther, Wakandan King",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Haunted One / Zellix, Sanity Flayer",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Don Andres, the Renegade",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Fire Lord Zuko",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Gluntch, the Bestower",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Loot, Exuberant Explorer",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Go-Shintai of Life's Origin",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Yuna, Grand Summoner",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Gisa and Geralf",
@@ -2457,117 +2457,117 @@
   {
     "name": "Doctor Octopus, Master Planner",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Okaun, Eye of Chaos / Zndrsplt, Eye of Wisdom",
     "conversionRate": 1,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Peter Parker // Amazing Spider-Man",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Faldorn, Dread Wolf Herald",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Strefan, Maurer Progenitor",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Valki, God of Lies // Tibalt, Cosmic Impostor",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Muxus, Goblin Grandee",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Bruvac the Grandiloquent",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Laughing Jasper Flint",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Lonis, Genetics Expert",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Hanna, Ship's Navigator",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Ygra, Eater of All",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Braids, Cabal Minion",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Breeches, Brazen Plunderer / Malcolm, Keen-Eyed Navigator",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Aragorn, the Uniter",
     "conversionRate": 0.5,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Karametra, God of Harvests",
     "conversionRate": 0,
-    "metaShare": 0.00008190343584913388
+    "metaShare": 0.00008144648965629581
   },
   {
     "name": "Anzrag, the Quake-Mole",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Malcolm, Keen-Eyed Navigator / Reyhan, Last of the Abzan",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ramos, Dragon Engine",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Gimbal, Gremlin Prodigy",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Hama, the Bloodbender",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kraum, Violent Cacophony / Tymna the Weaver",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Clan Crafter / Jaheira, Friend of the Forest",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Lluwen, Imperfect Naturalist",
@@ -2577,87 +2577,87 @@
   {
     "name": "Mondrak, Glory Dominus",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Amarant Coral",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Aloy, Savior of Meridian",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Korvold, Gleeful Glutton",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Egrix the Bile Bulwark",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Hurska Sweet-Tooth",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Giott, King of the Dwarves",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sliver Hivelord / The First Sliver",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Raised by Giants / Vhal, Candlekeep Researcher",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kirol, Attentive First-Year",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Donna Noble / The Second Doctor",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Dakkon Blackblade",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Bugenhagen, Wise Elder",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ashcoat of the Shadow Swarm",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Nathan Drake, Treasure Hunter",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Dargo, the Shipwrecker / Tormod, the Desecrator",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kuja, Genome Sorcerer",
@@ -2667,12 +2667,12 @@
   {
     "name": "Cromat",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sokka, Tenacious Tactician",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Xiahou Dun, the One-Eyed",
@@ -2682,12 +2682,12 @@
   {
     "name": "Edea, Possessed Sorceress",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kimahri, Valiant Guardian",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ojer Kaslem, Deepest Growth",
@@ -2702,7 +2702,7 @@
   {
     "name": "Cid, Timeless Artificer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ozai, the Phoenix King",
@@ -2712,7 +2712,7 @@
   {
     "name": "Jacob Hauken, Inspector",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Katara, the Fearless",
@@ -2732,32 +2732,32 @@
   {
     "name": "Hei Bai, Spirit of Balance",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Burakos, Party Leader / Guild Artisan",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Yue, the Moon Spirit",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Iroh, Tea Master",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Anya, Merciless Angel",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Aang and Katara",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Spider-Punk",
@@ -2772,22 +2772,22 @@
   {
     "name": "Noctis, Heir Apparent",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ellie, Brick Master / Joel, Resolute Survivor",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ikra Shidiqi, the Usurper / Malcolm, Keen-Eyed Navigator",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Etrata, the Silencer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Carth the Lion",
@@ -2802,17 +2802,17 @@
   {
     "name": "Harald, King of Skemfar",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Zabaz, the Glimmerwasp",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Rograkh, Son of Rohgahh / Yoshimaru, Ever Faithful",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Heliod, the Radiant Dawn",
@@ -2827,7 +2827,7 @@
   {
     "name": "Nashi, Moon's Legacy",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Oona, Queen of the Fae",
@@ -2842,102 +2842,102 @@
   {
     "name": "The Most Dangerous Gamer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Anafenza, the Foremost",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Rograkh, Son of Rohgahh",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ardenn, Intrepid Archaeologist / Esior, Wardwing Familiar",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ikra Shidiqi, the Usurper / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Merry, Warden of Isengard / Pippin, Warden of Isengard",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kaalia, Zenith Seeker",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Judith, Carnage Connoisseur",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ravos, Soultender / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Klothys, God of Destiny",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Horde of Notions",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ikra Shidiqi, the Usurper / Tymna the Weaver",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Falco Spara, Pactweaver",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Lurrus of the Dream-Den",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Aurelia, the Warleader",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jeska, Thrice Reborn / Rograkh, Son of Rohgahh",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Wylie Duke, Atiin Hero",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Scion of Halaster / Zellix, Sanity Flayer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Mycotyrant",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Myra the Magnificent",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Arahbo, Roar of the World",
@@ -2947,32 +2947,32 @@
   {
     "name": "Miara, Thorn of the Glade / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Hylda of the Icy Crown",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Marvo, Deep Operative",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Reality Chip",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Tasha, the Witch Queen",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Malcolm, Alluring Scoundrel",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Neriv, Heart of the Storm",
@@ -2982,12 +2982,12 @@
   {
     "name": "Krark, the Thumbless / Reyhan, Last of the Abzan",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kamahl, Heart of Krosa / Tymna the Weaver",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Samut, Voice of Dissent",
@@ -3002,27 +3002,27 @@
   {
     "name": "Glissa Sunslayer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Vishgraz, the Doomhive",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sword Coast Sailor / Wyll, Blade of Frontiers",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Hansk, Slayer Zealot",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Nymris, Oona's Trickster",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Wolverine, Best There Is",
@@ -3032,27 +3032,27 @@
   {
     "name": "Koma, Cosmos Serpent",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Taigam, Master Opportunist",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Magnus the Red",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sarulf, Realm Eater",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Gitrog, Ravenous Ride",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Hugs, Grisly Guardian",
@@ -3062,57 +3062,57 @@
   {
     "name": "Kellan, Inquisitive Prodigy // Tail the Suspect",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Athreos, God of Passage",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jenson Carthalion, Druid Exile",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sarah Jane Smith / The Third Doctor",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Svyelun of Sea and Sky",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Mogis, God of Slaughter",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Abdel Adrian, Gorion's Ward / Candlekeep Sage",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Maralen of the Mornsong",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Rielle, the Everwise",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ardenn, Intrepid Archaeologist / Vial Smasher the Fierce",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Minn, Wily Illusionist",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Indominus Rex, Alpha",
@@ -3122,12 +3122,12 @@
   {
     "name": "Obuun, Mul Daya Ancestor",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Obeka, Brute Chronologist",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Elsha, Threefold Master",
@@ -3142,52 +3142,52 @@
   {
     "name": "Aerith Gainsborough",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Eris, Roar of the Storm",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Goreclaw, Terror of Qal Sisma",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Shelinda, Yevon Acolyte",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kodama of the East Tree / Toggo, Goblin Weaponsmith",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kiki-Jiki, Mirror Breaker",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Grismold, the Dreadsower",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Alela, Cunning Conqueror",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ragavan, Nimble Pilferer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kamiz, Obscura Oculus",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Elminster",
@@ -3202,27 +3202,27 @@
   {
     "name": "Willowdusk, Essence Seer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Carmen, Cruel Skymarcher",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Francisco, Fowl Marauder / Kraum, Ludevic's Opus",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Armix, Filigree Thrasher / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kona, Rescue Beastie",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ultima, Origin of Oblivion",
@@ -3232,7 +3232,7 @@
   {
     "name": "Imotekh the Stormlord",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Aragorn, King of Gondor",
@@ -3242,22 +3242,22 @@
   {
     "name": "Sliver Gravemother",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Infinite Guideline Station",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Winter, Misanthropic Guide",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Grimgrin, Corpse-Born",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Astarion, the Decadent",
@@ -3267,42 +3267,42 @@
   {
     "name": "Hardy Outlander / Karlach, Fury of Avernus",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Tovolar, Dire Overlord // Tovolar, the Midnight Scourge",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Gaddock Teeg",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jeska, Thrice Reborn / Yoshimaru, Ever Faithful",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Gilgamesh, Master-at-Arms",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Torbran, Thane of Red Fell",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sarah Jane Smith / The Fourth Doctor",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Thirteenth Doctor / Yasmin Khan",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Eshki Dragonclaw",
@@ -3312,22 +3312,22 @@
   {
     "name": "Nashi, Searcher in the Dark",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Betor, Ancestor's Voice",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Nezahal, Primal Tide",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ishai, Ojutai Dragonspeaker / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Seton, Krosan Protector",
@@ -3337,7 +3337,7 @@
   {
     "name": "Krark, the Thumbless / Rograkh, Son of Rohgahh",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Volo, Guide to Monsters",
@@ -3352,32 +3352,32 @@
   {
     "name": "Ishai, Ojutai Dragonspeaker / Tevesh Szat, Doom of Fools",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kasla, the Broken Halo",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Saffi Eriksdotter",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ishai, Ojutai Dragonspeaker / Kediss, Emberclaw Familiar",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Malcolm, Keen-Eyed Navigator / Tevesh Szat, Doom of Fools",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Roxanne, Starfall Savant",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jirina Kudro",
@@ -3387,32 +3387,32 @@
   {
     "name": "Vadrok, Apex of Thunder",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sarah Jane Smith / The Fifteenth Doctor",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Razaketh, the Foulblooded",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Fynn, the Fangbearer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sheoldred, the Apocalypse",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Vihaan, Goldwaker",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ruric Thar, the Unbowed",
@@ -3422,7 +3422,7 @@
   {
     "name": "Rasputin Dreamweaver",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Master, Transcendent",
@@ -3432,57 +3432,57 @@
   {
     "name": "Dogmeat, Ever Loyal",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kotori, Pilot Prodigy",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Neyali, Suns' Vanguard",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Araumi of the Dead Tide",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Francisco, Fowl Marauder / Rograkh, Son of Rohgahh",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Noble Heritage / Vhal, Candlekeep Researcher",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Zurgo and Ojutai",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Queza, Augur of Agonies",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kudo, King Among Bears",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Pir, Imaginative Rascal / Toothy, Imaginary Friend",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Lyla, Holographic Assistant",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Cosmic Spider-Man",
@@ -3492,7 +3492,7 @@
   {
     "name": "Miles Morales // Ultimate Spider-Man",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Olivia Voldaren",
@@ -3502,122 +3502,122 @@
   {
     "name": "Otharri, Suns' Glory",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Akiri, Line-Slinger / Francisco, Fowl Marauder",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Olivia, Crimson Bride",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Olivia, Opulent Outlaw",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Yennett, Cryptic Sovereign",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sorin of House Markov // Sorin, Ravenous Neonate",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Anikthea, Hand of Erebos",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Edgar, Charmed Groom // Edgar Markov's Coffin",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Karumonix, the Rat King",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Runo Stromkirk // Krothuss, Lord of the Deep",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Rendmaw, Creaking Nest",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Falthis, Shadowcat Familiar / Kediss, Emberclaw Familiar",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Azlask, the Swelling Scourge",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Gishath, Sun's Avatar / Kaheera, the Orphanguard",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ardenn, Intrepid Archaeologist / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "River Song",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Master Chef / Volo, Itinerant Scholar",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Heliod, God of the Sun",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Karador, Ghost Chieftain",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Wick, the Whorled Mind",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Nardole, Resourceful Cyborg / The Fourteenth Doctor",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Karn, Legacy Reforged",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Redshift, Rocketeer Chief",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Lord of Pain",
@@ -3627,7 +3627,7 @@
   {
     "name": "Azlask, the Swelling Scourge / Ulalek, Fused Atrocity",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sliver Hivelord",
@@ -3642,27 +3642,27 @@
   {
     "name": "Brudiclad, Telchor Engineer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Anti-Venom, Horrifying Healer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Wayta, Trainer Prodigy",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Leonardo da Vinci",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Mog, Moogle Warrior",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Galazeth Prismari",
@@ -3672,107 +3672,107 @@
   {
     "name": "Kotose, the Silent Spider",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Imskir Iron-Eater",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Multani, Yavimaya's Avatar",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Slogurk, the Overslime",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kydele, Chosen of Kruphix / Tevesh Szat, Doom of Fools",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Peregrine Dynamo",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Livio, Oathsworn Sentinel / Thrasios, Triton Hero",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Yargle and Multani",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kitsa, Otterball Elite",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Gale, Waterdeep Prodigy / Passionate Archaeologist",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jin-Gitaxias // The Great Synthesis",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Huatli, Poet of Unity // Roar of the Fifth People",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Coram, the Undertaker",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Keleth, Sunmane Familiar / Reyhan, Last of the Abzan",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Scarab God",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Koll, the Forgemaster",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kairi, the Swirling Sky",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Bartolomé del Presidio",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Slinza, the Spiked Stampede",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Tannuk, Steadfast Second",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ludevic, Necro-Alchemist / Tymna the Weaver",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "The Master, Multiplied",
@@ -3782,42 +3782,42 @@
   {
     "name": "Gogo, Mysterious Mime",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jared Carthalion",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Pia Nalaar, Consul of Revival",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Three Dog, Galaxy News DJ",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Silas Renn, Seeker Adept / Thrasios, Triton Hero",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Beledros Witherbloom",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ardenn, Intrepid Archaeologist / Kraum, Ludevic's Opus",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Lord of the Nazgûl",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ghen, Arcanum Weaver",
@@ -3832,27 +3832,27 @@
   {
     "name": "Arthur, Marigold Knight",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Sidar Kondo of Jamuraa / Tevesh Szat, Doom of Fools",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Dargo, the Shipwrecker / Sidar Kondo of Jamuraa",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Arixmethes, Slumbering Isle",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Katilda, Dawnhart Prime",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Folk Hero / Volo, Itinerant Scholar",
@@ -3862,57 +3862,57 @@
   {
     "name": "Garland, Knight of Cornelia // Chaos, the Endless",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Hope Estheim",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Peri Brown / The Sixth Doctor",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Adeliz, the Cinder Wind",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Delina, Wild Mage",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Alandra, Sky Dreamer",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ayula, Queen Among Bears",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ranar the Ever-Watchful",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Zurgo, Thunder's Decree",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jenova, Ancient Calamity",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Superior Spider-Man",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Muerra, Trash Tactician",
@@ -3922,77 +3922,77 @@
   {
     "name": "Jegantha, the Wellspring",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Thrasios, Triton Hero / Tormod, the Desecrator",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Dargo, the Shipwrecker / Rograkh, Son of Rohgahh",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Xande, Dark Mage",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Nalia de'Arnise",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Kiora, Sovereign of the Deep",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Far Fortune, End Boss",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Ashling the Pilgrim",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jenny Flint / Madame Vastra",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Freyalise, Llanowar's Fury",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Fandaniel, Telophoroi Ascian",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Alisaie Leveilleur / Alphinaud Leveilleur",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Gran-Gran",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Henry Wu, InGen Geneticist",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Vrestin, Menoptra Leader",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
@@ -4002,52 +4002,52 @@
   {
     "name": "Noble Heritage / Volo, Itinerant Scholar",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Progenitus",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "General Tazri",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Bruna, the Fading Light",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Prowler, Clawed Thief",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Raul, Trouble Shooter",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Mari, the Killing Quill",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Noble Heritage / Wilson, Refined Grizzly",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Arna Kennerüd, Skycaptain",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Jeska, Thrice Reborn / Tevesh Szat, Doom of Fools",
     "conversionRate": 1,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   },
   {
     "name": "Niv-Mizzet Reborn",
@@ -4057,7 +4057,7 @@
   {
     "name": "Daretti, Scrap Savant",
     "conversionRate": 0,
-    "metaShare": 0.00004095171792456694
+    "metaShare": 0.000040723244828147904
   }
 ], "recentTopDecks": {
   "Kraum, Ludevic's Opus / Tymna the Weaver": [
@@ -4221,29 +4221,6 @@
       "tournamentSize": 55
     }
   ],
-  "Ral, Monsoon Mage // Ral, Leyline Prodigy": [
-    {
-      "player": "Alessio C",
-      "decklist": "https://topdeck.gg/deck/la-giostra-del-regno-atto-la-mischiaiv/Wh6cywvrksTHUpBrg52onXdBeT23",
-      "standing": 1,
-      "tournamentName": "LA GIOSTRA DEL REGNO ATTO ⅠⅠ: LA MISCHIA(ⅠⅠⅠ)",
-      "tournamentSize": 55
-    },
-    {
-      "player": "Aidan M Stanley",
-      "decklist": "https://topdeck.gg/deck/cedh-dual-land-tourney-4/DQDwqx5jb6QgfsRSusYLOZVsINj2",
-      "standing": 1,
-      "tournamentName": "The Gathering Place's Monthly CEDH Dual Land Tourney",
-      "tournamentSize": 51
-    },
-    {
-      "player": "Daniel Rosales Giron [SQR]",
-      "decklist": "https://topdeck.gg/deck/the-spark/yrjectFfyZgp5fDQsn5QEk3hSb12",
-      "standing": 1,
-      "tournamentName": "The Spark",
-      "tournamentSize": 34
-    }
-  ],
   "Magda, Brazen Outlaw": [
     {
       "player": "Natalie Depman",
@@ -4265,6 +4242,29 @@
       "standing": 1,
       "tournamentName": "cEDH \"Gaea's Cradle\" Tournament",
       "tournamentSize": 45
+    }
+  ],
+  "Ral, Monsoon Mage // Ral, Leyline Prodigy": [
+    {
+      "player": "Alessio C",
+      "decklist": "https://topdeck.gg/deck/la-giostra-del-regno-atto-la-mischiaiv/Wh6cywvrksTHUpBrg52onXdBeT23",
+      "standing": 1,
+      "tournamentName": "LA GIOSTRA DEL REGNO ATTO ⅠⅠ: LA MISCHIA(ⅠⅠⅠ)",
+      "tournamentSize": 55
+    },
+    {
+      "player": "Aidan M Stanley",
+      "decklist": "https://topdeck.gg/deck/cedh-dual-land-tourney-4/DQDwqx5jb6QgfsRSusYLOZVsINj2",
+      "standing": 1,
+      "tournamentName": "The Gathering Place's Monthly CEDH Dual Land Tourney",
+      "tournamentSize": 51
+    },
+    {
+      "player": "Daniel Rosales Giron [SQR]",
+      "decklist": "https://topdeck.gg/deck/the-spark/yrjectFfyZgp5fDQsn5QEk3hSb12",
+      "standing": 1,
+      "tournamentName": "The Spark",
+      "tournamentSize": 34
     }
   ],
   "Kefka, Court Mage // Kefka, Ruler of Ruin": [
@@ -4980,29 +4980,6 @@
       "tournamentSize": 33
     }
   ],
-  "Gwenom, Remorseless": [
-    {
-      "player": "Joe Holland [504]",
-      "decklist": "https://topdeck.gg/deck/crypts-and-salsa-3k/EkjAv5v9icSG7jTKu4vBewlX6RO2",
-      "standing": 1,
-      "tournamentName": "Crypts and Salsa $3K",
-      "tournamentSize": 39
-    },
-    {
-      "player": "Kaleb Gloriouswolfman",
-      "decklist": "https://topdeck.gg/deck/vg-cedh-melee-xxxvii-single-elimination-1762324057524/c4WKQPa11iRWJ8tYjGAr14i3aAs2",
-      "standing": 1,
-      "tournamentName": " VG+ Cedh Melee XXXVIII Single Elimination",
-      "tournamentSize": 16
-    },
-    {
-      "player": "Gatto",
-      "decklist": "https://topdeck.gg/deck/magomatto-cedh/T9Mx4OZ4qUOf7KRy6U9O8q9mBzg2",
-      "standing": 1,
-      "tournamentName": "MagoMatto cEDH",
-      "tournamentSize": 16
-    }
-  ],
   "Stella Lee, Wild Card": [
     {
       "player": "Kelsie Ricard",
@@ -5024,6 +5001,29 @@
       "standing": 3,
       "tournamentName": "Mox Mania - Perfect Storm Comics & Games",
       "tournamentSize": 59
+    }
+  ],
+  "Gwenom, Remorseless": [
+    {
+      "player": "Joe Holland [504]",
+      "decklist": "https://topdeck.gg/deck/crypts-and-salsa-3k/EkjAv5v9icSG7jTKu4vBewlX6RO2",
+      "standing": 1,
+      "tournamentName": "Crypts and Salsa $3K",
+      "tournamentSize": 39
+    },
+    {
+      "player": "Kaleb Gloriouswolfman",
+      "decklist": "https://topdeck.gg/deck/vg-cedh-melee-xxxvii-single-elimination-1762324057524/c4WKQPa11iRWJ8tYjGAr14i3aAs2",
+      "standing": 1,
+      "tournamentName": " VG+ Cedh Melee XXXVIII Single Elimination",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Gatto",
+      "decklist": "https://topdeck.gg/deck/magomatto-cedh/T9Mx4OZ4qUOf7KRy6U9O8q9mBzg2",
+      "standing": 1,
+      "tournamentName": "MagoMatto cEDH",
+      "tournamentSize": 16
     }
   ],
   "Najeela, the Blade-Blossom": [
@@ -5049,29 +5049,6 @@
       "tournamentSize": 24
     }
   ],
-  "Zhulodok, Void Gorger": [
-    {
-      "player": "Luciano Olivieri",
-      "decklist": "https://topdeck.gg/deck/layton-gaming-monthly-cedh-copy-1/AW2WNBYPMEPBtQX3u9xj45GCR3g1",
-      "standing": 1,
-      "tournamentName": "Layton Gaming Monthly cEDH!",
-      "tournamentSize": 26
-    },
-    {
-      "player": "Pavel Antizeerksiy",
-      "decklist": "https://topdeck.gg/deck/yanvar-2026-mtng/JIjzaYSYzbYBJLXaWBsbz0OZycu1",
-      "standing": 1,
-      "tournamentName": "Январь 2026 - MTNG",
-      "tournamentSize": 21
-    },
-    {
-      "player": "Aaron Pataracchia",
-      "decklist": "https://topdeck.gg/deck/dollys-niagara-bracket-3-commander-tournament/jOIdvoZTtTWhcySf5pEVZiEso0k1",
-      "standing": 2,
-      "tournamentName": "Dolly's Niagara Bracket 3 Commander Tournament ",
-      "tournamentSize": 36
-    }
-  ],
   "The Gitrog Monster": [
     {
       "player": "Julius Fiedler",
@@ -5093,6 +5070,29 @@
       "standing": 3,
       "tournamentName": "Nacional CEDH",
       "tournamentSize": 99
+    }
+  ],
+  "Zhulodok, Void Gorger": [
+    {
+      "player": "Luciano Olivieri",
+      "decklist": "https://topdeck.gg/deck/layton-gaming-monthly-cedh-copy-1/AW2WNBYPMEPBtQX3u9xj45GCR3g1",
+      "standing": 1,
+      "tournamentName": "Layton Gaming Monthly cEDH!",
+      "tournamentSize": 26
+    },
+    {
+      "player": "Pavel Antizeerksiy",
+      "decklist": "https://topdeck.gg/deck/yanvar-2026-mtng/JIjzaYSYzbYBJLXaWBsbz0OZycu1",
+      "standing": 1,
+      "tournamentName": "Январь 2026 - MTNG",
+      "tournamentSize": 21
+    },
+    {
+      "player": "Aaron Pataracchia",
+      "decklist": "https://topdeck.gg/deck/dollys-niagara-bracket-3-commander-tournament/jOIdvoZTtTWhcySf5pEVZiEso0k1",
+      "standing": 2,
+      "tournamentName": "Dolly's Niagara Bracket 3 Commander Tournament ",
+      "tournamentSize": 36
     }
   ],
   "Krark, the Thumbless / Sakashima of a Thousand Faces": [
@@ -5923,6 +5923,29 @@
       "tournamentSize": 57
     }
   ],
+  "Kodama of the East Tree / Tymna the Weaver": [
+    {
+      "player": "Jay Silvester",
+      "decklist": "https://topdeck.gg/deck/gear-head-games-cedh-wakefield/jrkq6K8ox1bLygG091KnG3X74aq1",
+      "standing": 1,
+      "tournamentName": "Gear Head Games cEDH Wakefield",
+      "tournamentSize": 22
+    },
+    {
+      "player": "Jay Silvester",
+      "decklist": "https://topdeck.gg/deck/cedh-win-a-dual-tropical-island-dice-dumplings/jrkq6K8ox1bLygG091KnG3X74aq1",
+      "standing": 1,
+      "tournamentName": "cEDH WIN A DUAL - TROPICAL ISLAND - Dice & Dumplings Southampton 11/8",
+      "tournamentSize": 17
+    },
+    {
+      "player": "Jay Silvester",
+      "decklist": "https://topdeck.gg/deck/cedh-euro-qualifier-gear-head-games-wakefield/jrkq6K8ox1bLygG091KnG3X74aq1",
+      "standing": 3,
+      "tournamentName": "CEDH Euro Qualifier @ Gear Head Games Wakefield",
+      "tournamentSize": 34
+    }
+  ],
   "Godo, Bandit Warlord": [
     {
       "player": "Damian Gentile",
@@ -5990,29 +6013,6 @@
       "standing": 10,
       "tournamentName": "Commander Casual",
       "tournamentSize": 17
-    }
-  ],
-  "Kodama of the East Tree / Tymna the Weaver": [
-    {
-      "player": "Jay Silvester",
-      "decklist": "https://topdeck.gg/deck/gear-head-games-cedh-wakefield/jrkq6K8ox1bLygG091KnG3X74aq1",
-      "standing": 1,
-      "tournamentName": "Gear Head Games cEDH Wakefield",
-      "tournamentSize": 22
-    },
-    {
-      "player": "Jay Silvester",
-      "decklist": "https://topdeck.gg/deck/cedh-win-a-dual-tropical-island-dice-dumplings/jrkq6K8ox1bLygG091KnG3X74aq1",
-      "standing": 1,
-      "tournamentName": "cEDH WIN A DUAL - TROPICAL ISLAND - Dice & Dumplings Southampton 11/8",
-      "tournamentSize": 17
-    },
-    {
-      "player": "Jay Silvester",
-      "decklist": "https://topdeck.gg/deck/cedh-euro-qualifier-gear-head-games-wakefield/jrkq6K8ox1bLygG091KnG3X74aq1",
-      "standing": 3,
-      "tournamentName": "CEDH Euro Qualifier @ Gear Head Games Wakefield",
-      "tournamentSize": 34
     }
   ],
   "Ms. Bumbleflower": [
@@ -6590,6 +6590,29 @@
       "tournamentSize": 27
     }
   ],
+  "Breya, Etherium Shaper": [
+    {
+      "player": "David Martz",
+      "decklist": "https://topdeck.gg/deck/winter-warriors-cedh/lOYYtqE7VjN0aDNUzMLoMhwGdbj1",
+      "standing": 4,
+      "tournamentName": "Winter Warriors CEDH ",
+      "tournamentSize": 58
+    },
+    {
+      "player": "Caleb Lewis",
+      "decklist": "https://topdeck.gg/deck/vg-cedh-melee-xlviii-single-elimination/zb3wFDiDYiYGizChYAfySQCkGBC3",
+      "standing": 4,
+      "tournamentName": " VG+ Cedh Melee XLVIII Single Elimination ",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Jeremiah Schirillo-Elliott",
+      "decklist": "https://topdeck.gg/deck/mind-full-games-weekly-cedh-13-630/VFYaGkiIbLNz4LjiaA3VmtYxAli1",
+      "standing": 5,
+      "tournamentName": "Mind Full Games Weekly CEDH",
+      "tournamentSize": 20
+    }
+  ],
   "Cloud, Ex-SOLDIER": [
     {
       "player": "Axel Alcala-Bejarano Martinez",
@@ -6705,6 +6728,29 @@
       "tournamentSize": 24
     }
   ],
+  "Erinis, Gloom Stalker / Street Urchin": [
+    {
+      "player": "Davide Minello",
+      "decklist": "https://topdeck.gg/deck/rule-them-all-cedh-tournament/ZQif9L29TVXTjYjKEzrUIwUVLvH2",
+      "standing": 2,
+      "tournamentName": "Rule Them All - cEDH Tournament 2025 Act 1",
+      "tournamentSize": 39
+    },
+    {
+      "player": "Kirkland Brown [ZEN]",
+      "decklist": "https://topdeck.gg/deck/better-pop-up/IjJ4p0e8RAeJortV7XuUfg8UOgA2",
+      "standing": 2,
+      "tournamentName": "Better Pop Up",
+      "tournamentSize": 20
+    },
+    {
+      "player": "Kirkland Brown [ZEN]",
+      "decklist": "https://topdeck.gg/deck/new-year-new-deck-cedh-tournament/IjJ4p0e8RAeJortV7XuUfg8UOgA2",
+      "standing": 5,
+      "tournamentName": "New Year, New Deck CEDH Tournament",
+      "tournamentSize": 62
+    }
+  ],
   "Jhoira, Weatherlight Captain": [
     {
       "player": "Sir Juan",
@@ -6774,29 +6820,6 @@
       "tournamentSize": 99
     }
   ],
-  "Breya, Etherium Shaper": [
-    {
-      "player": "David Martz",
-      "decklist": "https://topdeck.gg/deck/winter-warriors-cedh/lOYYtqE7VjN0aDNUzMLoMhwGdbj1",
-      "standing": 4,
-      "tournamentName": "Winter Warriors CEDH ",
-      "tournamentSize": 58
-    },
-    {
-      "player": "Jeremiah Schirillo-Elliott",
-      "decklist": "https://topdeck.gg/deck/mind-full-games-weekly-cedh-13-630/VFYaGkiIbLNz4LjiaA3VmtYxAli1",
-      "standing": 5,
-      "tournamentName": "Mind Full Games Weekly CEDH",
-      "tournamentSize": 20
-    },
-    {
-      "player": "Jason Scott ",
-      "decklist": "https://topdeck.gg/deck/oahu-commander-invitational-qualifier-s2w10/wutgbwk7COQ6MBgjDEZxmTCBrWo2",
-      "standing": 14,
-      "tournamentName": "Oahu Commander Invitational Qualifier S2W10",
-      "tournamentSize": 27
-    }
-  ],
   "Dargo, the Shipwrecker / Reyhan, Last of the Abzan": [
     {
       "player": "Alessio Zela",
@@ -6818,29 +6841,6 @@
       "standing": 6,
       "tournamentName": "Torneo cEDH Paralelo Abierto Invitacional 2025",
       "tournamentSize": 60
-    }
-  ],
-  "Erinis, Gloom Stalker / Street Urchin": [
-    {
-      "player": "Davide Minello",
-      "decklist": "https://topdeck.gg/deck/rule-them-all-cedh-tournament/ZQif9L29TVXTjYjKEzrUIwUVLvH2",
-      "standing": 2,
-      "tournamentName": "Rule Them All - cEDH Tournament 2025 Act 1",
-      "tournamentSize": 39
-    },
-    {
-      "player": "Kirkland Brown [ZEN]",
-      "decklist": "https://topdeck.gg/deck/better-pop-up/IjJ4p0e8RAeJortV7XuUfg8UOgA2",
-      "standing": 2,
-      "tournamentName": "Better Pop Up",
-      "tournamentSize": 20
-    },
-    {
-      "player": "Kirkland Brown [ZEN]",
-      "decklist": "https://topdeck.gg/deck/new-year-new-deck-cedh-tournament/IjJ4p0e8RAeJortV7XuUfg8UOgA2",
-      "standing": 5,
-      "tournamentName": "New Year, New Deck CEDH Tournament",
-      "tournamentSize": 62
     }
   ],
   "Dina, Soul Steeper": [
@@ -6912,29 +6912,6 @@
       "tournamentSize": 55
     }
   ],
-  "Kodama of the East Tree / Thrasios, Triton Hero": [
-    {
-      "player": "William Zheng",
-      "decklist": "https://topdeck.gg/deck/vg-cedh-melee-xli-single-elimination/mrHmWLpvHbYK25wC6lNydrpAHef1",
-      "standing": 4,
-      "tournamentName": " VG+ Cedh Melee XLI Single Elimination ",
-      "tournamentSize": 16
-    },
-    {
-      "player": "William Zheng",
-      "decklist": "https://topdeck.gg/deck/manamaster-november-2025/mrHmWLpvHbYK25wC6lNydrpAHef1",
-      "standing": 8,
-      "tournamentName": "Manamaster November 2025",
-      "tournamentSize": 98
-    },
-    {
-      "player": "Al Shoopman",
-      "decklist": "https://topdeck.gg/deck/commander-invitational-qualifier-treeborn-games/HXohETU1Jmb1yXRX0KpBwhm0Orn1",
-      "standing": 9,
-      "tournamentName": "Commander Invitational Qualifier - Treeborn Games",
-      "tournamentSize": 28
-    }
-  ],
   "Francisco, Fowl Marauder / Malcolm, Keen-Eyed Navigator": [
     {
       "player": "Jackson Coad",
@@ -6979,6 +6956,29 @@
       "standing": 4,
       "tournamentName": "La Competència | Circuito invitacional de cEDH España | Innocent Blood",
       "tournamentSize": 50
+    }
+  ],
+  "Kodama of the East Tree / Thrasios, Triton Hero": [
+    {
+      "player": "William Zheng",
+      "decklist": "https://topdeck.gg/deck/vg-cedh-melee-xli-single-elimination/mrHmWLpvHbYK25wC6lNydrpAHef1",
+      "standing": 4,
+      "tournamentName": " VG+ Cedh Melee XLI Single Elimination ",
+      "tournamentSize": 16
+    },
+    {
+      "player": "William Zheng",
+      "decklist": "https://topdeck.gg/deck/manamaster-november-2025/mrHmWLpvHbYK25wC6lNydrpAHef1",
+      "standing": 8,
+      "tournamentName": "Manamaster November 2025",
+      "tournamentSize": 98
+    },
+    {
+      "player": "Al Shoopman",
+      "decklist": "https://topdeck.gg/deck/commander-invitational-qualifier-treeborn-games/HXohETU1Jmb1yXRX0KpBwhm0Orn1",
+      "standing": 9,
+      "tournamentName": "Commander Invitational Qualifier - Treeborn Games",
+      "tournamentSize": 28
     }
   ],
   "Ashling, Flame Dancer": [
@@ -8515,11 +8515,11 @@
       "tournamentSize": 26
     },
     {
-      "player": "Dominik Kottkamp",
-      "decklist": "https://topdeck.gg/deck/cedh-sitgame-armageddon-oldenburg-end-of-year-turnier/OTTC6CB2w7gycyA1IIRh8Z2NFrn1",
-      "standing": 27,
-      "tournamentName": "Armageddon Oldenburg 08.11.25 - cEDH @ Sit&Game End of Year-Turnier - Top 16 Cut ",
-      "tournamentSize": 33
+      "player": "Timothy R Huckeby",
+      "decklist": "https://topdeck.gg/deck/vg-cedh-melee-xlviii-single-elimination/ZW8ky9PYMkgQImbtrWxXjtnA87D3",
+      "standing": 14,
+      "tournamentName": " VG+ Cedh Melee XLVIII Single Elimination ",
+      "tournamentSize": 16
     }
   ],
   "Zaxara, the Exemplary": [
@@ -8704,6 +8704,29 @@
       "standing": 13,
       "tournamentName": "Cash for the Holidays",
       "tournamentSize": 21
+    }
+  ],
+  "Iroh, Grand Lotus": [
+    {
+      "player": "Will C. (Noritama)",
+      "decklist": "https://topdeck.gg/deck/stomping-grounds-weekly-cedh-13/KiNbP2XRxMOAacyjxHGxVZK8nnC2",
+      "standing": 3,
+      "tournamentName": "Stomping Grounds Weekly CEDH",
+      "tournamentSize": 17
+    },
+    {
+      "player": "Will C. (Noritama)",
+      "decklist": "https://topdeck.gg/deck/stomping-grounds-weekly-cedh-9-686/KiNbP2XRxMOAacyjxHGxVZK8nnC2",
+      "standing": 4,
+      "tournamentName": "Stomping Grounds Weekly CEDH ",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Luis Vivar",
+      "decklist": "https://topdeck.gg/deck/commander-navideno/qEH6Nq6siOOoLb0mYiK5yCVL7hr2",
+      "standing": 7,
+      "tournamentName": "Commander Navideño",
+      "tournamentSize": 30
     }
   ],
   "Ghyrson Starn, Kelermorph": [
@@ -9256,29 +9279,6 @@
       "standing": 43,
       "tournamentName": "Monthly cEDH November w/ Guaranteed Top Prize of Volcanic Island",
       "tournamentSize": 50
-    }
-  ],
-  "Iroh, Grand Lotus": [
-    {
-      "player": "Will C. (Noritama)",
-      "decklist": "https://topdeck.gg/deck/stomping-grounds-weekly-cedh-9-686/KiNbP2XRxMOAacyjxHGxVZK8nnC2",
-      "standing": 4,
-      "tournamentName": "Stomping Grounds Weekly CEDH ",
-      "tournamentSize": 16
-    },
-    {
-      "player": "Luis Vivar",
-      "decklist": "https://topdeck.gg/deck/commander-navideno/qEH6Nq6siOOoLb0mYiK5yCVL7hr2",
-      "standing": 7,
-      "tournamentName": "Commander Navideño",
-      "tournamentSize": 30
-    },
-    {
-      "player": "Will C. (Noritama)",
-      "decklist": "https://topdeck.gg/deck/stomping-grounds-weekly-cedh-12/KiNbP2XRxMOAacyjxHGxVZK8nnC2",
-      "standing": 7,
-      "tournamentName": "Stomping Grounds Weekly CEDH",
-      "tournamentSize": 20
     }
   ],
   "Kadena, Slinking Sorcerer": [
@@ -10886,6 +10886,29 @@
       "tournamentSize": 26
     }
   ],
+  "K-9, Mark I / The Fourteenth Doctor": [
+    {
+      "player": "Dylan Ley",
+      "decklist": "https://topdeck.gg/deck/vg-cedh-melee-xlviii-single-elimination/gaMDV4RiiLMU5MBEHEPoOZnZ3vf2",
+      "standing": 8,
+      "tournamentName": " VG+ Cedh Melee XLVIII Single Elimination ",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Eva O",
+      "decklist": "https://topdeck.gg/deck/merchants-guild-cedh/rqJYvSSSz6e6Pch2Sqsp4fSZXXi1",
+      "standing": 21,
+      "tournamentName": "Merchant's Guild cEDH January",
+      "tournamentSize": 24
+    },
+    {
+      "player": "Kalvin Le",
+      "decklist": "https://topdeck.gg/deck/commander-invitational-qualifier-game-haven-of-maryland/TzB24pE6nyT826HdO7rIZYjDVSA3",
+      "standing": 27,
+      "tournamentName": "Commander Invitational Qualifier - Game Haven of Maryland",
+      "tournamentSize": 54
+    }
+  ],
   "Liesa, Shroud of Dusk": [
     {
       "player": "Pamela Vergara Briones ",
@@ -12134,29 +12157,6 @@
       "standing": 73,
       "tournamentName": "Highlander CEDH $2k",
       "tournamentSize": 76
-    }
-  ],
-  "K-9, Mark I / The Fourteenth Doctor": [
-    {
-      "player": "Eva O",
-      "decklist": "https://topdeck.gg/deck/merchants-guild-cedh/rqJYvSSSz6e6Pch2Sqsp4fSZXXi1",
-      "standing": 21,
-      "tournamentName": "Merchant's Guild cEDH January",
-      "tournamentSize": 24
-    },
-    {
-      "player": "Kalvin Le",
-      "decklist": "https://topdeck.gg/deck/commander-invitational-qualifier-game-haven-of-maryland/TzB24pE6nyT826HdO7rIZYjDVSA3",
-      "standing": 27,
-      "tournamentName": "Commander Invitational Qualifier - Game Haven of Maryland",
-      "tournamentSize": 54
-    },
-    {
-      "player": "Alex Lloyd",
-      "decklist": "https://topdeck.gg/deck/the-royal-rumble-the-second-showdown-cedh-12k/4v4Rf7uImsUDn5UKkshTj99LWSG3",
-      "standing": 138,
-      "tournamentName": "THE ROYAL RUMBLE: THE SECOND SHOWDOWN CEDH 20K!!!",
-      "tournamentSize": 290
     }
   ],
   "Sefris of the Hidden Ways": [
