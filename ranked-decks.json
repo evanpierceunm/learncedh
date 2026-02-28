@@ -1,13 +1,13 @@
-{"lastUpdated": "2026-02-27T01:12:12Z", "data": [
+{"lastUpdated": "2026-02-28T01:07:17Z", "data": [
   {
     "name": "Kraum, Ludevic's Opus / Tymna the Weaver",
-    "conversionRate": 0.3037230568256042,
-    "metaShare": 0.054567487614499054
+    "conversionRate": 0.3035248041775457,
+    "metaShare": 0.054603129343835766
   },
   {
     "name": "Kinnan, Bonder Prodigy",
-    "conversionRate": 0.2681105302464526,
-    "metaShare": 0.04772427558185123
+    "conversionRate": 0.26831091180866967,
+    "metaShare": 0.047688633852514525
   },
   {
     "name": "Rograkh, Son of Rohgahh / Thrasios, Triton Hero",
@@ -16,8 +16,8 @@
   },
   {
     "name": "Rograkh, Son of Rohgahh / Silas Renn, Seeker Adept",
-    "conversionRate": 0.24830393487109906,
-    "metaShare": 0.026267954521153367
+    "conversionRate": 0.24864130434782608,
+    "metaShare": 0.026232312791816658
   },
   {
     "name": "Sisay, Weatherlight Captain",
@@ -36,8 +36,8 @@
   },
   {
     "name": "Magda, Brazen Outlaw",
-    "conversionRate": 0.24719101123595505,
-    "metaShare": 0.01268845564386784
+    "conversionRate": 0.24788732394366197,
+    "metaShare": 0.012652813914531134
   },
   {
     "name": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
@@ -121,8 +121,8 @@
   },
   {
     "name": "Winota, Joiner of Forces",
-    "conversionRate": 0.19491525423728814,
-    "metaShare": 0.004205724061731475
+    "conversionRate": 0.19658119658119658,
+    "metaShare": 0.004170082332394767
   },
   {
     "name": "Inalla, Archmage Ritualist",
@@ -196,8 +196,8 @@
   },
   {
     "name": "Stella Lee, Wild Card",
-    "conversionRate": 0.2962962962962963,
-    "metaShare": 0.002886980076273301
+    "conversionRate": 0.3,
+    "metaShare": 0.0028513383469365933
   },
   {
     "name": "Najeela, the Blade-Blossom",
@@ -281,8 +281,8 @@
   },
   {
     "name": "Kediss, Emberclaw Familiar / Malcolm, Keen-Eyed Navigator",
-    "conversionRate": 0.33962264150943394,
-    "metaShare": 0.001889011654845493
+    "conversionRate": 0.3333333333333333,
+    "metaShare": 0.0019246533841822005
   },
   {
     "name": "Zur the Enchanter",
@@ -310,14 +310,14 @@
     "metaShare": 0.0015682360908151264
   },
   {
-    "name": "Hearthhull, the Worldseed",
-    "conversionRate": 0.13333333333333333,
-    "metaShare": 0.0010692518801012226
-  },
-  {
     "name": "Tasigur, the Golden Fang",
     "conversionRate": 0.15625,
     "metaShare": 0.0011405353387746373
+  },
+  {
+    "name": "Hearthhull, the Worldseed",
+    "conversionRate": 0.13333333333333333,
+    "metaShare": 0.0010692518801012226
   },
   {
     "name": "Auntie Ool, Cursewretch",
@@ -565,6 +565,11 @@
     "metaShare": 0.0006771928573974409
   },
   {
+    "name": "Kess, Dissident Mage",
+    "conversionRate": 0.14285714285714285,
+    "metaShare": 0.0002494921053569519
+  },
+  {
     "name": "Ral, Monsoon Mage",
     "conversionRate": 0.05555555555555555,
     "metaShare": 0.0006415511280607335
@@ -590,9 +595,9 @@
     "metaShare": 0.0006415511280607335
   },
   {
-    "name": "Kess, Dissident Mage",
-    "conversionRate": 0.14285714285714285,
-    "metaShare": 0.0002494921053569519
+    "name": "Tidus, Yuna's Guardian",
+    "conversionRate": 0,
+    "metaShare": 0.0004633424813771964
   },
   {
     "name": "Pantlaza, Sun-Favored",
@@ -613,11 +618,6 @@
     "name": "Jhoira, Weatherlight Captain",
     "conversionRate": 0.07142857142857142,
     "metaShare": 0.0004989842107139039
-  },
-  {
-    "name": "Tidus, Yuna's Guardian",
-    "conversionRate": 0,
-    "metaShare": 0.0004633424813771964
   },
   {
     "name": "Zimone, Mystery Unraveler",
@@ -660,6 +660,11 @@
     "metaShare": 0.00035641729336707416
   },
   {
+    "name": "Yawgmoth, Thran Physician",
+    "conversionRate": 0.18181818181818182,
+    "metaShare": 0.0003920590227037816
+  },
+  {
     "name": "Yidris, Maelstrom Wielder",
     "conversionRate": 0.36363636363636365,
     "metaShare": 0.0003920590227037816
@@ -680,11 +685,6 @@
     "metaShare": 0.0005702676693873186
   },
   {
-    "name": "Yawgmoth, Thran Physician",
-    "conversionRate": 0.18181818181818182,
-    "metaShare": 0.0003920590227037816
-  },
-  {
     "name": "Helga, Skittish Seer",
     "conversionRate": 0.4166666666666667,
     "metaShare": 0.000427700752040489
@@ -698,6 +698,11 @@
     "name": "Hakbal of the Surging Soul",
     "conversionRate": 0,
     "metaShare": 0.0004633424813771964
+  },
+  {
+    "name": "Loot, the Pathfinder",
+    "conversionRate": 0.21428571428571427,
+    "metaShare": 0.0004989842107139039
   },
   {
     "name": "Dina, Soul Steeper",
@@ -723,11 +728,6 @@
     "name": "Captain Sisay",
     "conversionRate": 0.18181818181818182,
     "metaShare": 0.0003920590227037816
-  },
-  {
-    "name": "Loot, the Pathfinder",
-    "conversionRate": 0.21428571428571427,
-    "metaShare": 0.0004989842107139039
   },
   {
     "name": "Bruse Tarl, Boorish Herder / Thrasios, Triton Hero",
@@ -785,6 +785,11 @@
     "metaShare": 0.000427700752040489
   },
   {
+    "name": "Nekusar, the Mindrazer",
+    "conversionRate": 0.08333333333333333,
+    "metaShare": 0.000427700752040489
+  },
+  {
     "name": "Satya, Aetherflux Genius",
     "conversionRate": 0,
     "metaShare": 0.0003920590227037816
@@ -808,11 +813,6 @@
     "name": "Terra, Herald of Hope",
     "conversionRate": 0,
     "metaShare": 0.00032077556403036677
-  },
-  {
-    "name": "Nekusar, the Mindrazer",
-    "conversionRate": 0.08333333333333333,
-    "metaShare": 0.000427700752040489
   },
   {
     "name": "Dargo, the Shipwrecker / Thrasios, Triton Hero",
@@ -1025,6 +1025,11 @@
     "metaShare": 0.0002851338346936593
   },
   {
+    "name": "Kykar, Wind's Fury",
+    "conversionRate": 0,
+    "metaShare": 0.00017820864668353708
+  },
+  {
     "name": "Monk Gyatso",
     "conversionRate": 0,
     "metaShare": 0.0002494921053569519
@@ -1070,11 +1075,6 @@
     "metaShare": 0.0002494921053569519
   },
   {
-    "name": "Kykar, Wind's Fury",
-    "conversionRate": 0,
-    "metaShare": 0.00017820864668353708
-  },
-  {
     "name": "Brago, King Eternal",
     "conversionRate": 0,
     "metaShare": 0.0002494921053569519
@@ -1112,6 +1112,11 @@
   {
     "name": "Oloro, Ageless Ascetic",
     "conversionRate": 0.2,
+    "metaShare": 0.00017820864668353708
+  },
+  {
+    "name": "Jin Sakai, Ghost of Tsushima",
+    "conversionRate": 0.4,
     "metaShare": 0.00017820864668353708
   },
   {
@@ -1205,13 +1210,13 @@
     "metaShare": 0.0002138503760202445
   },
   {
-    "name": "Omo, Queen of Vesuva",
-    "conversionRate": 0,
+    "name": "Kutzil, Malamet Exemplar",
+    "conversionRate": 0.2,
     "metaShare": 0.00017820864668353708
   },
   {
-    "name": "Jin Sakai, Ghost of Tsushima",
-    "conversionRate": 0.4,
+    "name": "Omo, Queen of Vesuva",
+    "conversionRate": 0,
     "metaShare": 0.00017820864668353708
   },
   {
@@ -1420,11 +1425,6 @@
     "metaShare": 0.00017820864668353708
   },
   {
-    "name": "Kutzil, Malamet Exemplar",
-    "conversionRate": 0.2,
-    "metaShare": 0.00017820864668353708
-  },
-  {
     "name": "Zinnia, Valley's Voice",
     "conversionRate": 0,
     "metaShare": 0.00010692518801012225
@@ -1447,6 +1447,11 @@
   {
     "name": "Kadena, Slinking Sorcerer",
     "conversionRate": 0.25,
+    "metaShare": 0.00014256691734682966
+  },
+  {
+    "name": "Heliod, Sun-Crowned",
+    "conversionRate": 0,
     "metaShare": 0.00014256691734682966
   },
   {
@@ -1665,11 +1670,6 @@
     "metaShare": 0.00014256691734682966
   },
   {
-    "name": "Heliod, Sun-Crowned",
-    "conversionRate": 0,
-    "metaShare": 0.00014256691734682966
-  },
-  {
     "name": "Arcades, the Strategist",
     "conversionRate": 0,
     "metaShare": 0.00014256691734682966
@@ -1696,6 +1696,11 @@
   },
   {
     "name": "Prime Speaker Vannifar",
+    "conversionRate": 0,
+    "metaShare": 0.00010692518801012225
+  },
+  {
+    "name": "The Beamtown Bullies",
     "conversionRate": 0,
     "metaShare": 0.00010692518801012225
   },
@@ -1975,6 +1980,11 @@
     "metaShare": 0.00007128345867341483
   },
   {
+    "name": "Tergrid, God of Fright // Tergrid's Lantern",
+    "conversionRate": 0,
+    "metaShare": 0.000035641729336707415
+  },
+  {
     "name": "Ashaya, Soul of the Wild",
     "conversionRate": 0.3333333333333333,
     "metaShare": 0.00010692518801012225
@@ -2070,11 +2080,6 @@
     "metaShare": 0.00007128345867341483
   },
   {
-    "name": "The Beamtown Bullies",
-    "conversionRate": 0,
-    "metaShare": 0.00010692518801012225
-  },
-  {
     "name": "Gran-Gran",
     "conversionRate": 0,
     "metaShare": 0.00007128345867341483
@@ -2093,11 +2098,6 @@
     "name": "Jeleva, Nephalia's Scourge",
     "conversionRate": 0,
     "metaShare": 0.00010692518801012225
-  },
-  {
-    "name": "Saheeli, the Gifted",
-    "conversionRate": 0,
-    "metaShare": 0.00007128345867341483
   },
   {
     "name": "Lutri, the Spellchaser",
@@ -2550,11 +2550,6 @@
     "metaShare": 0.00007128345867341483
   },
   {
-    "name": "Tergrid, God of Fright // Tergrid's Lantern",
-    "conversionRate": 0,
-    "metaShare": 0.000035641729336707415
-  },
-  {
     "name": "Coram, the Undertaker",
     "conversionRate": 1,
     "metaShare": 0.00007128345867341483
@@ -2650,6 +2645,11 @@
     "metaShare": 0.00007128345867341483
   },
   {
+    "name": "Atraxa, Praetors' Voice",
+    "conversionRate": 0,
+    "metaShare": 0
+  },
+  {
     "name": "Aragorn, the Uniter",
     "conversionRate": 0,
     "metaShare": 0.000035641729336707415
@@ -2675,7 +2675,7 @@
     "metaShare": 0.000035641729336707415
   },
   {
-    "name": "Niv-Mizzet Reborn",
+    "name": "Saheeli, the Gifted",
     "conversionRate": 0,
     "metaShare": 0.000035641729336707415
   },
@@ -4185,6 +4185,11 @@
     "metaShare": 0.000035641729336707415
   },
   {
+    "name": "Satoru Umezawa",
+    "conversionRate": 0,
+    "metaShare": 0
+  },
+  {
     "name": "Peter Parker // Amazing Spider-Man",
     "conversionRate": 0,
     "metaShare": 0.000035641729336707415
@@ -4215,11 +4220,6 @@
     "metaShare": 0.000035641729336707415
   },
   {
-    "name": "Atraxa, Praetors' Voice",
-    "conversionRate": 0,
-    "metaShare": 0
-  },
-  {
     "name": "Breeches, Brazen Plunderer / Malcolm, Keen-Eyed Navigator",
     "conversionRate": 0,
     "metaShare": 0.000035641729336707415
@@ -4243,6 +4243,11 @@
     "name": "Captain America, First Avenger",
     "conversionRate": 0,
     "metaShare": 0
+  },
+  {
+    "name": "Niv-Mizzet Reborn",
+    "conversionRate": 0,
+    "metaShare": 0.000035641729336707415
   },
   {
     "name": "Ramos, Dragon Engine",
@@ -5676,29 +5681,6 @@
       "tournamentSize": 18
     }
   ],
-  "Hearthhull, the Worldseed": [
-    {
-      "player": "Robert Collier",
-      "decklist": "https://topdeck.gg/deck/budget-commander-league-season-1-week-3/GBRbJayaieXssldRTKAbCue2Ncg1",
-      "standing": 1,
-      "tournamentName": "Budget Commander League Season 1 Week 3",
-      "tournamentSize": 18
-    },
-    {
-      "player": "Julia ",
-      "decklist": "https://topdeck.gg/deck/yanvar-2026-mtng/Enadl4jpelebElveLktJce1WTzy2",
-      "standing": 2,
-      "tournamentName": "Январь 2026 - MTNG",
-      "tournamentSize": 21
-    },
-    {
-      "player": "Carbeauty",
-      "decklist": "https://topdeck.gg/deck/liga-mesao-online-s1-e01/5R0SiLwKayYFobzS7glQMry4L0n1",
-      "standing": 2,
-      "tournamentName": "Liga Mesão Online S1 - E01",
-      "tournamentSize": 21
-    }
-  ],
   "Tasigur, the Golden Fang": [
     {
       "player": "Zakk Ellingson ",
@@ -5720,6 +5702,29 @@
       "standing": 6,
       "tournamentName": "Cardart Monthly: Volcanic Island",
       "tournamentSize": 55
+    }
+  ],
+  "Hearthhull, the Worldseed": [
+    {
+      "player": "Robert Collier",
+      "decklist": "https://topdeck.gg/deck/budget-commander-league-season-1-week-3/GBRbJayaieXssldRTKAbCue2Ncg1",
+      "standing": 1,
+      "tournamentName": "Budget Commander League Season 1 Week 3",
+      "tournamentSize": 18
+    },
+    {
+      "player": "Julia ",
+      "decklist": "https://topdeck.gg/deck/yanvar-2026-mtng/Enadl4jpelebElveLktJce1WTzy2",
+      "standing": 2,
+      "tournamentName": "Январь 2026 - MTNG",
+      "tournamentSize": 21
+    },
+    {
+      "player": "Carbeauty",
+      "decklist": "https://topdeck.gg/deck/liga-mesao-online-s1-e01/5R0SiLwKayYFobzS7glQMry4L0n1",
+      "standing": 2,
+      "tournamentName": "Liga Mesão Online S1 - E01",
+      "tournamentSize": 21
     }
   ],
   "Auntie Ool, Cursewretch": [
@@ -6849,6 +6854,29 @@
       "tournamentSize": 28
     }
   ],
+  "Kess, Dissident Mage": [
+    {
+      "player": "Jax P. // CriticalEDH",
+      "decklist": "https://topdeck.gg/deck/enchanted-grounds-littleton-1k-cedh-december-2025/qcPYYZPyPPMCpSqMeHJsQlykCZ82",
+      "standing": 4,
+      "tournamentName": "Enchanted Grounds Littleton $1k cEDH - The Fringe Festival 2",
+      "tournamentSize": 40
+    },
+    {
+      "player": "LAI JIA JUN",
+      "decklist": "https://topdeck.gg/deck/commander-academy-cedh-fundamentals-the-art-of-bending/c7nmRp6DO3Rq5SP7RmL96ViZ0et1",
+      "standing": 10,
+      "tournamentName": "Commander Academy: cEDH Fundamentals - The Art of Bending",
+      "tournamentSize": 20
+    },
+    {
+      "player": "Caleb Sherrill",
+      "decklist": "https://topdeck.gg/deck/from-the-vault-cedh-28-3k/SxguKVNOPBXGA6feEmwBimE0AOP2",
+      "standing": 21,
+      "tournamentName": "From The Vault: cEDH 28 $3K",
+      "tournamentSize": 63
+    }
+  ],
   "Ral, Monsoon Mage": [
     {
       "player": "Daniel 7677",
@@ -6964,27 +6992,27 @@
       "tournamentSize": 24
     }
   ],
-  "Kess, Dissident Mage": [
+  "Tidus, Yuna's Guardian": [
     {
-      "player": "Jax P. // CriticalEDH",
-      "decklist": "https://topdeck.gg/deck/enchanted-grounds-littleton-1k-cedh-december-2025/qcPYYZPyPPMCpSqMeHJsQlykCZ82",
-      "standing": 4,
-      "tournamentName": "Enchanted Grounds Littleton $1k cEDH - The Fringe Festival 2",
-      "tournamentSize": 40
+      "player": "Gerard Marti",
+      "decklist": "https://topdeck.gg/deck/commander-budget-24/IfW34UsLRLbQtFDCSTHp2WXQmlB3",
+      "standing": 2,
+      "tournamentName": "Commander Budget",
+      "tournamentSize": 30
     },
     {
-      "player": "LAI JIA JUN",
-      "decklist": "https://topdeck.gg/deck/commander-academy-cedh-fundamentals-the-art-of-bending/c7nmRp6DO3Rq5SP7RmL96ViZ0et1",
-      "standing": 10,
-      "tournamentName": "Commander Academy: cEDH Fundamentals - The Art of Bending",
-      "tournamentSize": 20
+      "player": "iago simo",
+      "decklist": "https://topdeck.gg/deck/commander-budget-36/602Veees2mXILB66LxVAz7Z85bz2",
+      "standing": 5,
+      "tournamentName": "Commander Budget",
+      "tournamentSize": 17
     },
     {
-      "player": "Caleb Sherrill",
-      "decklist": "https://topdeck.gg/deck/from-the-vault-cedh-28-3k/SxguKVNOPBXGA6feEmwBimE0AOP2",
-      "standing": 21,
-      "tournamentName": "From The Vault: cEDH 28 $3K",
-      "tournamentSize": 63
+      "player": "Akira kaneko",
+      "decklist": "https://topdeck.gg/deck/oahu-commander-invitational-qualifier-s3w8/beHuZdyon0WbcZbSjv8Ly4ECDB22",
+      "standing": 11,
+      "tournamentName": "Oahu Commander Invitational Qualifier S3W8",
+      "tournamentSize": 28
     }
   ],
   "Pantlaza, Sun-Favored": [
@@ -7077,29 +7105,6 @@
       "standing": 6,
       "tournamentName": "cEDH Mox Diamond Tournament",
       "tournamentSize": 21
-    }
-  ],
-  "Tidus, Yuna's Guardian": [
-    {
-      "player": "Gerard Marti",
-      "decklist": "https://topdeck.gg/deck/commander-budget-24/IfW34UsLRLbQtFDCSTHp2WXQmlB3",
-      "standing": 2,
-      "tournamentName": "Commander Budget",
-      "tournamentSize": 30
-    },
-    {
-      "player": "iago simo",
-      "decklist": "https://topdeck.gg/deck/commander-budget-36/602Veees2mXILB66LxVAz7Z85bz2",
-      "standing": 5,
-      "tournamentName": "Commander Budget",
-      "tournamentSize": 17
-    },
-    {
-      "player": "Akira kaneko",
-      "decklist": "https://topdeck.gg/deck/oahu-commander-invitational-qualifier-s3w8/beHuZdyon0WbcZbSjv8Ly4ECDB22",
-      "standing": 11,
-      "tournamentName": "Oahu Commander Invitational Qualifier S3W8",
-      "tournamentSize": 28
     }
   ],
   "Zimone, Mystery Unraveler": [
@@ -7286,6 +7291,29 @@
       "tournamentSize": 26
     }
   ],
+  "Yawgmoth, Thran Physician": [
+    {
+      "player": "Matthijs Hannink",
+      "decklist": "https://topdeck.gg/deck/kramsterdam-pre-season-stayokslugfest-0/pYdCak8Y1QdHIvrIrEhCnRXdzX92",
+      "standing": 2,
+      "tournamentName": "Amsteram Birthing Ritual",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Unknown Player",
+      "decklist": "https://topdeck.gg/deck/caballo-mtg-segunda-edicion-bracket-3/WpOAElBrX3jJyHbnkWJg",
+      "standing": 3,
+      "tournamentName": "Caballo MTG Segunda Edición (Bracket 3)",
+      "tournamentSize": 36
+    },
+    {
+      "player": "Peter D",
+      "decklist": "https://topdeck.gg/deck/break-the-bracket-2/CLlWI0xafHOXvGYswRROHSeVrBn2",
+      "standing": 7,
+      "tournamentName": "Break the Bracket 2! ",
+      "tournamentSize": 25
+    }
+  ],
   "Yidris, Maelstrom Wielder": [
     {
       "player": "Alex Romero Puigvert ",
@@ -7378,29 +7406,6 @@
       "tournamentSize": 20
     }
   ],
-  "Yawgmoth, Thran Physician": [
-    {
-      "player": "Matthijs Hannink",
-      "decklist": "https://topdeck.gg/deck/kramsterdam-pre-season-stayokslugfest-0/pYdCak8Y1QdHIvrIrEhCnRXdzX92",
-      "standing": 2,
-      "tournamentName": "Amsteram Birthing Ritual",
-      "tournamentSize": 16
-    },
-    {
-      "player": "Unknown Player",
-      "decklist": "https://topdeck.gg/deck/caballo-mtg-segunda-edicion-bracket-3/WpOAElBrX3jJyHbnkWJg",
-      "standing": 3,
-      "tournamentName": "Caballo MTG Segunda Edición (Bracket 3)",
-      "tournamentSize": 36
-    },
-    {
-      "player": "Peter D",
-      "decklist": "https://topdeck.gg/deck/break-the-bracket-2/CLlWI0xafHOXvGYswRROHSeVrBn2",
-      "standing": 7,
-      "tournamentName": "Break the Bracket 2! ",
-      "tournamentSize": 25
-    }
-  ],
   "Helga, Skittish Seer": [
     {
       "player": "Caleb spicer",
@@ -7468,6 +7473,29 @@
       "standing": 6,
       "tournamentName": "Good AF Precon Tournament",
       "tournamentSize": 26
+    }
+  ],
+  "Loot, the Pathfinder": [
+    {
+      "player": "Derek Miller",
+      "decklist": "https://topdeck.gg/deck/cedh-monthly-win-a-dual-122025/Rtnh9Aau2yTEM4bnooc5jrQ3MSL2",
+      "standing": 3,
+      "tournamentName": "CEDH MONTHLY WIN-A-DUAL 12/20/25",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Evil Rion",
+      "decklist": "https://topdeck.gg/deck/riftgate-rumble-2/Fq1i7JDyaCXJbWAAEkDkxLVal4E3",
+      "standing": 13,
+      "tournamentName": "Riftgate Rumble 2",
+      "tournamentSize": 81
+    },
+    {
+      "player": "Evil Rion",
+      "decklist": "https://topdeck.gg/deck/resolutions-2/Fq1i7JDyaCXJbWAAEkDkxLVal4E3",
+      "standing": 13,
+      "tournamentName": "Resolutions 2",
+      "tournamentSize": 70
     }
   ],
   "Dina, Soul Steeper": [
@@ -7583,29 +7611,6 @@
       "standing": 9,
       "tournamentName": "Season's Beatings cEDH",
       "tournamentSize": 61
-    }
-  ],
-  "Loot, the Pathfinder": [
-    {
-      "player": "Derek Miller",
-      "decklist": "https://topdeck.gg/deck/cedh-monthly-win-a-dual-122025/Rtnh9Aau2yTEM4bnooc5jrQ3MSL2",
-      "standing": 3,
-      "tournamentName": "CEDH MONTHLY WIN-A-DUAL 12/20/25",
-      "tournamentSize": 16
-    },
-    {
-      "player": "Evil Rion",
-      "decklist": "https://topdeck.gg/deck/riftgate-rumble-2/Fq1i7JDyaCXJbWAAEkDkxLVal4E3",
-      "standing": 13,
-      "tournamentName": "Riftgate Rumble 2",
-      "tournamentSize": 81
-    },
-    {
-      "player": "Evil Rion",
-      "decklist": "https://topdeck.gg/deck/resolutions-2/Fq1i7JDyaCXJbWAAEkDkxLVal4E3",
-      "standing": 13,
-      "tournamentName": "Resolutions 2",
-      "tournamentSize": 70
     }
   ],
   "Bruse Tarl, Boorish Herder / Thrasios, Triton Hero": [
@@ -7861,6 +7866,29 @@
       "tournamentSize": 28
     }
   ],
+  "Nekusar, the Mindrazer": [
+    {
+      "player": "Derek Smith",
+      "decklist": "https://topdeck.gg/deck/cosmic-cup-night-2-1/GDj0eX5x73YYodZCOhWEGgUKlMj1",
+      "standing": 7,
+      "tournamentName": "Cosmic Cup Night 2",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Shawn",
+      "decklist": "https://topdeck.gg/deck/ygg-cedh-commander-tournament-for-a-badland-revised-hp-2/vuysaFiORETjW7RWGrT3Y8Mdp9D3",
+      "standing": 14,
+      "tournamentName": "YGG: CEDH Commander Tournament for a Lion's Eye Diamond (MP)",
+      "tournamentSize": 37
+    },
+    {
+      "player": "Shawn",
+      "decklist": "https://topdeck.gg/deck/cedh-for-a-tundra-more/vuysaFiORETjW7RWGrT3Y8Mdp9D3",
+      "standing": 16,
+      "tournamentName": "Cedh for a Tundra & More !",
+      "tournamentSize": 28
+    }
+  ],
   "Satya, Aetherflux Genius": [
     {
       "player": "Ruben Arturo Dominguez Herrera",
@@ -7974,29 +8002,6 @@
       "standing": 9,
       "tournamentName": "COMMANDER BUDGET DOUBLE STRIKE BY HAMELIN GAMES & LA LUNA",
       "tournamentSize": 20
-    }
-  ],
-  "Nekusar, the Mindrazer": [
-    {
-      "player": "Derek Smith",
-      "decklist": "https://topdeck.gg/deck/cosmic-cup-night-2-1/GDj0eX5x73YYodZCOhWEGgUKlMj1",
-      "standing": 7,
-      "tournamentName": "Cosmic Cup Night 2",
-      "tournamentSize": 16
-    },
-    {
-      "player": "Shawn",
-      "decklist": "https://topdeck.gg/deck/ygg-cedh-commander-tournament-for-a-badland-revised-hp-2/vuysaFiORETjW7RWGrT3Y8Mdp9D3",
-      "standing": 14,
-      "tournamentName": "YGG: CEDH Commander Tournament for a Lion's Eye Diamond (MP)",
-      "tournamentSize": 37
-    },
-    {
-      "player": "Shawn",
-      "decklist": "https://topdeck.gg/deck/cedh-for-a-tundra-more/vuysaFiORETjW7RWGrT3Y8Mdp9D3",
-      "standing": 16,
-      "tournamentName": "Cedh for a Tundra & More !",
-      "tournamentSize": 28
     }
   ],
   "Dargo, the Shipwrecker / Thrasios, Triton Hero": [
@@ -8965,6 +8970,29 @@
       "tournamentSize": 24
     }
   ],
+  "Kykar, Wind's Fury": [
+    {
+      "player": "Marc Castellanos Miñambres",
+      "decklist": "https://topdeck.gg/deck/commander-budget-24/r8f7sscpNbaD6mb37Viex1aYP1J2",
+      "standing": 6,
+      "tournamentName": "Commander Budget",
+      "tournamentSize": 30
+    },
+    {
+      "player": "Jauhar Khan",
+      "decklist": "https://topdeck.gg/deck/gnarly-griffin-two-headed-giant/PGyP2CsrKdXIm65zzn5UZOVBnRD3",
+      "standing": 10,
+      "tournamentName": "Gnarly Griffin Two-Headed Giant ",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Hazim",
+      "decklist": "https://topdeck.gg/deck/UCOQrzaOK4cb6p1kOVck/G9B1qwDwQ7c5Ydu4X5SEJSZnjGf1",
+      "standing": 11,
+      "tournamentName": "Commander Top 4 Pick",
+      "tournamentSize": 18
+    }
+  ],
   "Monk Gyatso": [
     {
       "player": "Simone Spignoli",
@@ -9172,29 +9200,6 @@
       "tournamentSize": 21
     }
   ],
-  "Kykar, Wind's Fury": [
-    {
-      "player": "Marc Castellanos Miñambres",
-      "decklist": "https://topdeck.gg/deck/commander-budget-24/r8f7sscpNbaD6mb37Viex1aYP1J2",
-      "standing": 6,
-      "tournamentName": "Commander Budget",
-      "tournamentSize": 30
-    },
-    {
-      "player": "Jauhar Khan",
-      "decklist": "https://topdeck.gg/deck/gnarly-griffin-two-headed-giant/PGyP2CsrKdXIm65zzn5UZOVBnRD3",
-      "standing": 10,
-      "tournamentName": "Gnarly Griffin Two-Headed Giant ",
-      "tournamentSize": 16
-    },
-    {
-      "player": "Hazim",
-      "decklist": "https://topdeck.gg/deck/UCOQrzaOK4cb6p1kOVck/G9B1qwDwQ7c5Ydu4X5SEJSZnjGf1",
-      "standing": 11,
-      "tournamentName": "Commander Top 4 Pick",
-      "tournamentSize": 18
-    }
-  ],
   "Brago, King Eternal": [
     {
       "player": "Rameez",
@@ -9377,6 +9382,29 @@
       "standing": 13,
       "tournamentName": "February PGS cEDH",
       "tournamentSize": 20
+    }
+  ],
+  "Jin Sakai, Ghost of Tsushima": [
+    {
+      "player": "Edgar López",
+      "decklist": "https://topdeck.gg/deck/commander-casual-34/pEyzwdirCHNFshpdMl7OUBAO0GG3",
+      "standing": 1,
+      "tournamentName": "Commander Casual",
+      "tournamentSize": 24
+    },
+    {
+      "player": "Randall Minnick",
+      "decklist": "https://topdeck.gg/deck/dallas-10k-ctedh/8T2HAJN7SBhJ6J4NNsYKKQyEBam2",
+      "standing": 8,
+      "tournamentName": "Dallas $10k c/tEDH",
+      "tournamentSize": 199
+    },
+    {
+      "player": "Conor Nicoll",
+      "decklist": "https://topdeck.gg/deck/mythic-goblin-cedh/3rae4B30koeDQxpZkDbVxKPvMH72",
+      "standing": 13,
+      "tournamentName": "Mythic Goblin cEDH",
+      "tournamentSize": 42
     }
   ],
   "The Jolly Balloon Man": [
@@ -9793,6 +9821,29 @@
       "tournamentSize": 42
     }
   ],
+  "Kutzil, Malamet Exemplar": [
+    {
+      "player": "Eric Wenokor ",
+      "decklist": "https://topdeck.gg/deck/njcedh-low-stakes-cardboard-colosseum-feb-2026/A0GeqV8DexPzfO7jYl9aUNrxwui1",
+      "standing": 9,
+      "tournamentName": "NJcEDH Low-Stakes @ Cardboard Colosseum Feb 2026",
+      "tournamentSize": 33
+    },
+    {
+      "player": "Nick Iurato",
+      "decklist": "https://topdeck.gg/deck/space-coast-treasures-3k-cedh-tournament/Y2aQRKv9gRYPxeYMYdNnsx5YBBN2",
+      "standing": 12,
+      "tournamentName": "Space Coast Treasures $3k CEDH Tournament",
+      "tournamentSize": 40
+    },
+    {
+      "player": "Eric Wenokor ",
+      "decklist": "https://topdeck.gg/deck/njcedh-season-05-invitational/A0GeqV8DexPzfO7jYl9aUNrxwui1",
+      "standing": 13,
+      "tournamentName": "NJcEDH Season 0.5 Invitational ",
+      "tournamentSize": 16
+    }
+  ],
   "Omo, Queen of Vesuva": [
     {
       "player": "Daniel",
@@ -9814,29 +9865,6 @@
       "standing": 11,
       "tournamentName": "Commander Budget",
       "tournamentSize": 30
-    }
-  ],
-  "Jin Sakai, Ghost of Tsushima": [
-    {
-      "player": "Edgar López",
-      "decklist": "https://topdeck.gg/deck/commander-casual-34/pEyzwdirCHNFshpdMl7OUBAO0GG3",
-      "standing": 1,
-      "tournamentName": "Commander Casual",
-      "tournamentSize": 24
-    },
-    {
-      "player": "Randall Minnick",
-      "decklist": "https://topdeck.gg/deck/dallas-10k-ctedh/8T2HAJN7SBhJ6J4NNsYKKQyEBam2",
-      "standing": 8,
-      "tournamentName": "Dallas $10k c/tEDH",
-      "tournamentSize": 199
-    },
-    {
-      "player": "Conor Nicoll",
-      "decklist": "https://topdeck.gg/deck/mythic-goblin-cedh/3rae4B30koeDQxpZkDbVxKPvMH72",
-      "standing": 13,
-      "tournamentName": "Mythic Goblin cEDH",
-      "tournamentSize": 42
     }
   ],
   "Yasharn, Implacable Earth": [
@@ -10761,29 +10789,6 @@
       "tournamentSize": 16
     }
   ],
-  "Kutzil, Malamet Exemplar": [
-    {
-      "player": "Eric Wenokor ",
-      "decklist": "https://topdeck.gg/deck/njcedh-low-stakes-cardboard-colosseum-feb-2026/A0GeqV8DexPzfO7jYl9aUNrxwui1",
-      "standing": 9,
-      "tournamentName": "NJcEDH Low-Stakes @ Cardboard Colosseum Feb 2026",
-      "tournamentSize": 33
-    },
-    {
-      "player": "Nick Iurato",
-      "decklist": "https://topdeck.gg/deck/space-coast-treasures-3k-cedh-tournament/Y2aQRKv9gRYPxeYMYdNnsx5YBBN2",
-      "standing": 12,
-      "tournamentName": "Space Coast Treasures $3k CEDH Tournament",
-      "tournamentSize": 40
-    },
-    {
-      "player": "Eric Wenokor ",
-      "decklist": "https://topdeck.gg/deck/njcedh-season-05-invitational/A0GeqV8DexPzfO7jYl9aUNrxwui1",
-      "standing": 13,
-      "tournamentName": "NJcEDH Season 0.5 Invitational ",
-      "tournamentSize": 16
-    }
-  ],
   "Zinnia, Valley's Voice": [
     {
       "player": "Nacho F Fouquet",
@@ -10897,6 +10902,29 @@
       "standing": 24,
       "tournamentName": "Commander Invitational Qualifier - The Hollow Archive",
       "tournamentSize": 33
+    }
+  ],
+  "Heliod, Sun-Crowned": [
+    {
+      "player": "Marc Connolly",
+      "decklist": "https://topdeck.gg/deck/commander-casual-28/k8GY3ynNo6c1lTw9R1lESPr0oXp1",
+      "standing": 13,
+      "tournamentName": "Commander Casual",
+      "tournamentSize": 17
+    },
+    {
+      "player": "Travis Kemp",
+      "decklist": "https://topdeck.gg/deck/misfit-mayhem-iv/FAyWnWPGtHR8CeLjIiZXs3xkOjy2",
+      "standing": 25,
+      "tournamentName": "Misfit Mayhem IV",
+      "tournamentSize": 36
+    },
+    {
+      "player": "David Dulcet Pardo",
+      "decklist": "https://topdeck.gg/deck/torneig-inaugural-la-competencia-full-focus-b100/4GmaJkC22OMb4ACfFJZiFfQMNtT2",
+      "standing": 30,
+      "tournamentName": "La Competència | Torneig Inaugural | FULL FOCUS B100",
+      "tournamentSize": 31
     }
   ],
   "Akiri, Line-Slinger / Malcolm, Keen-Eyed Navigator": [
@@ -11832,29 +11860,6 @@
       "tournamentSize": 41
     }
   ],
-  "Heliod, Sun-Crowned": [
-    {
-      "player": "Marc Connolly",
-      "decklist": "https://topdeck.gg/deck/commander-casual-28/k8GY3ynNo6c1lTw9R1lESPr0oXp1",
-      "standing": 13,
-      "tournamentName": "Commander Casual",
-      "tournamentSize": 17
-    },
-    {
-      "player": "Travis Kemp",
-      "decklist": "https://topdeck.gg/deck/misfit-mayhem-iv/FAyWnWPGtHR8CeLjIiZXs3xkOjy2",
-      "standing": 25,
-      "tournamentName": "Misfit Mayhem IV",
-      "tournamentSize": 36
-    },
-    {
-      "player": "David Dulcet Pardo",
-      "decklist": "https://topdeck.gg/deck/torneig-inaugural-la-competencia-full-focus-b100/4GmaJkC22OMb4ACfFJZiFfQMNtT2",
-      "standing": 30,
-      "tournamentName": "La Competència | Torneig Inaugural | FULL FOCUS B100",
-      "tournamentSize": 31
-    }
-  ],
   "Arcades, the Strategist": [
     {
       "player": "Cade Emslie",
@@ -11984,6 +11989,29 @@
       "standing": 25,
       "tournamentName": "Nacional CEDH",
       "tournamentSize": 99
+    }
+  ],
+  "The Beamtown Bullies": [
+    {
+      "player": "Samuel Ruksenas",
+      "decklist": "https://topdeck.gg/deck/break-the-bracket-2/pKiylPo1XMYwqfMBaB7cORDqmbq1",
+      "standing": 12,
+      "tournamentName": "Break the Bracket 2! ",
+      "tournamentSize": 25
+    },
+    {
+      "player": "David kessler ",
+      "decklist": "https://topdeck.gg/deck/legends-of-the-lair-ii/0nAtu9THCOPbV49LaECBmmgf3Xy2",
+      "standing": 12,
+      "tournamentName": "Legends of the Lair II",
+      "tournamentSize": 16
+    },
+    {
+      "player": "Zachary ",
+      "decklist": "https://topdeck.gg/deck/sky-high-commanders-cup-january/QPgw31ErArenpk3KcKz6rn79ico1",
+      "standing": 57,
+      "tournamentName": "Sky High Commander's Cup January ",
+      "tournamentSize": 57
     }
   ],
   "Clavileño, First of the Blessed": [
@@ -13048,6 +13076,15 @@
       "tournamentSize": 32
     }
   ],
+  "Tergrid, God of Fright // Tergrid's Lantern": [
+    {
+      "player": "Vladimir Garcia",
+      "decklist": "https://topdeck.gg/deck/magic-the-gathering-1k-cedh-at-tbs-january/2zTGjnbgiRQkjoIWQQG304v4QoT2",
+      "standing": 53,
+      "tournamentName": "MAGIC: THE GATHERING - 1K CEDH at TBS! January",
+      "tournamentSize": 54
+    }
+  ],
   "Ashaya, Soul of the Wild": [
     {
       "player": "Laura Gonzalez Torres",
@@ -13450,29 +13487,6 @@
       "tournamentSize": 55
     }
   ],
-  "The Beamtown Bullies": [
-    {
-      "player": "Samuel Ruksenas",
-      "decklist": "https://topdeck.gg/deck/break-the-bracket-2/pKiylPo1XMYwqfMBaB7cORDqmbq1",
-      "standing": 12,
-      "tournamentName": "Break the Bracket 2! ",
-      "tournamentSize": 25
-    },
-    {
-      "player": "David kessler ",
-      "decklist": "https://topdeck.gg/deck/legends-of-the-lair-ii/0nAtu9THCOPbV49LaECBmmgf3Xy2",
-      "standing": 12,
-      "tournamentName": "Legends of the Lair II",
-      "tournamentSize": 16
-    },
-    {
-      "player": "Zachary ",
-      "decklist": "https://topdeck.gg/deck/sky-high-commanders-cup-january/QPgw31ErArenpk3KcKz6rn79ico1",
-      "standing": 57,
-      "tournamentName": "Sky High Commander's Cup January ",
-      "tournamentSize": 57
-    }
-  ],
   "Gran-Gran": [
     {
       "player": "Chris Glade | GodzillaBig",
@@ -13549,22 +13563,6 @@
       "standing": 18,
       "tournamentName": "Best in the West Platinum Qualifier 4K",
       "tournamentSize": 103
-    }
-  ],
-  "Saheeli, the Gifted": [
-    {
-      "player": "Vincenzo",
-      "decklist": "https://topdeck.gg/deck/winter-is-coming-league-5/TADCTyeedBTodK01bqXpgQiPPjV2",
-      "standing": 13,
-      "tournamentName": "WINTER IS COMING LEAGUE 5",
-      "tournamentSize": 19
-    },
-    {
-      "player": "Vincenzo",
-      "decklist": "https://topdeck.gg/deck/winter-is-coming-league-4/TADCTyeedBTodK01bqXpgQiPPjV2",
-      "standing": 18,
-      "tournamentName": "WINTER IS COMING LEAGUE 4",
-      "tournamentSize": 18
     }
   ],
   "Lutri, the Spellchaser": [
@@ -14653,15 +14651,6 @@
       "tournamentSize": 25
     }
   ],
-  "Tergrid, God of Fright // Tergrid's Lantern": [
-    {
-      "player": "Vladimir Garcia",
-      "decklist": "https://topdeck.gg/deck/magic-the-gathering-1k-cedh-at-tbs-january/2zTGjnbgiRQkjoIWQQG304v4QoT2",
-      "standing": 53,
-      "tournamentName": "MAGIC: THE GATHERING - 1K CEDH at TBS! January",
-      "tournamentSize": 54
-    }
-  ],
   "Coram, the Undertaker": [
     {
       "player": "Alexander",
@@ -14931,6 +14920,7 @@
       "tournamentSize": 183
     }
   ],
+  "Atraxa, Praetors' Voice": [],
   "Aragorn, the Uniter": [
     {
       "player": "Luis Guzman",
@@ -14990,13 +14980,13 @@
       "tournamentSize": 41
     }
   ],
-  "Niv-Mizzet Reborn": [
+  "Saheeli, the Gifted": [
     {
-      "player": "Isaac Obradors",
-      "decklist": "https://topdeck.gg/deck/commander-party-lorwyn-3/Qz6fLUPiuTgzlV3NyHwYweyW9IO2",
-      "standing": 7,
-      "tournamentName": "Commander Party Lorwyn",
-      "tournamentSize": 32
+      "player": "Vincenzo",
+      "decklist": "https://topdeck.gg/deck/winter-is-coming-league-5/TADCTyeedBTodK01bqXpgQiPPjV2",
+      "standing": 13,
+      "tournamentName": "WINTER IS COMING LEAGUE 5",
+      "tournamentSize": 19
     }
   ],
   "Daretti, Scrap Savant": [
@@ -17299,6 +17289,7 @@
       "tournamentSize": 27
     }
   ],
+  "Satoru Umezawa": [],
   "Peter Parker // Amazing Spider-Man": [
     {
       "player": "Boris Carmona ",
@@ -17353,7 +17344,6 @@
       "tournamentSize": 25
     }
   ],
-  "Atraxa, Praetors' Voice": [],
   "Breeches, Brazen Plunderer / Malcolm, Keen-Eyed Navigator": [
     {
       "player": "Manuel Oteiza",
@@ -17391,5 +17381,14 @@
     }
   ],
   "Captain America, First Avenger": [],
+  "Niv-Mizzet Reborn": [
+    {
+      "player": "Isaac Obradors",
+      "decklist": "https://topdeck.gg/deck/commander-party-lorwyn-3/Qz6fLUPiuTgzlV3NyHwYweyW9IO2",
+      "standing": 7,
+      "tournamentName": "Commander Party Lorwyn",
+      "tournamentSize": 32
+    }
+  ],
   "Ramos, Dragon Engine": []
 }}
