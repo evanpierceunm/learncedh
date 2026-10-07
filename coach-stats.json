@@ -72,6 +72,24 @@
    "topCuts": 139,
    "topdeckId": "10XZGpOw5vVlD7VeYRO1XvBv3Ft2"
   },
+  "Joseph Fago": {
+   "biggestWin": {
+    "name": "Colorado Card Conquest CEDH Charity 1K",
+    "players": 56
+   },
+   "conversion": 0.4234,
+   "eventWins": 10,
+   "events": 113,
+   "gameWinRate": 0.3081,
+   "games": {
+    "draws": 140,
+    "losses": 217,
+    "wins": 159
+   },
+   "profile": "https://topdeck.gg/profile/@pigeonize",
+   "topCuts": 47,
+   "topdeckId": "cOHH27D1bKSu9TTa2FkZ3frml9Y2"
+  },
   "Kevin Simmons": {
    "biggestWin": {
     "name": "Ohio cEDH: Highlander 3",
@@ -92,5 +110,5 @@
   }
  },
  "source": "https://topdeck.gg",
- "updated": "2026-10-07T15:31:50Z"
+ "updated": "2026-10-07T19:48:24Z"
 }
