@@ -143,18 +143,22 @@ def main():
         w = sum(e["wins"] for e in evs)
         l = sum(e["losses"] for e in evs)
         d = sum(e["draws"] for e in evs)
+        # Match TopDeck's profile numbers: a win is 1st place in an event with a
+        # top cut, and conversion only counts events that had a top cut.
         cuts = sum(1 for e in evs if e["madeTopCut"])
-        best = max(evs, key=lambda e: (e["place"] == 1, e["players"]))
+        cut_events = sum(1 for e in evs if e["topCut"] or e["madeTopCut"])
+        wins = [e for e in evs if e["place"] == 1 and e["madeTopCut"]]
+        best = max(wins, key=lambda e: e["players"]) if wins else None
         out["coaches"][c["name"]] = {
             "topdeckId": c["topdeckId"],
             "profile": c.get("profile"),
             "events": len(evs),
-            "eventWins": sum(1 for e in evs if e["place"] == 1),
+            "eventWins": len(wins),
             "topCuts": cuts,
-            "conversion": round(cuts / len(evs), 4),
+            "conversion": round(cuts / cut_events, 4) if cut_events else 0,
             "games": {"wins": w, "losses": l, "draws": d},
             "gameWinRate": round(w / (w + l + d), 4) if w + l + d else 0,
-            "biggestWin": {"name": best["name"], "players": best["players"]} if best["place"] == 1 else None,
+            "biggestWin": {"name": best["name"].strip(), "players": best["players"]} if best else None,
         }
 
     save(EVENTS_FILE, cache)
