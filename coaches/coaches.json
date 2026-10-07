@@ -1,0 +1,45 @@
+{
+  "_comment": "Coaches whose TopDeck stats are shown on learncedh.com/coaching. topdeckId is the id at the end of the coach's TopDeck profile URL (topdeck.gg/profile/<id>). coach-id-candidates.json lists every TopDeck id seen under a coach's name or aliases, as a check.",
+  "coaches": [
+    {
+      "name": "Andrei Blanton",
+      "topdeckId": "WIpu1iugTsUeknwC5xs4h3Tul0U2",
+      "profile": "https://topdeck.gg/profile/@toodeeptoosweep",
+      "aliases": [
+        "toodeeptoosweep"
+      ]
+    },
+    {
+      "name": "Kevin Simmons",
+      "topdeckId": "tiM4KFkVXnMW4L1Sh7JSbuGEDf82",
+      "profile": "https://topdeck.gg/profile/@varraks",
+      "aliases": [
+        "varraks"
+      ]
+    },
+    {
+      "name": "Ian Flannery",
+      "topdeckId": "GHPNb0E7DnWMVIsJIhYSXre58rB3",
+      "profile": "https://topdeck.gg/profile/GHPNb0E7DnWMVIsJIhYSXre58rB3",
+      "aliases": [
+        "comedian"
+      ]
+    },
+    {
+      "name": "Jacob Reed",
+      "topdeckId": "yDmurQQALDMAZ5XelLf8KibSaaB3",
+      "profile": "https://topdeck.gg/profile/@spuki",
+      "aliases": [
+        "spuki"
+      ]
+    },
+    {
+      "name": "Jason Doan",
+      "topdeckId": "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
+      "profile": "https://topdeck.gg/profile/@fenodreams",
+      "aliases": [
+        "fenodreams"
+      ]
+    }
+  ]
+}

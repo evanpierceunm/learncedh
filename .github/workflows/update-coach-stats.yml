@@ -1,0 +1,42 @@
+name: Update Coach Stats JSON
+
+on:
+  schedule:
+    # Every day at 06:00 UTC (after the ranked decks job)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      full_rebuild:
+        description: "Re-fetch all events since 2022"
+        type: boolean
+        default: false
+
+concurrency:
+  group: coach-stats
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch coach results from TopDeck
+        run: python3 scripts/update_coach_stats.py
+        env:
+          TOPDECK_API_KEY: ${{ secrets.TOPDECK_API_KEY }}
+          FULL_REBUILD: ${{ inputs.full_rebuild && '1' || '0' }}
+
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add coach-stats.json coach-events.json coach-id-candidates.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update coach-stats.json"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
