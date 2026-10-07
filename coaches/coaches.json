@@ -1,0 +1,10 @@
+{
+  "_comment": "Coaches whose TopDeck stats are shown on learncedh.com/coaching. topdeckId is the id at the end of the coach's TopDeck profile URL (topdeck.gg/profile/<id>). Leave it empty if unknown; the job will list possible matches by name in coach-id-candidates.json.",
+  "coaches": [
+    {"name": "Andrei Blanton", "topdeckId": ""},
+    {"name": "Kevin Simmons", "topdeckId": ""},
+    {"name": "Ian Flannery", "topdeckId": ""},
+    {"name": "Jacob Reed", "topdeckId": ""},
+    {"name": "Jason Doan", "topdeckId": "10XZGpOw5vVlD7VeYRO1XvBv3Ft2"}
+  ]
+}
