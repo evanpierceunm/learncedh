@@ -91,9 +91,15 @@ def main():
     start = max(BACKFILL_START, cache["fetchedThrough"] - REFRESH)
     if os.environ.get("FULL_REBUILD") == "1":
         start, cache["events"] = BACKFILL_START, {}
-    elif set(ids) - set(cache.get("ids", [])):
-        start = BACKFILL_START  # a coach was added, so fetch their full history
+    else:
+        # A new coach id, or a coach whose id we don't know yet, needs their full
+        # history (unless it was already saved while scanning by name).
+        new_ids = set(ids) - set(cache.get("ids", []))
+        unscanned = [c["name"] for c in coaches if not c.get("topdeckId") and c["name"] not in cache.get("scanned", [])]
+        if any(i not in cache["events"] for i in new_ids) or unscanned:
+            start = BACKFILL_START
     cache["ids"] = sorted(ids)
+    cache["scanned"] = sorted(set(cache.get("scanned", [])) | {c["name"] for c in coaches if not c.get("topdeckId")})
 
     requests = 0
     while start < now:
@@ -109,14 +115,18 @@ def main():
             for place, row in enumerate(standings, 1):
                 pid = row.get("id") or ""
                 pname = norm(row.get("name"))
+                matched = False
                 for cname_key, cname in name_keys.items():
                     if cname_key and (cname_key == pname or cname_key in pname):
+                        matched = True
                         cand = candidates.setdefault(cname, {}).setdefault(pid or "(no id)", {"names": [], "events": []})
                         if row.get("name") not in cand["names"]:
                             cand["names"].append(row.get("name"))
                         if ev["TID"] not in cand["events"]:
                             cand["events"].append(ev["TID"])
-                if pid not in ids:
+                # Also keep results for name matches, so a coach's history is
+                # already saved when their id is added later.
+                if pid not in ids and not (matched and pid):
                     continue
                 bracket_games = (row.get("winsBracket") or 0) + (row.get("lossesBracket") or 0)
                 cache["events"].setdefault(pid, {})[ev["TID"]] = {
