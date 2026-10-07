@@ -10,9 +10,6 @@ on:
         description: "Re-fetch all events since 2022"
         type: boolean
         default: false
-  push:
-    branches: [coach-stats]
-    paths: ["scripts/update_coach_stats.py", "coaches/coaches.json", ".github/workflows/update-coach-stats.yml"]
 
 concurrency:
   group: coach-stats
