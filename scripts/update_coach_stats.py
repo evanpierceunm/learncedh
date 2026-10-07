@@ -80,7 +80,10 @@ def main():
 
     coaches = load(COACHES_FILE, {})["coaches"]
     ids = {c["topdeckId"]: c["name"] for c in coaches if c.get("topdeckId")}
-    name_keys = {norm(c["name"]): c["name"] for c in coaches}
+    name_keys = {}
+    for c in coaches:
+        for n in [c["name"]] + c.get("aliases", []):
+            name_keys[norm(n)] = c["name"]
 
     cache = load(EVENTS_FILE, {"fetchedThrough": BACKFILL_START, "events": {}})
     candidates = load(CANDIDATES_FILE, {})
@@ -88,6 +91,9 @@ def main():
     start = max(BACKFILL_START, cache["fetchedThrough"] - REFRESH)
     if os.environ.get("FULL_REBUILD") == "1":
         start, cache["events"] = BACKFILL_START, {}
+    elif set(ids) - set(cache.get("ids", [])):
+        start = BACKFILL_START  # a coach was added, so fetch their full history
+    cache["ids"] = sorted(ids)
 
     requests = 0
     while start < now:
@@ -141,6 +147,7 @@ def main():
         best = max(evs, key=lambda e: (e["place"] == 1, e["players"]))
         out["coaches"][c["name"]] = {
             "topdeckId": c["topdeckId"],
+            "profile": c.get("profile"),
             "events": len(evs),
             "eventWins": sum(1 for e in evs if e["place"] == 1),
             "topCuts": cuts,
