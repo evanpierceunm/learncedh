@@ -18,6 +18,24 @@
    "topCuts": 15,
    "topdeckId": "WIpu1iugTsUeknwC5xs4h3Tul0U2"
   },
+  "Dexter Idzikowski": {
+   "biggestWin": {
+    "name": "TM Circuit Act 10: Puppet's Snare",
+    "players": 105
+   },
+   "conversion": 0.6479,
+   "eventWins": 13,
+   "events": 73,
+   "gameWinRate": 0.4188,
+   "games": {
+    "draws": 74,
+    "losses": 130,
+    "wins": 147
+   },
+   "profile": "https://topdeck.gg/profile/@thekiritogod",
+   "topCuts": 46,
+   "topdeckId": "Wui3KTmQuhhHT5AxbG2PcNFbxz93"
+  },
   "Ian Flannery": {
    "biggestWin": {
     "name": "The Boil",
@@ -113,20 +131,20 @@
     "name": "The Atrium",
     "players": 109
    },
-   "conversion": 0.6739,
-   "eventWins": 7,
-   "events": 53,
-   "gameWinRate": 0.3815,
+   "conversion": 0.6211,
+   "eventWins": 21,
+   "events": 105,
+   "gameWinRate": 0.406,
    "games": {
-    "draws": 80,
-    "losses": 74,
-    "wins": 95
+    "draws": 119,
+    "losses": 137,
+    "wins": 175
    },
    "profile": "https://topdeck.gg/profile/frReLXG6lFWgI4xSGcUeTZuvh7k2",
-   "topCuts": 31,
+   "topCuts": 59,
    "topdeckId": "frReLXG6lFWgI4xSGcUeTZuvh7k2"
   }
  },
  "source": "https://topdeck.gg",
- "updated": "2026-10-07T21:49:40Z"
+ "updated": "2026-10-08T00:26:24Z"
 }
