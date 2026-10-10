@@ -62,13 +62,43 @@ class DataTests(unittest.TestCase):
         grouped=groups([e])
         self.assertNotIn('unknown',grouped)
         self.assertEqual(sum(r['m'] for rs in grouped.values() for r in rs),15)
-        self.assertTrue(all(r['N']==16 and r['c']==4 for rs in grouped.values() for r in rs))
+        self.assertTrue(all(r['N']==15 and r['c']==3 for rs in grouped.values() for r in rs))
 
     def test_blank_labels_exclude_entire_event(self):
         e=event();e['entries'][0]['commander']['name']=''
         good,bad=clean_events(snapshot([e]))
         self.assertFalse(good)
-        self.assertEqual(bad[0]['reason'],'incomplete_commander_labels')
+        self.assertEqual(bad[0]['reason'],'commander_coverage_below_95_percent')
+
+    def test_95_percent_boundary_and_full_completion_guards(self):
+        a,b,c=event('boundary',n=20),event('too-missing',n=20),event('bad-bracket',n=20)
+        for e in [a,b,c]:e['entries'][0]['commander']=None
+        b['entries'][1]['commander']=None
+        c['entries'][0]['winsBracket']=0
+        good,bad=clean_events(snapshot([a,b,c]))
+        self.assertEqual([e['TID'] for e in good],['boundary'])
+        self.assertEqual({r['reason'] for r in bad},{'commander_coverage_below_95_percent','unconfirmed_finished_bracket'})
+        rs=[r for rows in groups(good).values() for r in rows]
+        self.assertEqual(sum(r['m'] for r in rs),19)
+        self.assertEqual(sum(r['k'] for r in rs),3)
+        self.assertTrue(all(r['N']==19 and r['c']==3 for r in rs))
+        full=[r for rows in groups(good,full_field=True).values() for r in rows]
+        self.assertTrue(all(r['N']==20 and r['c']==4 for r in full))
+
+    def test_missing_nonqualifier_is_not_an_opponent(self):
+        e=event(n=20);e['entries'][-1]['commander']=None
+        rs=[r for rows in groups([e]).values() for r in rows]
+        self.assertEqual(sum(r['m'] for r in rs),19)
+        self.assertTrue(all(r['N']==19 and r['c']==4 for r in rs))
+
+    def test_complete_labels_preserve_likelihood_inputs(self):
+        self.assertEqual(groups([event()]),groups([event()],full_field=True))
+
+    def test_no_known_cut_variation_rejected(self):
+        e=event(n=20,cut=1);e['entries'][0]['commander']=None
+        good,bad=clean_events(snapshot([e]))
+        self.assertFalse(good)
+        self.assertEqual(bad[0]['reason'],'no_known_cut_comparison')
 
 
 class StatisticalTests(unittest.TestCase):
@@ -110,6 +140,55 @@ class StatisticalTests(unittest.TestCase):
         self.assertEqual(sum(r['topCuts'] for r in rows),4)
         self.assertTrue(all(r['evidence']=='limited' for r in rows))
         self.assertTrue(all(r['interval'][0]<r['score']<r['interval'][1] for r in rows))
+
+    def test_shared_neutral_field_baseline(self):
+        from calibration import adoption_shift,calibrate
+        e=event(n=20);e['entries'][1]['player']=e['entries'][5]['player']
+        rs,params=records([e]);base=params['referenceQualificationRate']
+        neutral=sum(r['entries']*calibrate(base,adoption_shift(r['pilots'])) for r in rs)/sum(r['entries'] for r in rs)
+        self.assertAlmostEqual(neutral,params['neutralCalibratedQualificationRate'])
+        self.assertAlmostEqual(sum(r['entries']*100*calibrate(base,adoption_shift(r['pilots']))/neutral for r in rs)/20,100)
+
+    def test_pilot_feature_deduplicates_and_handles_missing_ids(self):
+        e=event();e['entries'][4]['player']=e['entries'][0]['player'];e['entries'][8]['player']=None
+        rs,_=records([e]);r=next(r for r in rs if r['commanderId']=='deck0')
+        self.assertEqual(r['pilots'],2);self.assertEqual(r['missingPilotIds'],1)
+        self.assertEqual(r['evidence'],'limited')
+
+    def test_calibration_monotonic_and_bounded(self):
+        from calibration import adoption_shift,calibrate
+        self.assertGreater(adoption_shift(500),adoption_shift(50))
+        self.assertGreater(calibrate(.4,adoption_shift(50)),calibrate(.2,adoption_shift(50)))
+        self.assertTrue(0<calibrate(.25,adoption_shift(0))<1)
+        for bad in [-1,True,2.5]:
+            with self.assertRaises(ValueError):adoption_shift(bad)
+        for bad in [0,1,float('nan')]:
+            with self.assertRaises(ValueError):calibrate(bad,0)
+
+
+class FeedTests(unittest.TestCase):
+    def test_public_counts_unknowns_and_conditional_range(self):
+        from build import build
+        import json
+        events=[event(str(i),n=20) for i in range(20)]
+        for e in events:e['entries'][0]['commander']=None
+        feed,_=build(snapshot(events),90)
+        self.assertEqual(feed['coverage']['entries'],400)
+        self.assertEqual(feed['coverage']['knownCommanderEntries'],380)
+        self.assertEqual(feed['coverage']['unknownCommanderEntries'],20)
+        self.assertEqual(feed['coverage']['partiallyLabeledEvents'],20)
+        self.assertIn('calibration',feed['intervalScope'])
+        self.assertNotIn('player0',json.dumps(feed))
+        self.assertTrue(all(r['interval'][0]<r['score']<r['interval'][1] for r in feed['data']))
+
+    def test_rollback_and_coverage_guards(self):
+        from build import validate_update
+        old={'modelVersion':'v1','window':{'endExclusive':'2026-10-08','days':180},'coverage':{'events':400}}
+        new=copy.deepcopy(old);new['modelVersion']='v2';new['window']['endExclusive']='2026-10-07'
+        with self.assertRaises(ValueError):validate_update(old,new,180)
+        new=copy.deepcopy(old);new['coverage']['events']=279
+        with self.assertRaises(ValueError):validate_update(old,new,180)
+        new['coverage']['events']=280;validate_update(old,new,180)
 
 
 if __name__=='__main__':unittest.main()

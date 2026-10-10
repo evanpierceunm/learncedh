@@ -7,7 +7,7 @@ from pathlib import Path
 
 import numpy as np
 
-from model import GRID, clean_events, event_loglik, fit, posterior, reference_curve
+from model import GRID, clean_events, event_loglik, fit, posterior, reference_curve, records
 
 
 def run(snapshot, days):
@@ -15,7 +15,12 @@ def run(snapshot, days):
     events, _ = clean_events(scoped)
     grouped, posts, sigma = fit(events)
     by_event = {e['TID']: e for e in events}
-    curve, _ = reference_curve(events)
+    curve, base = reference_curve(events)
+    from calibration import adoption_shift, calibrate
+    release, parameters = records(events)
+    baseline = parameters['neutralCalibratedQualificationRate']
+    def scored(mass, pilots):
+        return 100 * calibrate(float(curve @ mass) * base / 100, adoption_shift(pilots)) / baseline
     output=[]
     for key, rows in grouped.items():
         pilots=Counter(p for r in rows for p in r['pilots'] if p)
@@ -25,17 +30,18 @@ def run(snapshot, days):
         for row in rows:
             if row['event']!=biggest:without_event+=event_loglik(row)
             es=[e for e in by_event[row['event']]['entries']
-                if e['commander']['id']==key and (e.get('player') or {}).get('id')!=leading]
+                if (e.get('commander') or {}).get('id')==key and (e.get('player') or {}).get('id')!=leading]
             if es:
-                adjusted=dict(row,m=len(es),k=sum(e['standing']<=row['c'] for e in es))
+                adjusted=dict(row,m=len(es),k=sum(e['standing']<=row['fieldC'] for e in es))
                 without_pilot+=event_loglik(adjusted)
-        score=float(curve@posts[key])
+        score=scored(posts[key],len(pilots))
+        event_pilots={p for r in rows if r['event']!=biggest for p in r['pilots'] if p}
         output.append({'name':rows[0]['name'],'score':score,
             'entries':sum(r['m'] for r in rows),'largestPilotEntries':max(pilots.values(),default=0),
-            'scoreWithoutLeadingPilot':float(curve@posterior(without_pilot,sigma)),
-            'scoreWithoutLargestEvent':float(curve@posterior(without_event,sigma))})
+            'scoreWithoutLeadingPilot':scored(posterior(without_pilot,sigma),len(pilots)-(1 if leading else 0)),
+            'scoreWithoutLargestEvent':scored(posterior(without_event,sigma),len(event_pilots))})
     output.sort(key=lambda r:-r['score'])
-    return {'scope':'Sensitivity, not pilot-adjusted strength; reference events and empirical prior held fixed.',
+    return {'scope':'Sensitivity, not pilot-adjusted strength; reference events, calibration and empirical prior held fixed; omits selected labelled evidence while retaining its field context.',
             'windowDays':days,'data':output}
 
 

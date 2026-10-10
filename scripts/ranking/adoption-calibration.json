@@ -1,0 +1,16 @@
+{
+  "version": "pilot-adoption-2026-10-v1",
+  "intercept": -0.055035905284625715,
+  "logPilotCoefficient": 0.039535851821297215,
+  "logPilotCenter": 4.691845568686228,
+  "feature": "log(1 + distinct identified pilots in the preceding 180 days)",
+  "trainingValidationStart": "2026-06-09",
+  "trainingValidationEndExclusive": "2026-09-07",
+  "trainingWindowDays": 180,
+  "validationEventsMinimumCommanderCoverage": 0.95,
+  "trainingValidationEntries": 7822,
+  "evaluationEndExclusive": "2026-10-07",
+  "evaluationEntries": 2657,
+  "status": "Frozen historical calibration; evaluation already exposed, not prospective",
+  "sourceResultsSha256": "85bb98701d0cd9716870171e50fc7b253ac1ed35a79e6c1f8458bd8eb6ba2717"
+}

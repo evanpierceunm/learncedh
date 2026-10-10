@@ -1,4 +1,6 @@
-"""Chronological forecasts. Last 30 days are untouched by window selection."""
+"""Historical base-likelihood comparison, before adoption calibration.
+Do not treat eventAdjusted here as a validation of the full v2 score.
+"""
 import argparse
 from datetime import date, timedelta
 import json
@@ -21,7 +23,7 @@ def evaluate(events, cutoff, days, stop):
               for m in ['raw', 'sampleAdjusted', 'eventOnly', 'eventAdjusted']}
     event_losses = {}
     prior = np.exp(prior_weights(sigma))
-    for key, rows in groups(test).items():
+    for key, rows in groups(test, full_field=True).items():
         history = grouped.get(key, [])
         n, k = sum(r['m'] for r in history), sum(r['k'] for r in history)
         raw = k / n if n else fallback

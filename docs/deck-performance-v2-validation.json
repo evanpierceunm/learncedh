@@ -1,0 +1,971 @@
+{
+  "scope": "Historical sensitivity audit, not independent prospective validation. Coverage thresholds are probes, not tuned for named decks. Conditional known-label model assumes label recording does not depend on archetype in a way that changes its relative success odds; does not eliminate missingness or pilot bias. No production change.",
+  "snapshotSha256": "274b605a9dcc115ef8426464669455df1c70dd9114e7b9b473053f71d2684682",
+  "historicalWindow": [
+    "2026-04-10",
+    "2026-10-07"
+  ],
+  "coverage": {
+    "rawEvents": 2868,
+    "rawEntries": 78923,
+    "sizeBins": [
+      {
+        "atLeast": 16,
+        "raw": 2868,
+        "strict": 243,
+        "coverage95": 400
+      },
+      {
+        "atLeast": 32,
+        "raw": 643,
+        "strict": 96,
+        "coverage95": 197
+      },
+      {
+        "atLeast": 64,
+        "raw": 103,
+        "strict": 7,
+        "coverage95": 41
+      },
+      {
+        "atLeast": 128,
+        "raw": 22,
+        "strict": 1,
+        "coverage95": 10
+      },
+      {
+        "atLeast": 256,
+        "raw": 4,
+        "strict": 0,
+        "coverage95": 2
+      }
+    ]
+  },
+  "missingness": {
+    "allStructurallyValid": {
+      "cutUnknown": 2171,
+      "cutKnown": 8616,
+      "noncutUnknown": 9490,
+      "noncutKnown": 25277
+    },
+    "coverage95": {
+      "cutKnown": 3750,
+      "noncutKnown": 11948,
+      "noncutUnknown": 241,
+      "cutUnknown": 22
+    }
+  },
+  "folds": [
+    {
+      "cutoff": "2026-06-09",
+      "results": {
+        "1/mean": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5744660951420243,
+            "brier": 0.19454206573376934,
+            "concordance": 0.5669642857142857
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5339047987886228,
+            "brier": 0.17733014551901172,
+            "concordance": 0.5432399879554352
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.35756789318429033,
+            "brier": 0.10419609020185917,
+            "concordance": 0.5416269765669651
+          }
+        },
+        "1/.2": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5744660951420243,
+            "brier": 0.19454206573376934,
+            "concordance": 0.5611607142857142
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5339047987886228,
+            "brier": 0.17733014551901172,
+            "concordance": 0.532520325203252
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.35756789318429033,
+            "brier": 0.10419609020185917,
+            "concordance": 0.5143836921318347
+          }
+        },
+        "1/.05": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5744660951420243,
+            "brier": 0.19454206573376934,
+            "concordance": 0.5641369047619048
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5339047987886228,
+            "brier": 0.17733014551901172,
+            "concordance": 0.5319783197831979
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.35756789318429033,
+            "brier": 0.10419609020185917,
+            "concordance": 0.5042865307677653
+          }
+        },
+        "0.95/mean": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5761492988584657,
+            "brier": 0.19502357278955096,
+            "concordance": 0.5579613095238095
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5342177220261468,
+            "brier": 0.17741777871809136,
+            "concordance": 0.5440228846732912
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.3581519846182452,
+            "brier": 0.10467098383055377,
+            "concordance": 0.5460087635740141
+          }
+        },
+        "0.95/.2": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5761492988584657,
+            "brier": 0.19502357278955096,
+            "concordance": 0.5526041666666667
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5342177220261468,
+            "brier": 0.17741777871809136,
+            "concordance": 0.5395061728395062
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.3581519846182452,
+            "brier": 0.10467098383055377,
+            "concordance": 0.5334349399885693
+          }
+        },
+        "0.95/.05": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5761492988584657,
+            "brier": 0.19502357278955096,
+            "concordance": 0.5484375
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5342177220261468,
+            "brier": 0.17741777871809136,
+            "concordance": 0.5360734718458295
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.3581519846182452,
+            "brier": 0.10467098383055377,
+            "concordance": 0.519527529053153
+          }
+        },
+        "0.9/mean": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5749530588449058,
+            "brier": 0.1946695190055893,
+            "concordance": 0.5584821428571428
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5335337510491994,
+            "brier": 0.1772550961301921,
+            "concordance": 0.5462210177657332
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.3575719703471846,
+            "brier": 0.10445752187826907,
+            "concordance": 0.5530577252810059
+          }
+        },
+        "0.9/.2": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5749530588449058,
+            "brier": 0.1946695190055893,
+            "concordance": 0.5541666666666667
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5335337510491994,
+            "brier": 0.1772550961301921,
+            "concordance": 0.5391147244805782
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.3575719703471846,
+            "brier": 0.10445752187826907,
+            "concordance": 0.529434177938655
+          }
+        },
+        "0.9/.05": {
+          "strict": {
+            "entries": 1030,
+            "events": 34,
+            "logLoss": 0.5749530588449058,
+            "brier": 0.1946695190055893,
+            "concordance": 0.5558035714285714
+          },
+          "coverage95": {
+            "entries": 2045,
+            "events": 54,
+            "logLoss": 0.5335337510491994,
+            "brier": 0.1772550961301921,
+            "concordance": 0.5392351701294791
+          },
+          "large95": {
+            "entries": 387,
+            "events": 3,
+            "logLoss": 0.3575719703471846,
+            "brier": 0.10445752187826907,
+            "concordance": 0.5185749666603162
+          }
+        }
+      }
+    },
+    {
+      "cutoff": "2026-07-09",
+      "results": {
+        "1/mean": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5776693301095899,
+            "brier": 0.19566537814932955,
+            "concordance": 0.5481225430391758
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5210993589091889,
+            "brier": 0.17134062394149024,
+            "concordance": 0.5745615795176372
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4163630845800263,
+            "brier": 0.1269322556948335,
+            "concordance": 0.5939795531995457
+          }
+        },
+        "1/.2": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5776693301095899,
+            "brier": 0.19566537814932955,
+            "concordance": 0.553002575572726
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5210993589091889,
+            "brier": 0.17134062394149024,
+            "concordance": 0.5634856936474176
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4163630845800263,
+            "brier": 0.1269322556948335,
+            "concordance": 0.5743657705414615
+          }
+        },
+        "1/.05": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5776693301095899,
+            "brier": 0.19566537814932955,
+            "concordance": 0.5604581808323167
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5210993589091889,
+            "brier": 0.17134062394149024,
+            "concordance": 0.562883743328384
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4163630845800263,
+            "brier": 0.1269322556948335,
+            "concordance": 0.5699734948882998
+          }
+        },
+        "0.95/mean": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5735200733467234,
+            "brier": 0.19405176417380182,
+            "concordance": 0.5732004880032534
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5187338272504717,
+            "brier": 0.1704805000599072,
+            "concordance": 0.5930414543119708
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4161493944651069,
+            "brier": 0.12698863480765837,
+            "concordance": 0.6084437712987505
+          }
+        },
+        "0.95/.2": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5735200733467234,
+            "brier": 0.19405176417380182,
+            "concordance": 0.5727938186254575
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5187338272504717,
+            "brier": 0.1704805000599072,
+            "concordance": 0.5841727196115414
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4161493944651069,
+            "brier": 0.12698863480765837,
+            "concordance": 0.595418402120409
+          }
+        },
+        "0.95/.05": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5735200733467234,
+            "brier": 0.19405176417380182,
+            "concordance": 0.5721160363291311
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5187338272504717,
+            "brier": 0.1704805000599072,
+            "concordance": 0.5768690557405995
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4161493944651069,
+            "brier": 0.12698863480765837,
+            "concordance": 0.5830745929572132
+          }
+        },
+        "0.9/mean": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5732609574950887,
+            "brier": 0.19393294379848502,
+            "concordance": 0.5740816049884777
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5189177744799452,
+            "brier": 0.1705330881824784,
+            "concordance": 0.5932220394076809
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4157833200298346,
+            "brier": 0.12685087153376134,
+            "concordance": 0.6105641802347596
+          }
+        },
+        "0.9/.2": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5732609574950887,
+            "brier": 0.19393294379848502,
+            "concordance": 0.5724549274772943
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5189177744799452,
+            "brier": 0.1705330881824784,
+            "concordance": 0.5827882338777639
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4157833200298346,
+            "brier": 0.12685087153376134,
+            "concordance": 0.594509655433548
+          }
+        },
+        "0.9/.05": {
+          "strict": {
+            "entries": 1131,
+            "events": 39,
+            "logLoss": 0.5732609574950887,
+            "brier": 0.19393294379848502,
+            "concordance": 0.5735393791514166
+          },
+          "coverage95": {
+            "entries": 2515,
+            "events": 64,
+            "logLoss": 0.5189177744799452,
+            "brier": 0.1705330881824784,
+            "concordance": 0.5771299008788474
+          },
+          "large95": {
+            "entries": 738,
+            "events": 6,
+            "logLoss": 0.4157833200298346,
+            "brier": 0.12685087153376134,
+            "concordance": 0.5853464596743657
+          }
+        }
+      }
+    },
+    {
+      "cutoff": "2026-08-08",
+      "results": {
+        "1/mean": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5730610849314608,
+            "brier": 0.1932077194962072,
+            "concordance": 0.5216832261835184
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5079528714350311,
+            "brier": 0.165735495049237,
+            "concordance": 0.5216908275088445
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.43224947965775995,
+            "brier": 0.13355734420903556,
+            "concordance": 0.5177322825314056
+          }
+        },
+        "1/.2": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5730610849314608,
+            "brier": 0.1932077194962072,
+            "concordance": 0.5276446522501461
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5079528714350311,
+            "brier": 0.165735495049237,
+            "concordance": 0.5211515229959445
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.43224947965775995,
+            "brier": 0.13355734420903556,
+            "concordance": 0.5165471675752548
+          }
+        },
+        "1/.05": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5730610849314608,
+            "brier": 0.1932077194962072,
+            "concordance": 0.5297486849795441
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5079528714350311,
+            "brier": 0.165735495049237,
+            "concordance": 0.5219928380360687
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.43224947965775995,
+            "brier": 0.13355734420903556,
+            "concordance": 0.5177322825314056
+          }
+        },
+        "0.95/mean": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5745049395785713,
+            "brier": 0.19368591130780527,
+            "concordance": 0.5286966686148451
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5083281644645709,
+            "brier": 0.16587957853344093,
+            "concordance": 0.5464556907412201
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.43129251779212524,
+            "brier": 0.1332699640581883,
+            "concordance": 0.5522191277553923
+          }
+        },
+        "0.95/.2": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5745049395785713,
+            "brier": 0.19368591130780527,
+            "concordance": 0.5276446522501461
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5083281644645709,
+            "brier": 0.16587957853344093,
+            "concordance": 0.5498209509017171
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.43129251779212524,
+            "brier": 0.1332699640581883,
+            "concordance": 0.5571669826973217
+          }
+        },
+        "0.95/.05": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5745049395785713,
+            "brier": 0.19368591130780527,
+            "concordance": 0.5336060783167739
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5083281644645709,
+            "brier": 0.16587957853344093,
+            "concordance": 0.5485266200707567
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.43129251779212524,
+            "brier": 0.1332699640581883,
+            "concordance": 0.5547078691633088
+          }
+        },
+        "0.9/mean": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5740496782172847,
+            "brier": 0.1936002485279453,
+            "concordance": 0.5309760374050263
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5082538574966589,
+            "brier": 0.16590934736867602,
+            "concordance": 0.5448485632927776
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.4312500380678369,
+            "brier": 0.13327593707735877,
+            "concordance": 0.5509155013036264
+          }
+        },
+        "0.9/.2": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5740496782172847,
+            "brier": 0.1936002485279453,
+            "concordance": 0.5301578024547049
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5082538574966589,
+            "brier": 0.16590934736867602,
+            "concordance": 0.5454094399861938
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.4312500380678369,
+            "brier": 0.13327593707735877,
+            "concordance": 0.5516561981512207
+          }
+        },
+        "0.9/.05": {
+          "strict": {
+            "entries": 1125,
+            "events": 34,
+            "logLoss": 0.5740496782172847,
+            "brier": 0.1936002485279453,
+            "concordance": 0.5342489772063121
+          },
+          "coverage95": {
+            "entries": 3262,
+            "events": 68,
+            "logLoss": 0.5082538574966589,
+            "brier": 0.16590934736867602,
+            "concordance": 0.5438346708085253
+          },
+          "large95": {
+            "entries": 1473,
+            "events": 13,
+            "logLoss": 0.4312500380678369,
+            "brier": 0.13327593707735877,
+            "concordance": 0.5489008058781701
+          }
+        }
+      }
+    },
+    {
+      "cutoff": "2026-09-07",
+      "results": {
+        "1/mean": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5634540675769346,
+            "brier": 0.18903140835464816,
+            "concordance": 0.5451144529224387
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5384091560092422,
+            "brier": 0.179013421366763,
+            "concordance": 0.5474091942292527
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.47164314384257194,
+            "brier": 0.1508242542889796,
+            "concordance": 0.5102695001780838
+          }
+        },
+        "1/.2": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5634540675769346,
+            "brier": 0.18903140835464816,
+            "concordance": 0.5451144529224387
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5384091560092422,
+            "brier": 0.179013421366763,
+            "concordance": 0.5480122466020318
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.47164314384257194,
+            "brier": 0.1508242542889796,
+            "concordance": 0.5045708179983379
+          }
+        },
+        "1/.05": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5634540675769346,
+            "brier": 0.18903140835464816,
+            "concordance": 0.5468923623972146
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5384091560092422,
+            "brier": 0.179013421366763,
+            "concordance": 0.547919469313912
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.47164314384257194,
+            "brier": 0.1508242542889796,
+            "concordance": 0.49697257509201
+          }
+        },
+        "0.95/mean": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5615894552132721,
+            "brier": 0.18847145548190095,
+            "concordance": 0.5579302170531151
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5364090413407662,
+            "brier": 0.17835129953242942,
+            "concordance": 0.5675418657512641
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.46903355105559374,
+            "brier": 0.14997495738680697,
+            "concordance": 0.543036922711623
+          }
+        },
+        "0.95/.2": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5615894552132721,
+            "brier": 0.18847145548190095,
+            "concordance": 0.5606711608267279
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5364090413407662,
+            "brier": 0.17835129953242942,
+            "concordance": 0.5691654682933618
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.46903355105559374,
+            "brier": 0.14997495738680697,
+            "concordance": 0.5360322925323519
+          }
+        },
+        "0.95/.05": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5615894552132721,
+            "brier": 0.18847145548190095,
+            "concordance": 0.5651900140751167
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5364090413407662,
+            "brier": 0.17835129953242942,
+            "concordance": 0.5730621143943962
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.46903355105559374,
+            "brier": 0.14997495738680697,
+            "concordance": 0.5381692983497566
+          }
+        },
+        "0.9/mean": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5610464316192348,
+            "brier": 0.18837140291634022,
+            "concordance": 0.5610415586339729
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5354942440553354,
+            "brier": 0.1780837486292928,
+            "concordance": 0.5722271188013175
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.46719420868389844,
+            "brier": 0.14938698483905116,
+            "concordance": 0.5566900154339309
+          }
+        },
+        "0.9/.2": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5610464316192348,
+            "brier": 0.18837140291634022,
+            "concordance": 0.5640047410919328
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5354942440553354,
+            "brier": 0.1780837486292928,
+            "concordance": 0.574685716936494
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.46719420868389844,
+            "brier": 0.14938698483905116,
+            "concordance": 0.5514662234358305
+          }
+        },
+        "0.9/.05": {
+          "strict": {
+            "entries": 1567,
+            "events": 49,
+            "logLoss": 0.5610464316192348,
+            "brier": 0.18837140291634022,
+            "concordance": 0.5712645381139344
+          },
+          "coverage95": {
+            "entries": 2657,
+            "events": 76,
+            "logLoss": 0.5354942440553354,
+            "brier": 0.1780837486292928,
+            "concordance": 0.5784895857494086
+          },
+          "large95": {
+            "entries": 551,
+            "events": 6,
+            "logLoss": 0.46719420868389844,
+            "brier": 0.14938698483905116,
+            "concordance": 0.5556215125252285
+          }
+        }
+      }
+    }
+  ],
+  "adoptionCalibrationAudit": {
+    "scope": "Calibration coefficient learned on three earlier chronological validation periods, evaluated on fourth already-exposed historical month. Feature is training-only log(1+distinct pilots). Association is not causal skill adjustment. Both models evaluated on same >=95%-known-label future events. L2 penalty1 on intercept and coefficient fixed before fit.",
+    "results": {
+      "1": {
+        "countVsInterceptLogLossDifference95": [
+          -0.0019071524052434907,
+          -0.00024852511150536157
+        ],
+        "interceptOnlyCoefficient": -0.054456783839849573,
+        "trainValidationEntries": 7822,
+        "testEntries": 2657,
+        "intercept": -0.0565778192279566,
+        "logPilotCountCoefficient": 0.03524041985627917,
+        "center": 4.1879769333301935,
+        "finalHistoricalMonth": {
+          "unchanged": {
+            "logLoss": 0.5384091560092418,
+            "concordance": 0.5474091942292527
+          },
+          "interceptOnly": {
+            "logLoss": 0.5381322046609733,
+            "concordance": 0.5474091942292527
+          },
+          "learnedPilotCount": {
+            "logLoss": 0.5370483116537973,
+            "concordance": 0.5493575172797699
+          }
+        }
+      },
+      "0.95": {
+        "countVsInterceptLogLossDifference95": [
+          -0.002170154251702911,
+          -0.00024408934691245906
+        ],
+        "interceptOnlyCoefficient": -0.052547121631534834,
+        "trainValidationEntries": 7822,
+        "testEntries": 2657,
+        "intercept": -0.055035905284625715,
+        "logPilotCountCoefficient": 0.039535851821297215,
+        "center": 4.691845568686228,
+        "finalHistoricalMonth": {
+          "unchanged": {
+            "logLoss": 0.5364090413407662,
+            "concordance": 0.5675418657512641
+          },
+          "interceptOnly": {
+            "logLoss": 0.5361383806808732,
+            "concordance": 0.5675418657512641
+          },
+          "learnedPilotCount": {
+            "logLoss": 0.5349249205633186,
+            "concordance": 0.5724590620216171
+          }
+        }
+      }
+    }
+  },
+  "adoptedPolicy": {
+    "minimumCommanderCoverage": 0.95,
+    "ranking": "calibrated point estimate, not a lower quantile",
+    "calibration": "frozen pilot-adoption-2026-10-v1",
+    "interval": "transformed conditional range; calibration and fitted prior held fixed"
+  }
+}
