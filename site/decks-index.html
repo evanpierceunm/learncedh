@@ -1,0 +1,514 @@
+<div id="filter-container">
+  <select id="archetype-filter">
+    <option value="">All Archetypes</option>
+    <option value="Midrange">Midrange</option>
+    <option value="Turbo">Turbo</option>
+    <option value="Stax">Stax</option>
+    <option value="Control">Control</option>
+  </select>
+  <select id="category-filter">
+    <option value="">All Categories</option>
+    <option value="Beginner Friendly">Beginner Friendly</option>
+    <option value="Top 5">Top 5</option>
+    <option value="Recent Brews">Recent Brews</option>
+    <option value="Meta">Meta</option>
+    <option value="Off Meta">Off Meta</option>
+  </select>
+  <div id="tag-buttons" style="display: flex; gap: 10px;">
+    <img src="https://images.squarespace-cdn.com/content/66d4c645ed0ce01b2a43afcb/c29c2e65-d405-4126-a25a-fd8227993d9e/White.png?content-type=image%2Fpng"
+         class="tag-image" data-tag="White ⚪" alt="White">
+    <img src="https://images.squarespace-cdn.com/content/66d4c645ed0ce01b2a43afcb/7e0756ab-ed0d-425d-ae0a-9fbd0bb6905e/Blue.png?content-type=image%2Fpng"
+         class="tag-image" data-tag="Blue 🔵" alt="Blue">
+    <img src="https://images.squarespace-cdn.com/content/66d4c645ed0ce01b2a43afcb/928fdfab-943b-4d60-960b-ec9734d82a75/Black.png?content-type=image%2Fpng"
+         class="tag-image" data-tag="Black ⚫" alt="Black">
+    <img src="https://images.squarespace-cdn.com/content/66d4c645ed0ce01b2a43afcb/1bc78bed-52ff-44ce-b280-86ed75dbe387/Red.png?content-type=image%2Fpng"
+         class="tag-image" data-tag="Red 🔴" alt="Red">
+    <img src="https://images.squarespace-cdn.com/content/66d4c645ed0ce01b2a43afcb/a7d50b07-97e5-4d84-85cd-75542d2f8dcd/Green.png?content-type=image%2Fpng"
+         class="tag-image" data-tag="Green 🟢" alt="Green">
+  </div>
+  <label>
+    <input type="checkbox" id="match-exact-toggle" />
+    Match Exact Colors
+  </label>
+  <div id="search-container">
+    <input type="text" id="search-bar" placeholder="Search decks..." />
+  </div>
+  <label for="sort-select">Sort By:</label>
+  <select id="sort-select">
+    <option value="performance-desc" selected>Adjusted Performance (Beta)</option>
+    <option value="most-popular">Most Popular</option>
+    <option value="least-popular">Least Popular</option>
+    <option value="asc">Alphabetical (A-Z)</option>
+    <option value="desc">Alphabetical (Z-A)</option>
+    <option value="conversion-desc">Highest Conversion Rate</option>
+    <option value="conversion-asc">Lowest Conversion Rate</option>
+  </select>
+
+  <button id="reset-filters">Reset Filters</button>
+</div>
+
+<div id="performance-summary" role="status" aria-live="polite"></div>
+<details id="performance-methodology">
+  <summary>How Adjusted Performance works</summary>
+  <p>Estimates top-cut performance using each event’s field and cut size, with small samples pulled toward the field baseline. A score of 100 is the baseline on a common mix of events. Higher is better; this is not a win percentage.</p>
+  <p>The range shows uncertainty under the model. Similar scores do not establish a clear difference. “Limited data” means fewer than five events or five identified pilots, or missing pilot IDs. Pilot skill and individual decklists are not isolated.</p>
+  <p>CR and MS retain their existing source definitions and three-month window. Performance uses finished cuts from events with complete commander labels in the window shown above, so its entry totals can differ.</p>
+  <p><a href="https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md" target="_blank" rel="noopener">Full methodology and validation</a> · Tournament data: <a href="https://edhtop16.com/" target="_blank" rel="noopener">EDHTop16</a> / <a href="https://topdeck.gg/" target="_blank" rel="noopener">TopDeck</a></p>
+</details>
+<style>
+#performance-summary { margin: 1rem 0 .5rem; font-size: .9rem; }
+#performance-methodology { margin: 0 0 1.5rem; max-width: 75ch; font-size: .9rem; }
+#performance-methodology summary { cursor: pointer; font-weight: 600; }
+#performance-methodology p { margin: .65rem 0; }
+.post-performance { border-top: 1px solid currentColor; padding-top: .65rem; margin-top: .65rem; }
+.post-performance strong { display: block; font-size: 1rem; }
+.post-performance small { display: block; font-size: .75rem; line-height: 1.45; margin-top: .2rem; }
+</style>
+<div id="loader" style="display: none; text-align: center; padding: 20px;">
+  <!-- You can style this or replace it with a CSS-based spinner -->
+  <img src="https://images.squarespace-cdn.com/content/66d4c645ed0ce01b2a43afcb/529b8269-b377-4049-8fc9-e068db34b64c/loading+icon+gif.gif?content-type=image%2Fgif" alt="Loading..." style="width:50px;height:50px;">
+  <p>Loading decks...</p>
+</div>
+
+<div id="filtered-posts" class="grid-layout"></div>
+<h3 id="no-results-message" style="display: none; text-align: center;">No decks match filter</h3>
+
+<script>
+  document.addEventListener("DOMContentLoaded", async function () {
+    const archetypeFilter = document.getElementById("archetype-filter");
+    const categoryFilter = document.getElementById("category-filter");
+    const tagButtons = document.querySelectorAll(".tag-image");
+    const postsContainer = document.getElementById("filtered-posts");
+    const matchExactToggle = document.getElementById("match-exact-toggle");
+    const searchBar = document.getElementById("search-bar");
+    const sortSelect = document.getElementById("sort-select");
+    const resetFiltersButton = document.getElementById("reset-filters");
+    const noResultsMessage = document.getElementById("no-results-message");
+    const loader = document.getElementById("loader");
+
+    const baseURL = "/decklists?format=json";
+    const itemsPerPage = 20;
+    let currentPage = 1;
+    let allItems = [];
+    let filteredItems = [];
+    let activeTags = new Set();
+    let isLoading = false;
+
+    const rankedDecksURL = "https://raw.githubusercontent.com/evanpierceunm/learncedh/main/ranked-decks.json";
+
+    const deckNameToURLMap = {
+      "Aang, at the Crossroads // Aang, Destined Savior": "/decklists/aang",
+      "Arcum Dagsson": "/decklists/arcum-dagsson",
+      "The Cabbage Merchant": "/decklists/cabbage-merchant",
+      "Crystal, Inhuman Princess": "/decklists/crystal",
+      "Ishai, Ojutai Dragonspeaker / Rograkh, Son of Rohgahh": "/decklists/ishai-rograkh",
+      "Leonardo, the Balance / Michelangelo, the Heart": "/decklists/leonardo-michelangelo",
+      "Lumra, Bellow of the Woods": "/decklists/lumra",
+      "Nick Fury, Agent of S.H.I.E.L.D.": "/decklists/nick-fury",
+      "Terra, Magical Adept // Esper Terra": "/decklists/terra",
+      "Thrasios, Triton Hero / Yoshimaru, Ever Faithful": "/decklists/thrasios-yoshimaru",
+      "Vivi Ornitier": "/decklists/vivi",
+      "Zirda, the Dawnwaker": "/decklists/zirda",
+      "Dargo, the Shipwrecker / Tymna the Weaver": "/decklists/dargo-tymna",
+      "Erinis, Gloom Stalker / Street Urchin": "/decklists/erinis-street-urchin",
+      "Rocco, Cabaretti Caterer": "/decklists/rocco",
+      "Zur the Enchanter": "/decklists/zur",
+      "Selvala, Explorer Returned": "/decklists/selvala",
+      "Heliod, Sun-Crowned": "/decklists/heliod-sun-crowned",
+      "Shorikai, Genesis Engine": "/decklists/shorikai",
+      "Jenson Carthalion, Druid Exile": "/decklists/jenson-lurrus",
+      "K'rrik, Son of Yawgmoth": "/decklists/krrik",
+      "Malcolm, Keen-Eyed Navigator / Vial Smasher the Fierce": "/decklists/malcolm-vial-smasher",
+      "Derevi, Empyrial Tactician": "/decklists/derevi",
+      "Krark, the Thumbless / Sakashima of a Thousand Faces": "/decklists/krark-sakashima",
+      "Winota, Joiner of Forces": "/decklists/winota",
+      "Tameshi, Reality Architect": "/decklists/tameshi",
+      "Talion, the Kindly Lord": "/decklists/talion",
+      "Sefris of the Hidden Ways": "/decklists/sefris",
+      "Najeela, the Blade-Blossom": "/decklists/najeela",
+      "The Master of Keys": "/decklists/master-of-keys",
+      "Glarb, Calamity's Augur": "/decklists/glarb",
+      "Francisco, Fowl Marauder / Thrasios, Triton Hero": "/decklists/francisco-thrasios",
+      "Florian, Voldaren Scion": "/decklists/florian",
+      "Dargo, the Shipwrecker / Thrasios, Triton Hero": "/decklists/dargo-thrasios",
+      "Dargo, the Shipwrecker / Silas Renn, Seeker Adept": "/decklists/dargo-silas",
+      "Tivit, Seller of Secrets": "/decklists/tivit",
+      "Stella Lee, Wild Card": "/decklists/stella-lee",
+      "Kenrith, the Returned King": "/decklists/kenrith",
+      "Ob Nixilis, Captive Kingpin": "/decklists/ob-nixilis",
+      "Atraxa, Grand Unifier": "/decklists/atraxa-grand-unifier",
+      "Urza, Lord High Artificer": "/decklists/urza",
+      "Kraum, Ludevic's Opus / Tymna the Weaver": "/decklists/tymna-kraum",
+      "Magda, Brazen Outlaw": "/decklists/magda",
+      "Yuriko, the Tiger's Shadow": "/decklists/yuriko",
+      "Malcolm, Keen-Eyed Navigator / Tymna the Weaver": "/decklists/malcolm-tymna",
+      "Rograkh, Son of Rohgahh / Thrasios, Triton Hero": "/decklists/rograkh-thrasios",
+      "Inalla, Archmage Ritualist": "/decklists/inalla",
+      "Sisay, Weatherlight Captain": "/decklists/sisay",
+      "Tayam, Luminous Enigma": "/decklists/tayam",
+      "Kinnan, Bonder Prodigy": "/decklists/kinnan",
+      "Rograkh, Son of Rohgahh / Silas Renn, Seeker Adept": "/decklists/rograkh-silas",
+      "Thrasios, Triton Hero / Tymna the Weaver": "/decklists/tymna-thrasios",
+      "Selvala, Heart of the Wilds": "/decklists/selvala",
+      "Plagon, Lord of the Beach": "/decklists/plagon",
+      "Godo, Bandit Warlord": "/decklists/godo",
+      "Ral, Monsoon Mage // Ral, Leyline Prodigy": "/decklists/ral",
+      "Elsha of the Infinite": "/decklists/elsha",
+      "Ellivere of the Wild Court": "/decklists/ellivere",
+      "Etali, Primal Conqueror // Etali, Primal Sickness": "/decklists/etali",
+      "The Gitrog Monster": "/decklists/gitrog",
+      "Jeska, Thrice Reborn / Tymna the Weaver": "/decklists/jeska-tymna",
+      "Korvold, Fae-Cursed King": "/decklists/korvold",
+      "Niv-Mizzet, Visionary": "/decklists/niv-mizzet-visionary",
+      "Tasigur, the Golden Fang": "/decklists/tasigur",
+      "Tana, the Bloodsower / Tymna the Weaver": "/decklists/tymna-tana",
+      "Tevesh Szat, Doom of Fools / Thrasios, Triton Hero": "/decklists/thrasios-tevesh",
+      "Marneus Calgar": "/decklists/marneus-calgar",
+      "Baylen, the Haymaker": "/decklists/baylen",
+      "Thrasios, Triton Hero / Vial Smasher the Fierce": "/decklists/thrasios-vial-smasher",
+      "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse": "/decklists/heliod-the-radiant-dawn",
+      "Rowan, Scion of War": "/decklists/rowan",
+      "Dihada, Binder of Wills": "/decklists/dihada",
+      "Yisan, the Wanderer Bard": "/decklists/yisan",
+      "Kodama of the East Tree / Tymna the Weaver": "/decklists/tymna-kodama",
+      "Krark, the Thumbless / Silas Renn, Seeker Adept": "/decklists/krark-silas",
+      "Rakdos, the Muscle": "/decklists/rakdos-the-muscle",
+    };
+
+    const urlToDeckNameMap = {};
+    for (const [deckName, deckUrl] of Object.entries(deckNameToURLMap)) {
+      urlToDeckNameMap[deckUrl.toLowerCase()] = deckName;
+    }
+
+    // Show loader
+    function showLoader() {
+      loader.style.display = "block";
+    }
+
+    // Hide loader
+    function hideLoader() {
+      loader.style.display = "none";
+    }
+
+    let performanceFeed = null;
+    const performanceURL = "https://raw.githubusercontent.com/evanpierceunm/learncedh/main/deck-performance.json";
+    const normalizedName = name => (name || "").split(" / ").map(x => x.trim().toLowerCase()).sort().join(" / ");
+    const hasPerformance = row => row && typeof row.score === "number" && Number.isFinite(row.score);
+    async function fetchPerformance() {
+      try {
+        const response = await fetch(performanceURL, {signal: AbortSignal.timeout(15000)});
+        if (!response.ok) throw new Error("Performance feed unavailable");
+        const feed = await response.json();
+        if (feed.schemaVersion !== 1 || !Array.isArray(feed.data) || !feed.data.length ||
+            !feed.window || !Number.isFinite(feed.window.days) || !feed.coverage ||
+            !Number.isFinite(Date.parse(feed.window.endExclusive)) || !Number.isFinite(Date.parse(feed.generatedAt)) ||
+            feed.data.some(r => typeof r.name !== "string" || !hasPerformance(r) || !Array.isArray(r.interval) || r.interval.length !== 2 ||
+              !r.interval.every(Number.isFinite) || ![r.entries,r.events,r.pilots].every(Number.isInteger))) {
+          throw new Error("Invalid performance feed");
+        }
+        return feed;
+      } catch (error) {
+        console.warn("Deck performance unavailable", error);
+        return null;
+      }
+    }
+
+    async function fetchRankedDecks() {
+      const response = await fetch(rankedDecksURL);
+      if (!response.ok) throw new Error("Failed to fetch ranked decks JSON.");
+      return await response.json();
+    }
+
+    async function fetchAllBlogPosts() {
+      let offset = null;
+      const allPosts = [];
+
+      while (true) {
+        const url = offset ? `/decklists?offset=${offset}&format=json` : baseURL;
+        const response = await fetch(url);
+        if (!response.ok) break;
+
+        const data = await response.json();
+        if (data.items && data.items.length > 0) {
+          allPosts.push(...data.items);
+        } else {
+          break;
+        }
+
+        offset = data.pagination?.nextPageOffset || null;
+        if (!offset) break;
+      }
+
+      return allPosts;
+    }
+
+    async function initialize() {
+      showLoader();
+      const [rankedDecksData, blogPosts, performanceData] = await Promise.all([
+        fetchRankedDecks().catch(() => ({data: []})), fetchAllBlogPosts(), fetchPerformance()
+      ]);
+      performanceFeed = performanceData;
+      const performanceByName = new Map((performanceFeed?.data || []).map(row => [normalizedName(row.name), row]));
+      const summary = document.getElementById("performance-summary");
+      if (performanceFeed) {
+        const window = performanceFeed.window;
+        const lastDay = new Date(Date.parse(window.endExclusive + "T00:00:00Z") - 86400000).toISOString().slice(0,10);
+        const stale = Date.now() - Date.parse(performanceFeed.generatedAt) > 7 * 86400000;
+        summary.textContent = `Performance: ${window.days} days (${window.start} to ${lastDay}) · ${performanceFeed.coverage.events.toLocaleString()} eligible events · 100 = field baseline${stale ? " · Update delayed; showing last available results" : ""}.`;
+      } else {
+        summary.textContent = "Performance data is temporarily unavailable. The performance sort falls back to popularity; other sorts and filters remain available.";
+      }
+
+      if (!rankedDecksData || !blogPosts) {
+        hideLoader();
+        return;
+      }
+
+      allItems = blogPosts.map((post) => {
+        let postUrlPath = "";
+        try {
+          const urlObj = new URL(post.fullUrl, window.location.origin);
+          postUrlPath = urlObj.pathname.toLowerCase();
+        } catch (e) {
+          postUrlPath = (post.fullUrl || "").toLowerCase().trim();
+        }
+
+        const deckName = urlToDeckNameMap[postUrlPath] || null;
+        if (!deckName) {
+          return {
+            ...post,
+            metaShare: 0,
+            conversionRate: 0,
+          };
+        }
+
+        const normalizedDeckName = deckName.toLowerCase().trim();
+        const rankedData = rankedDecksData.data.find((deck) => {
+          const normalizedDeckNameFromData = (deck.name || "").toLowerCase().trim();
+          return normalizedDeckNameFromData === normalizedDeckName;
+        });
+
+        return {
+          ...post,
+          performance: performanceByName.get(normalizedName(deckName)) || null,
+          metaShare: rankedData ? parseFloat((rankedData.metaShare * 100).toFixed(2)) : 0,
+          conversionRate: rankedData ? parseFloat((rankedData.conversionRate * 100).toFixed(2)) : 0,
+        };
+      });
+
+      populateFiltersFromURL();
+      if (!new URLSearchParams(window.location.search).has("sort")) {
+        sortSelect.value = "performance-desc";
+      }
+      if (!Array.from(sortSelect.options).some(option => option.value === sortSelect.value)) {
+        sortSelect.value = "performance-desc";
+      }
+      if (!performanceFeed && sortSelect.value === "performance-desc") sortSelect.value = "most-popular";
+      applyFiltersAndSort();
+      hideLoader();
+    }
+
+    function updateURL() {
+      const urlParams = new URLSearchParams();
+
+      if (archetypeFilter.value) urlParams.set("archetype", archetypeFilter.value);
+      if (categoryFilter.value) urlParams.set("category", categoryFilter.value);
+      if (matchExactToggle.checked) urlParams.set("exact", "true");
+      if (searchBar.value) urlParams.set("search", searchBar.value);
+      if (sortSelect.value) urlParams.set("sort", sortSelect.value);
+
+      const selectedTags = Array.from(activeTags);
+      if (selectedTags.length > 0) urlParams.set("tags", selectedTags.join(","));
+
+      const newURL = `${window.location.pathname}?${urlParams.toString()}`;
+      window.history.replaceState({}, "", newURL);
+    }
+
+    function populateFiltersFromURL() {
+      const urlParams = new URLSearchParams(window.location.search);
+
+      if (urlParams.has("archetype")) archetypeFilter.value = urlParams.get("archetype");
+      if (urlParams.has("category")) categoryFilter.value = urlParams.get("category");
+      if (urlParams.has("exact")) matchExactToggle.checked = urlParams.get("exact") === "true";
+      if (urlParams.has("search")) searchBar.value = urlParams.get("search");
+      if (urlParams.has("sort")) sortSelect.value = urlParams.get("sort");
+      if (urlParams.has("tags")) {
+        const tags = urlParams.get("tags").split(",");
+        tags.forEach(tag => {
+          activeTags.add(tag);
+          const matchingButton = Array.from(tagButtons).find(button => button.dataset.tag === tag);
+          if (matchingButton) matchingButton.classList.add("active");
+        });
+      }
+    }
+
+    function applyFiltersAndSort() {
+      showLoader(); // Show loader while processing
+      const selectedArchetype = archetypeFilter.value;
+      const selectedCategory = categoryFilter.value;
+      const selectedTags = Array.from(activeTags);
+      const matchExact = matchExactToggle.checked;
+      const searchQuery = searchBar.value.toLowerCase();
+      if (!performanceFeed && sortSelect.value === "performance-desc") sortSelect.value = "most-popular";
+      const sortCriteria = sortSelect.value || "performance-desc";
+
+      filteredItems = allItems.filter((item) => {
+        const matchesArchetype = selectedArchetype
+          ? item.categories.includes(selectedArchetype)
+          : true;
+
+        const matchesCategory = selectedCategory
+          ? selectedCategory === "Off Meta"
+            ? !item.categories.includes("Meta")
+            : item.categories.includes(selectedCategory)
+          : true;
+
+        const matchesTags = selectedTags.length
+          ? matchExact
+            ? JSON.stringify(item.tags.sort()) === JSON.stringify(selectedTags.sort())
+            : selectedTags.every((tag) => item.tags.includes(tag))
+          : true;
+
+        const titleMatch = (item.title || "").toLowerCase().includes(searchQuery);
+        const excerptMatch = (item.excerpt || "").toLowerCase().includes(searchQuery);
+        const matchesSearch = searchQuery ? (titleMatch || excerptMatch) : true;
+
+        return matchesArchetype && matchesCategory && matchesTags && matchesSearch;
+      });
+
+      filteredItems = sortItems(filteredItems, sortCriteria);
+
+      currentPage = 1;
+      updateURL();
+      displayPosts(filteredItems);
+      hideLoader(); // Hide loader after processing
+    }
+
+    function sortItems(items, criteria) {
+      return items.sort((a, b) => {
+        const aMetaShare = a.metaShare || 0;
+        const bMetaShare = b.metaShare || 0;
+        const aConversionRate = a.conversionRate || 0;
+        const bConversionRate = b.conversionRate || 0;
+
+        if (criteria === "performance-desc") {
+          const ar = hasPerformance(a.performance), br = hasPerformance(b.performance);
+          if (ar !== br) return ar ? -1 : 1;
+          return (ar ? b.performance.score - a.performance.score : 0) || (a.title || "").localeCompare(b.title || "");
+        } else if (criteria === "most-popular") {
+          return bMetaShare - aMetaShare;
+        } else if (criteria === "least-popular") {
+          return aMetaShare - bMetaShare;
+        } else if (criteria === "conversion-asc") {
+          return aConversionRate - bConversionRate;
+        } else if (criteria === "conversion-desc") {
+          return bConversionRate - aConversionRate;
+        } else if (criteria === "asc") {
+          return (a.title || "").localeCompare(b.title || "");
+        } else if (criteria === "desc") {
+          return (b.title || "").localeCompare(a.title || "");
+        }
+        return 0;
+      });
+    }
+
+    function displayPosts(posts) {
+      const startIndex = (currentPage - 1) * itemsPerPage;
+      const endIndex = startIndex + itemsPerPage;
+      const itemsToDisplay = posts.slice(startIndex, endIndex);
+
+      if (currentPage === 1) postsContainer.innerHTML = "";
+
+      if (posts.length === 0) {
+        noResultsMessage.style.display = "block";
+      } else {
+        noResultsMessage.style.display = "none";
+        itemsToDisplay.forEach((post) => {
+          const postElement = document.createElement("a");
+          postElement.classList.add("post-item");
+          postElement.href = post.fullUrl || "#";
+          postElement.dataset.performanceScore = hasPerformance(post.performance) ? String(post.performance.score) : "";
+
+          const conversionRate = post.conversionRate ? post.conversionRate.toFixed(1) : "0.0";
+          const metaShare = post.metaShare ? post.metaShare.toFixed(1) : "0.0";
+
+          postElement.innerHTML = `
+            <div class="post-image-container">
+              <img src="${post.assetUrl || "https://via.placeholder.com/300"}" alt="${post.title}" />
+              <div class="deck-stats-overlay">
+                <div class="conversion-rate">CR: ${conversionRate}%</div>
+                <div class="meta-share">MS: ${metaShare}%</div>
+              </div>
+            </div>
+            <div class="post-content">
+              <h3>${post.title}</h3>
+              <div class="post-performance">
+                ${hasPerformance(post.performance) ? `
+                  <strong>Performance: ${post.performance.score.toFixed(1)}</strong>
+                  <small>95% model range: ${post.performance.interval[0].toFixed(0)} to ${post.performance.interval[1].toFixed(0)}</small>
+                  <small>${post.performance.entries.toLocaleString()} entries · ${post.performance.events} events · ${post.performance.pilots} pilots${post.performance.evidence === "limited" ? " · Limited data" : ""}</small>
+                ` : `<small>Performance: ${performanceFeed ? 'insufficient eligible data' : 'temporarily unavailable'}</small>`}
+              </div>
+              <p>${post.excerpt || "No description available."}</p>
+            </div>
+          `;
+          postsContainer.appendChild(postElement);
+        });
+      }
+    }
+
+    resetFiltersButton.addEventListener("click", () => {
+      archetypeFilter.value = "";
+      categoryFilter.value = "";
+      searchBar.value = "";
+      sortSelect.value = "performance-desc";
+      matchExactToggle.checked = false;
+      activeTags.clear();
+      tagButtons.forEach(button => button.classList.remove("active"));
+      applyFiltersAndSort();
+    });
+
+    archetypeFilter.addEventListener("change", applyFiltersAndSort);
+    categoryFilter.addEventListener("change", applyFiltersAndSort);
+    sortSelect.addEventListener("change", applyFiltersAndSort);
+    matchExactToggle.addEventListener("change", applyFiltersAndSort);
+    searchBar.addEventListener("input", applyFiltersAndSort);
+    tagButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        const tag = button.dataset.tag;
+        if (activeTags.has(tag)) {
+          activeTags.delete(tag);
+          button.classList.remove("active");
+        } else {
+          activeTags.add(tag);
+          button.classList.add("active");
+        }
+        applyFiltersAndSort();
+      });
+    });
+
+    window.addEventListener("scroll", () => {
+      const { scrollTop, scrollHeight, clientHeight } = document.documentElement;
+      if (
+        scrollTop + clientHeight >= scrollHeight - 100 &&
+        !isLoading &&
+        filteredItems.length > currentPage * itemsPerPage
+      ) {
+        isLoading = true;
+        showLoader(); // show loader when loading more decks
+        currentPage++;
+        displayPosts(filteredItems);
+        isLoading = false;
+        hideLoader(); // hide loader after posts are displayed
+      }
+    });
+
+    // Initialize the data and hide the loader once done.
+    initialize().catch(error => {
+      console.error("Deck list unavailable", error);
+      hideLoader();
+      noResultsMessage.textContent = "Decks could not be loaded. Please reload the page.";
+      noResultsMessage.style.display = "block";
+    });
+  });
+</script>

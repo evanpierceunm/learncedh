@@ -1,0 +1,4126 @@
+{
+  "scope": "Sensitivity, not pilot-adjusted strength; reference events and empirical prior held fixed.",
+  "windowDays": 180,
+  "data": [
+    {
+      "name": "Magda, Brazen Outlaw",
+      "score": 125.7732402896483,
+      "entries": 188,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 124.30976651926804,
+      "scoreWithoutLargestEvent": 124.81009022844222
+    },
+    {
+      "name": "Kinnan, Bonder Prodigy",
+      "score": 118.159780818608,
+      "entries": 575,
+      "largestPilotEntries": 12,
+      "scoreWithoutLeadingPilot": 118.47735445308962,
+      "scoreWithoutLargestEvent": 118.90003318660752
+    },
+    {
+      "name": "Nick Fury, Agent of S.H.I.E.L.D.",
+      "score": 115.86541535267412,
+      "entries": 87,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 111.77483569023292,
+      "scoreWithoutLargestEvent": 112.94421914619771
+    },
+    {
+      "name": "Arcum Dagsson",
+      "score": 115.50401474821834,
+      "entries": 73,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 116.90975899139278,
+      "scoreWithoutLargestEvent": 114.89668212523746
+    },
+    {
+      "name": "Thrasios, Triton Hero / Tymna the Weaver",
+      "score": 113.91769879784879,
+      "entries": 219,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 114.45118320587571,
+      "scoreWithoutLargestEvent": 114.09505797630497
+    },
+    {
+      "name": "Thrasios, Triton Hero / Vial Smasher the Fierce",
+      "score": 113.73176297333907,
+      "entries": 56,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 113.75462264907557,
+      "scoreWithoutLargestEvent": 112.62581090643005
+    },
+    {
+      "name": "Kediss, Emberclaw Familiar / Malcolm, Keen-Eyed Navigator",
+      "score": 112.34200940163633,
+      "entries": 35,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 113.07815475027633,
+      "scoreWithoutLargestEvent": 111.45920417178752
+    },
+    {
+      "name": "Vadrik, Astral Archmage",
+      "score": 112.09171145141252,
+      "entries": 7,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 104.9336596916047,
+      "scoreWithoutLargestEvent": 109.4848924383735
+    },
+    {
+      "name": "Francisco, Fowl Marauder / Rograkh, Son of Rohgahh",
+      "score": 111.81298194401057,
+      "entries": 15,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 102.50679245949922,
+      "scoreWithoutLargestEvent": 109.47324353399435
+    },
+    {
+      "name": "Malcolm, Keen-Eyed Navigator / Tana, the Bloodsower",
+      "score": 111.79669472927458,
+      "entries": 47,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 112.1731436722994,
+      "scoreWithoutLargestEvent": 112.67653484701961
+    },
+    {
+      "name": "Rograkh, Son of Rohgahh / Silas Renn, Seeker Adept",
+      "score": 111.523295803038,
+      "entries": 353,
+      "largestPilotEntries": 13,
+      "scoreWithoutLeadingPilot": 110.35527395975024,
+      "scoreWithoutLargestEvent": 112.13599878620653
+    },
+    {
+      "name": "Kodama of the East Tree / Tymna the Weaver",
+      "score": 111.46382633354901,
+      "entries": 15,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 103.4785392256627,
+      "scoreWithoutLargestEvent": 110.13744873398525
+    },
+    {
+      "name": "Kraum, Ludevic's Opus / Tymna the Weaver",
+      "score": 111.19456675425349,
+      "entries": 544,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 110.64975110776726,
+      "scoreWithoutLargestEvent": 110.28894292389978
+    },
+    {
+      "name": "Tevesh Szat, Doom of Fools / Thrasios, Triton Hero",
+      "score": 111.17951225686548,
+      "entries": 25,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 114.0556284803848,
+      "scoreWithoutLargestEvent": 109.43046015737988
+    },
+    {
+      "name": "Dihada, Binder of Wills",
+      "score": 111.09765425488547,
+      "entries": 32,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 109.81531547989012,
+      "scoreWithoutLargestEvent": 111.11390867474285
+    },
+    {
+      "name": "Jhoira, Ageless Innovator",
+      "score": 110.55232960372024,
+      "entries": 20,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 104.5811276130443,
+      "scoreWithoutLargestEvent": 112.12756783066561
+    },
+    {
+      "name": "Rograkh, Son of Rohgahh / Thrasios, Triton Hero",
+      "score": 109.92074436266662,
+      "entries": 424,
+      "largestPilotEntries": 12,
+      "scoreWithoutLeadingPilot": 110.90976523400649,
+      "scoreWithoutLargestEvent": 110.70902012494096
+    },
+    {
+      "name": "Sisay, Weatherlight Captain",
+      "score": 109.8125195937726,
+      "entries": 317,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 110.55120785146418,
+      "scoreWithoutLargestEvent": 109.37994509467727
+    },
+    {
+      "name": "Derevi, Empyrial Tactician",
+      "score": 109.69411895520358,
+      "entries": 45,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 107.00837506202919,
+      "scoreWithoutLargestEvent": 110.83150687181785
+    },
+    {
+      "name": "Crystal, Inhuman Princess",
+      "score": 109.58255954347437,
+      "entries": 87,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 106.15553990055562,
+      "scoreWithoutLargestEvent": 107.47791753628917
+    },
+    {
+      "name": "Dargo, the Shipwrecker / Reyhan, Last of the Abzan",
+      "score": 108.88615136921405,
+      "entries": 12,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 101.67895769908756,
+      "scoreWithoutLargestEvent": 106.48025725743582
+    },
+    {
+      "name": "Kenrith, the Returned King",
+      "score": 108.10888808874671,
+      "entries": 45,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 109.64490876041688,
+      "scoreWithoutLargestEvent": 108.05867040760577
+    },
+    {
+      "name": "Dack Fayden, Helping Hand",
+      "score": 108.0442778230694,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 105.85001380804987,
+      "scoreWithoutLargestEvent": 102.93498884949146
+    },
+    {
+      "name": "Marneus Calgar",
+      "score": 107.59584260582567,
+      "entries": 42,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 106.15226622777345,
+      "scoreWithoutLargestEvent": 105.60173072108431
+    },
+    {
+      "name": "Malcolm, Keen-Eyed Navigator / Tymna the Weaver",
+      "score": 107.13806863641545,
+      "entries": 23,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 106.41011184636235,
+      "scoreWithoutLargestEvent": 105.68800033004598
+    },
+    {
+      "name": "Gwenom, Remorseless",
+      "score": 106.78233538079019,
+      "entries": 32,
+      "largestPilotEntries": 7,
+      "scoreWithoutLeadingPilot": 105.83260345654662,
+      "scoreWithoutLargestEvent": 105.85050220014998
+    },
+    {
+      "name": "King T'Challa // Black Panther, Hope Enduring",
+      "score": 106.36382341998979,
+      "entries": 16,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 107.18748885535554,
+      "scoreWithoutLargestEvent": 102.03405066048258
+    },
+    {
+      "name": "Kykar, Wind's Fury",
+      "score": 106.26764928574124,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 104.10455917546005,
+      "scoreWithoutLargestEvent": 104.10455917546005
+    },
+    {
+      "name": "Halana, Kessig Ranger / Tymna the Weaver",
+      "score": 106.2362199850506,
+      "entries": 12,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 107.62006113799728,
+      "scoreWithoutLargestEvent": 107.30917818220412
+    },
+    {
+      "name": "Sami, Wildcat Captain",
+      "score": 106.2066023199329,
+      "entries": 13,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 107.56584554716372,
+      "scoreWithoutLargestEvent": 106.88662142535678
+    },
+    {
+      "name": "Hearthhull, the Worldseed",
+      "score": 105.96255936593997,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 103.22023961587678,
+      "scoreWithoutLargestEvent": 103.22023961587678
+    },
+    {
+      "name": "Thor, Guardian of Midgard",
+      "score": 105.84775756067026,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 103.2829265270885
+    },
+    {
+      "name": "Iron Man, Titan of Innovation",
+      "score": 105.64022123820857,
+      "entries": 8,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 101.73463231147893,
+      "scoreWithoutLargestEvent": 106.6589517023051
+    },
+    {
+      "name": "Mm'menon, the Right Hand",
+      "score": 105.52067331568941,
+      "entries": 5,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 101.09825138084591,
+      "scoreWithoutLargestEvent": 103.59081698371226
+    },
+    {
+      "name": "Ishai, Ojutai Dragonspeaker / Krark, the Thumbless",
+      "score": 105.5012384338612,
+      "entries": 8,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 106.78267361360426,
+      "scoreWithoutLargestEvent": 103.2284072487289
+    },
+    {
+      "name": "Emiel the Blessed",
+      "score": 105.44484785769669,
+      "entries": 3,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 103.07701470168428,
+      "scoreWithoutLargestEvent": 102.72113823670325
+    },
+    {
+      "name": "Teferi, Temporal Archmage",
+      "score": 105.43568807606289,
+      "entries": 8,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 103.50393251995081,
+      "scoreWithoutLargestEvent": 102.98398040521835
+    },
+    {
+      "name": "Dargo, the Shipwrecker / Ishai, Ojutai Dragonspeaker",
+      "score": 105.3471222989078,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 103.00586179305671
+    },
+    {
+      "name": "Marchesa, Dealer of Death",
+      "score": 104.90831729079673,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 102.38386159566025,
+      "scoreWithoutLargestEvent": 102.38386159566025
+    },
+    {
+      "name": "Breya, Etherium Shaper",
+      "score": 104.72585641704313,
+      "entries": 11,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 101.14122895777533,
+      "scoreWithoutLargestEvent": 105.40063424565673
+    },
+    {
+      "name": "The Cabbage Merchant",
+      "score": 104.4729661816346,
+      "entries": 53,
+      "largestPilotEntries": 8,
+      "scoreWithoutLeadingPilot": 102.28311622162957,
+      "scoreWithoutLargestEvent": 104.67072748359412
+    },
+    {
+      "name": "Vadrok, Apex of Thunder",
+      "score": 104.42737086666504,
+      "entries": 4,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 102.38571469102507,
+      "scoreWithoutLargestEvent": 102.21099467490632
+    },
+    {
+      "name": "Vohar, Vodalian Desecrator",
+      "score": 104.35508897143981,
+      "entries": 7,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 103.28969510369282,
+      "scoreWithoutLargestEvent": 104.9848713659913
+    },
+    {
+      "name": "Trazyn the Infinite",
+      "score": 104.2258440298294,
+      "entries": 3,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.5899524534164,
+      "scoreWithoutLargestEvent": 102.19997768182787
+    },
+    {
+      "name": "Tasigur, the Golden Fang",
+      "score": 104.21763739933905,
+      "entries": 11,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 98.1858568705527,
+      "scoreWithoutLargestEvent": 104.72768286584261
+    },
+    {
+      "name": "Helga, Skittish Seer",
+      "score": 104.05465433834989,
+      "entries": 17,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 102.2313402978966,
+      "scoreWithoutLargestEvent": 102.3199337332507
+    },
+    {
+      "name": "Rograkh, Son of Rohgahh / Tymna the Weaver",
+      "score": 104.02787894691767,
+      "entries": 24,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 100.60529460626847,
+      "scoreWithoutLargestEvent": 103.37917336827866
+    },
+    {
+      "name": "Oswald Fiddlebender",
+      "score": 103.97301126513429,
+      "entries": 11,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 105.44551822143445,
+      "scoreWithoutLargestEvent": 102.5159286388474
+    },
+    {
+      "name": "Tivit, Seller of Secrets",
+      "score": 103.91493843647049,
+      "entries": 115,
+      "largestPilotEntries": 13,
+      "scoreWithoutLeadingPilot": 106.41417283121635,
+      "scoreWithoutLargestEvent": 102.6432701963136
+    },
+    {
+      "name": "Witherbloom, the Balancer",
+      "score": 103.78699714017625,
+      "entries": 8,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 104.5953749618939,
+      "scoreWithoutLargestEvent": 104.5953749618939
+    },
+    {
+      "name": "Teval, the Balanced Scale",
+      "score": 103.7353738813082,
+      "entries": 5,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 98.53514414301674,
+      "scoreWithoutLargestEvent": 101.6818720170753
+    },
+    {
+      "name": "Kodama of the East Tree / Sakashima of a Thousand Faces",
+      "score": 103.56144173807573,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Coram, the Undertaker",
+      "score": 103.50099479850482,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sauron, Lord of the Rings",
+      "score": 103.45762771659321,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sliver Gravemother",
+      "score": 103.45762771659321,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Emrakul, the Promised End",
+      "score": 103.45762771659321,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ulalek, Fused Atrocity",
+      "score": 103.42374956700105,
+      "entries": 11,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 102.72942514823546,
+      "scoreWithoutLargestEvent": 101.2160612190318
+    },
+    {
+      "name": "Leonardo da Vinci",
+      "score": 103.3717498787006,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Killian, Decisive Mentor",
+      "score": 103.3164697122855,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Fantastic Four",
+      "score": 103.2829265270885,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "April O'Neil, Live on the Scene / Leonardo, the Balance",
+      "score": 103.26140398721964,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Nezahal, Primal Tide",
+      "score": 103.2438311343424,
+      "entries": 5,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 100.23841760963896,
+      "scoreWithoutLargestEvent": 100.77842196568886
+    },
+    {
+      "name": "Winota, Joiner of Forces",
+      "score": 103.24085146058273,
+      "entries": 60,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 103.21070367020965,
+      "scoreWithoutLargestEvent": 100.71995966967583
+    },
+    {
+      "name": "Loot, the Key to Everything",
+      "score": 103.22023961587678,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Yorion, Sky Nomad",
+      "score": 103.22023961587678,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Grolnok, the Omnivore",
+      "score": 103.22023961587678,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Mahadi, Emporium Master",
+      "score": 103.22023961587678,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Vren, the Relentless",
+      "score": 103.22023961587678,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sauron, the Dark Lord",
+      "score": 103.06746630445129,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 103.61272409915338,
+      "scoreWithoutLargestEvent": 103.61272409915338
+    },
+    {
+      "name": "Kefka, Court Mage // Kefka, Ruler of Ruin",
+      "score": 103.06478033110713,
+      "entries": 113,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 105.38660707227933,
+      "scoreWithoutLargestEvent": 104.4694026881299
+    },
+    {
+      "name": "The Jolly Balloon Man",
+      "score": 103.04207329403832,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Fantasticar",
+      "score": 103.03816814808502,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Norman Osborn // Green Goblin",
+      "score": 103.02604198463774,
+      "entries": 14,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 100.31894314447635,
+      "scoreWithoutLargestEvent": 103.89834715865967
+    },
+    {
+      "name": "Aminatou, the Fateshifter",
+      "score": 103.00586179305671,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Teshar, Ancestor's Apostle",
+      "score": 103.00443494436067,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 103.66623948442552,
+      "scoreWithoutLargestEvent": 103.66623948442552
+    },
+    {
+      "name": "Cecily, Haunted Mage / Elmar, Ulvenwald Informant",
+      "score": 102.96330566828247,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Yawgmoth, Thran Physician",
+      "score": 102.94454224801422,
+      "entries": 8,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 103.40745308379002,
+      "scoreWithoutLargestEvent": 101.77172243855523
+    },
+    {
+      "name": "Annie Flash, the Veteran",
+      "score": 102.9109223411352,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sakashima of a Thousand Faces / Thrasios, Triton Hero",
+      "score": 102.8959993812345,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Baron Helmut Zemo",
+      "score": 102.83236141516753,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Elesh Norn, Grand Cenobite",
+      "score": 102.83236141516753,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Francisco, Fowl Marauder / Tana, the Bloodsower",
+      "score": 102.742659165184,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kozilek, the Great Distortion",
+      "score": 102.742659165184,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Dargo, the Shipwrecker / Tymna the Weaver",
+      "score": 102.70540879506909,
+      "entries": 165,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 101.38150985486982,
+      "scoreWithoutLargestEvent": 102.11834714778188
+    },
+    {
+      "name": "Eladamri, Korvecdal",
+      "score": 102.62134093995641,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.1323507246128,
+      "scoreWithoutLargestEvent": 100.1323507246128
+    },
+    {
+      "name": "Bruse Tarl, Boorish Herder / Kamahl, Heart of Krosa",
+      "score": 102.5932558098425,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Flamewar, Brash Veteran // Flamewar, Streetwise Operative",
+      "score": 102.5932558098425,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Dargo, the Shipwrecker / Kodama of the East Tree",
+      "score": 102.50066816668874,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 103.03816814808502
+    },
+    {
+      "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "score": 102.44072168640628,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.8643595129331,
+      "scoreWithoutLargestEvent": 99.8643595129331
+    },
+    {
+      "name": "Scion of the Ur-Dragon",
+      "score": 102.4398080921695,
+      "entries": 59,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 101.88011785540633,
+      "scoreWithoutLargestEvent": 103.91944371677465
+    },
+    {
+      "name": "Niv-Mizzet, Ghost Counsel",
+      "score": 102.40786071635466,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.92437714269698,
+      "scoreWithoutLargestEvent": 99.92437714269698
+    },
+    {
+      "name": "Yarok, the Desecrated",
+      "score": 102.38382240703649,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.67412856384904,
+      "scoreWithoutLargestEvent": 99.67412856384904
+    },
+    {
+      "name": "Codie, Vociferous Codex",
+      "score": 102.37745743491338,
+      "entries": 5,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.13647351827333,
+      "scoreWithoutLargestEvent": 100.13647351827333
+    },
+    {
+      "name": "Umbris, Fear Manifest",
+      "score": 102.30570096017118,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.18977570667268,
+      "scoreWithoutLargestEvent": 100.18977570667268
+    },
+    {
+      "name": "Prime Speaker Vannifar",
+      "score": 102.28262166785967,
+      "entries": 5,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 101.52656989536038,
+      "scoreWithoutLargestEvent": 102.6842550340929
+    },
+    {
+      "name": "Mizzix of the Izmagnus",
+      "score": 102.20659164198473,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.62522798565539,
+      "scoreWithoutLargestEvent": 99.62522798565539
+    },
+    {
+      "name": "Iroh, Grand Lotus",
+      "score": 102.19163787723659,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Prossh, Skyraider of Kher",
+      "score": 102.17836210002628,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 102.76160473327504,
+      "scoreWithoutLargestEvent": 102.76160473327504
+    },
+    {
+      "name": "Smaug the Impenetrable",
+      "score": 102.13611076898798,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.65833013328722,
+      "scoreWithoutLargestEvent": 99.65833013328722
+    },
+    {
+      "name": "Alexios, Deimos of Kosmos",
+      "score": 102.08354117440115,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Prismari, the Inspiration",
+      "score": 102.0058735519677,
+      "entries": 7,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 103.20385658605173,
+      "scoreWithoutLargestEvent": 102.80209177926379
+    },
+    {
+      "name": "Bruse Tarl, Boorish Herder / Thrasios, Triton Hero",
+      "score": 101.99629968640124,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 103.28058921324964,
+      "scoreWithoutLargestEvent": 103.28058921324964
+    },
+    {
+      "name": "Niv-Mizzet, Visionary",
+      "score": 101.97465594003693,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 102.60526458115237,
+      "scoreWithoutLargestEvent": 102.60526458115237
+    },
+    {
+      "name": "Cromat",
+      "score": 101.96207967811057,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Auntie Ool, Cursewretch",
+      "score": 101.94180628428818,
+      "entries": 8,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 97.9538416002398,
+      "scoreWithoutLargestEvent": 103.16217117504493
+    },
+    {
+      "name": "Minsc, Beloved Ranger",
+      "score": 101.93780325556122,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 102.34642611674929,
+      "scoreWithoutLargestEvent": 102.34642611674929
+    },
+    {
+      "name": "Hidetsugu and Kairi",
+      "score": 101.89458685828137,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.37187556548372,
+      "scoreWithoutLargestEvent": 99.37187556548372
+    },
+    {
+      "name": "Sythis, Harvest's Hand",
+      "score": 101.88676368066287,
+      "entries": 10,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 95.62565796818247,
+      "scoreWithoutLargestEvent": 102.4764776139613
+    },
+    {
+      "name": "Bello, Bard of the Brambles",
+      "score": 101.87383784576949,
+      "entries": 3,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.92437714269698,
+      "scoreWithoutLargestEvent": 102.5022711994096
+    },
+    {
+      "name": "Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar",
+      "score": 101.85093151898991,
+      "entries": 3,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 101.3833363985378,
+      "scoreWithoutLargestEvent": 101.19547094137796
+    },
+    {
+      "name": "Satya, Aetherflux Genius",
+      "score": 101.81321835480226,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 102.44072168640628,
+      "scoreWithoutLargestEvent": 102.44072168640628
+    },
+    {
+      "name": "Ratadrabik of Urborg",
+      "score": 101.79824416952374,
+      "entries": 5,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.81693548094714,
+      "scoreWithoutLargestEvent": 100.58548252780705
+    },
+    {
+      "name": "Heliod, the Radiant Dawn // Heliod, the Warped Eclipse",
+      "score": 101.76308365534877,
+      "entries": 14,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.13508399648674,
+      "scoreWithoutLargestEvent": 102.6065948271519
+    },
+    {
+      "name": "Bruse Tarl, Boorish Herder / Malcolm, Keen-Eyed Navigator",
+      "score": 101.73090826081058,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.68945546490872,
+      "scoreWithoutLargestEvent": 99.68945546490872
+    },
+    {
+      "name": "Brallin, Skyshark Rider / Shabraz, the Skyshark",
+      "score": 101.71880505499958,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 102.76160473327504,
+      "scoreWithoutLargestEvent": 102.76160473327504
+    },
+    {
+      "name": "Hei Bai, Forest Guardian",
+      "score": 101.71092951915,
+      "entries": 5,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 103.0406319616194
+    },
+    {
+      "name": "Bruvac the Grandiloquent",
+      "score": 101.49780816888726,
+      "entries": 3,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.82085863097572,
+      "scoreWithoutLargestEvent": 102.39627889140507
+    },
+    {
+      "name": "Krark, the Thumbless / Tymna the Weaver",
+      "score": 101.46739787960973,
+      "entries": 12,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 97.29468879699866,
+      "scoreWithoutLargestEvent": 100.64802708303219
+    },
+    {
+      "name": "Lathril, Blade of the Elves",
+      "score": 101.39478453216702,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.71982379435025,
+      "scoreWithoutLargestEvent": 98.71982379435025
+    },
+    {
+      "name": "Heliod, Sun-Crowned",
+      "score": 101.3833363985378,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "K-9, Mark I / The Fourteenth Doctor",
+      "score": 101.29404972955557,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.12347332012124,
+      "scoreWithoutLargestEvent": 99.12347332012124
+    },
+    {
+      "name": "Lady Octopus, Inspired Inventor",
+      "score": 101.29013296035092,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 101.97329044938918,
+      "scoreWithoutLargestEvent": 101.97329044938918
+    },
+    {
+      "name": "Jaws, Relentless Predator",
+      "score": 101.25117988225006,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.80488054384429,
+      "scoreWithoutLargestEvent": 98.80488054384429
+    },
+    {
+      "name": "Jin Sakai, Ghost of Tsushima",
+      "score": 101.24497400405535,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.60805611997293,
+      "scoreWithoutLargestEvent": 98.60805611997293
+    },
+    {
+      "name": "Yeva, Nature's Herald",
+      "score": 101.22625033177766,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.46575819382129,
+      "scoreWithoutLargestEvent": 102.46875177550712
+    },
+    {
+      "name": "Neheb, Dreadhorde Champion",
+      "score": 101.18782069393306,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.91306816730514
+    },
+    {
+      "name": "Doctor Doom, Unrivaled",
+      "score": 101.17591718402085,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 102.2175134909462,
+      "scoreWithoutLargestEvent": 102.2175134909462
+    },
+    {
+      "name": "Brago, King Eternal",
+      "score": 101.05510526234913,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 102.5932558098425
+    },
+    {
+      "name": "Grenzo, Dungeon Warden",
+      "score": 101.051200148997,
+      "entries": 13,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 103.27506867097183,
+      "scoreWithoutLargestEvent": 103.17955232966756
+    },
+    {
+      "name": "Tameshi, Reality Architect",
+      "score": 100.80640024754129,
+      "entries": 9,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 103.62503382347381,
+      "scoreWithoutLargestEvent": 101.30073515792232
+    },
+    {
+      "name": "Atla Palani, Nest Tender",
+      "score": 100.7729280621879,
+      "entries": 3,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.0910916754452,
+      "scoreWithoutLargestEvent": 101.3863197427385
+    },
+    {
+      "name": "Grist, the Hunger Tide",
+      "score": 100.69520753106796,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.55939018867923,
+      "scoreWithoutLargestEvent": 98.55939018867923
+    },
+    {
+      "name": "Clan Crafter / Jaheira, Friend of the Forest",
+      "score": 100.68213236725778,
+      "entries": 7,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 102.31841343396432,
+      "scoreWithoutLargestEvent": 99.43858827376033
+    },
+    {
+      "name": "Aesi, Tyrant of Gyre Strait",
+      "score": 100.57300216613373,
+      "entries": 5,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 101.17883507028394,
+      "scoreWithoutLargestEvent": 102.06349707271943
+    },
+    {
+      "name": "Zada, Hedron Grinder",
+      "score": 100.54280315382138,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 101.37721564280784,
+      "scoreWithoutLargestEvent": 101.37721564280784
+    },
+    {
+      "name": "Muxus, Goblin Grandee",
+      "score": 100.51470426657227,
+      "entries": 10,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 103.60496117401101,
+      "scoreWithoutLargestEvent": 98.58060086150203
+    },
+    {
+      "name": "Baylen, the Haymaker",
+      "score": 100.4793873211662,
+      "entries": 14,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 102.01659242743929,
+      "scoreWithoutLargestEvent": 101.08855327467253
+    },
+    {
+      "name": "Chulane, Teller of Tales",
+      "score": 100.46936013385323,
+      "entries": 5,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.92816399551572,
+      "scoreWithoutLargestEvent": 100.92816399551572
+    },
+    {
+      "name": "Godo, Bandit Warlord",
+      "score": 100.4161590982327,
+      "entries": 14,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 96.3611722189337,
+      "scoreWithoutLargestEvent": 98.73736568564374
+    },
+    {
+      "name": "Zinnia, Valley's Voice",
+      "score": 100.39691489297829,
+      "entries": 4,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 101.5015350845194
+    },
+    {
+      "name": "Thrasios, Triton Hero / Tormod, the Desecrator",
+      "score": 100.35133562740745,
+      "entries": 3,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.08492554502882
+    },
+    {
+      "name": "Redshift, Rocketeer Chief",
+      "score": 100.34279856716611,
+      "entries": 4,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.02145767431428,
+      "scoreWithoutLargestEvent": 101.2892566808701
+    },
+    {
+      "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+      "score": 100.31788200352398,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.72102281571284,
+      "scoreWithoutLargestEvent": 100.72102281571284
+    },
+    {
+      "name": "Karlov of the Ghost Council",
+      "score": 100.3069383176278,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Valgavoth, Harrower of Souls",
+      "score": 100.29487426699916,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Tajic, Blade of the Legion",
+      "score": 100.28206617456719,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ovika, Enigma Goliath",
+      "score": 100.28206617456719,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Akiri, Line-Slinger / Silas Renn, Seeker Adept",
+      "score": 100.26844289095838,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Teysa, Orzhov Scion",
+      "score": 100.26844289095838,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Dargo, the Shipwrecker / Thrasios, Triton Hero",
+      "score": 100.254364165352,
+      "entries": 8,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 102.07121864954723,
+      "scoreWithoutLargestEvent": 101.11859600817664
+    },
+    {
+      "name": "Eluge, the Shoreless Sea",
+      "score": 100.25392387903793,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Francisco, Fowl Marauder / Krark, the Thumbless",
+      "score": 100.23841760963896,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Notary Hobbits",
+      "score": 100.23841760963896,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Saheeli, Radiant Creator",
+      "score": 100.23841760963896,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Scion of Halaster / Zellix, Sanity Flayer",
+      "score": 100.22181961597056,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kraum, Ludevic's Opus / Yoshimaru, Ever Faithful",
+      "score": 100.22181961597056,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Minsc & Boo, Timeless Heroes",
+      "score": 100.22181961597056,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Hanna, Ship's Navigator",
+      "score": 100.22181961597056,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Eshki, Temur's Roar",
+      "score": 100.20401011867801,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Cloud, Midgar Mercenary",
+      "score": 100.20401011867801,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Scarlet Witch, Chaotic Avenger",
+      "score": 100.20401011867801,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Themberchaud",
+      "score": 100.20401011867801,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Phelddagrif",
+      "score": 100.20401011867801,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Yusri, Fortune's Flame",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kydele, Chosen of Kruphix / Tymna the Weaver",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Imskir Iron-Eater",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Esior, Wardwing Familiar / Rograkh, Son of Rohgahh",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Yasharn, Implacable Earth",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sygg, River Cutthroat",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Francisco, Fowl Marauder / Kraum, Ludevic's Opus",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Xiahou Dun, the One-Eyed",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sanar, Unfinished Genius // Wild Idea",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kodama of the East Tree / Livio, Oathsworn Sentinel",
+      "score": 100.18977570667268,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Monk Gyatso",
+      "score": 100.16418272101802,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Braids, Arisen Nightmare",
+      "score": 100.14181874262621,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Rowan, Scion of War",
+      "score": 100.12179482015523,
+      "entries": 50,
+      "largestPilotEntries": 8,
+      "scoreWithoutLeadingPilot": 100.1512364973475,
+      "scoreWithoutLargestEvent": 100.71164272646323
+    },
+    {
+      "name": "Krark, the Thumbless / Rograkh, Son of Rohgahh",
+      "score": 100.11754090641786,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Malcolm, Keen-Eyed Navigator / Tevesh Szat, Doom of Fools",
+      "score": 100.11754090641786,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Bjorna, Nightfall Alchemist / Wernog, Rider's Chaplain",
+      "score": 100.09131069983455,
+      "entries": 13,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 98.74334876032016,
+      "scoreWithoutLargestEvent": 99.07842302386389
+    },
+    {
+      "name": "Commodore Guff",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Abaddon the Despoiler",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Winter, Cynical Opportunist",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Rin and Seri, Inseparable",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Obuun, Mul Daya Ancestor",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Gimbal, Gremlin Prodigy",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Auntie Blyte, Bad Influence",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Peter Parker // Amazing Spider-Man",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Wolverine, Best There Is",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Caesar, Legion's Emperor",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Slimefoot and Squee",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Fire Lord Zuko",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Giada, Font of Hope",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sokrates, Athenian Teacher",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Eriette of the Charmed Apple",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Phabine, Boss's Confidant",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Gitrog, Ravenous Ride",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Cyber-Controller",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kadena, Slinking Sorcerer",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Cecily, Haunted Mage / Othelm, Sigardian Outcast",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Indoraptor, the Perfect Hybrid",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Doctor Octopus, Master Planner",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Maelstrom Wanderer",
+      "score": 100.0910916754452,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Be'lakor, the Dark Master",
+      "score": 100.0621649590712,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Yidris, Maelstrom Wielder",
+      "score": 100.0621649590712,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Rakdos, Lord of Riots",
+      "score": 100.0621649590712,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Child of Alara",
+      "score": 100.0621649590712,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Thrasios, Triton Hero / Toggo, Goblin Weaponsmith",
+      "score": 100.0621649590712,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kydele, Chosen of Kruphix / Yoshimaru, Ever Faithful",
+      "score": 100.0621649590712,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jennifer Walters // The Sensational She-Hulk",
+      "score": 100.0621649590712,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Rona, Herald of Invasion // Rona, Tolarian Obliterator",
+      "score": 100.05945479938885,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.88426507245256,
+      "scoreWithoutLargestEvent": 100.88426507245256
+    },
+    {
+      "name": "Basim Ibn Ishaq",
+      "score": 100.04347015282374,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Liberator, Urza's Battlethopter",
+      "score": 100.04347015282374,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Marvin, Murderous Mimic",
+      "score": 100.04347015282374,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Mole Man, Moloid Master",
+      "score": 100.03039405776698,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kydele, Chosen of Kruphix / Tevesh Szat, Doom of Fools",
+      "score": 100.03039405776698,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Wan Shi Tong, Librarian",
+      "score": 100.03039405776697,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kroxa and Kunoros",
+      "score": 100.03039405776697,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sokka, Tenacious Tactician",
+      "score": 100.03039405776697,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ixhel, Scion of Atraxa",
+      "score": 100.03039405776697,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Reaper, King No More",
+      "score": 100.00924080406043,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Judith, the Scourge Diva",
+      "score": 99.99533581265729,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Emperor of Palamecia // The Lord Master of Hell",
+      "score": 99.99533581265729,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Koll, the Forgemaster",
+      "score": 99.987884105603,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Niv-Mizzet, Parun",
+      "score": 99.97807059192891,
+      "entries": 14,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 96.3102284497161,
+      "scoreWithoutLargestEvent": 98.11875064776856
+    },
+    {
+      "name": "Unesh, Criosphinx Sovereign",
+      "score": 99.97250284217321,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Dargo, the Shipwrecker / Sidar Kondo of Jamuraa",
+      "score": 99.97250284217321,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Leonardo, the Balance / Splinter, the Mentor",
+      "score": 99.96656393893713,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Felothar the Steadfast",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Zurgo Stormrender",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Dina, Essence Brewer",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Rose Tyler / The Tenth Doctor",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ranar the Ever-Watchful",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Pir, Imaginative Rascal / Toothy, Imaginary Friend",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Zaxara, the Exemplary",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sen Triplets",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Abdel Adrian, Gorion's Ward / Candlekeep Sage",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sheoldred, the Apocalypse",
+      "score": 99.95644948203076,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Oji, the Exquisite Blade",
+      "score": 99.93967875557325,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Urabrask // The Great Work",
+      "score": 99.93967875557325,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+      "score": 99.93967875557325,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Averna, the Chaos Bloom",
+      "score": 99.93967875557325,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Destined Warrior",
+      "score": 99.93967875557325,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jan Jansen, Chaos Crafter",
+      "score": 99.92437714269698,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Tana, the Bloodsower / Tevesh Szat, Doom of Fools",
+      "score": 99.9221412123933,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kresh the Bloodbraided",
+      "score": 99.91306816730514,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Tifa Lockhart",
+      "score": 99.91306816730514,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Galadriel, Light of Valinor",
+      "score": 99.91306816730514,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Haldan, Avid Arcanist / Pako, Arcane Retriever",
+      "score": 99.90351621311848,
+      "entries": 5,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 101.12794809995259,
+      "scoreWithoutLargestEvent": 100.47399735197581
+    },
+    {
+      "name": "Ardenn, Intrepid Archaeologist / Tana, the Bloodsower",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Zimone and Dina",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Breena, the Demagogue",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Temmet, Naktamun's Will",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Esix, Fractal Bloom",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Zimone, Infinite Analyst",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Neyith of the Dire Hunt",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sephiroth, Planet's Heir",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Dionus, Elvish Archdruid",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ikra Shidiqi, the Usurper / Rograkh, Son of Rohgahh",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Doctor Doom, King of Latveria",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kibo, Uktabi Prince",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Taigam, Sidisi's Hand",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Choco, Seeker of Paradise",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Henzie \"Toolbox\" Torre",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Bright-Palm, Soul Awakener",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Szarel, Genesis Shepherd",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Terra, Herald of Hope",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Dargo, the Shipwrecker / Jeska, Thrice Reborn",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Edric, Spymaster of Trest",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Saheeli, the Gifted",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jiang Yanggu, Alone",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jace, Multiverse Architect",
+      "score": 99.8643595129331,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Lonis, Cryptozoologist",
+      "score": 99.86326377608896,
+      "entries": 6,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 101.18481956279942,
+      "scoreWithoutLargestEvent": 97.30680287695708
+    },
+    {
+      "name": "River Song",
+      "score": 99.85123241321773,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Superior Spider-Man",
+      "score": 99.84315757506863,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Tinybones, the Pickpocket",
+      "score": 99.84315757506863,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ragost, Deft Gastronaut",
+      "score": 99.84315757506863,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kilo, Apogee Mind",
+      "score": 99.84315757506863,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Mm'menon, Uthros Exile",
+      "score": 99.84315757506857,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Shredder, Shadow Master",
+      "score": 99.83768896727679,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jeleva, Nephalia's Scourge",
+      "score": 99.83768896727679,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Necrobloom",
+      "score": 99.82085863097572,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Saffi Eriksdotter",
+      "score": 99.79737465167756,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sedris, the Traitor King",
+      "score": 99.79737465167756,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Rendmaw, Creaking Nest",
+      "score": 99.79737465167756,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jenson Carthalion, Druid Exile",
+      "score": 99.79737465167756,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Esior, Wardwing Familiar / Tymna the Weaver",
+      "score": 99.79737465167756,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Xantcha, Sleeper Agent",
+      "score": 99.79435107695963,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Garth One-Eye",
+      "score": 99.79435107695963,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kydele, Chosen of Kruphix / Rograkh, Son of Rohgahh",
+      "score": 99.7765058563848,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Gandalf the White",
+      "score": 99.7765058563848,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Purphoros, God of the Forge",
+      "score": 99.77260786022816,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
+      "score": 99.77260786022816,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sonic the Hedgehog",
+      "score": 99.77260786022816,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kamahl, Heart of Krosa / Tymna the Weaver",
+      "score": 99.7652810769586,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kess, Dissident Mage",
+      "score": 99.74991746910544,
+      "entries": 5,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 101.51548625292358,
+      "scoreWithoutLargestEvent": 100.68036323460558
+    },
+    {
+      "name": "Immortus, Master of Eternity",
+      "score": 99.74644933370357,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ruric Thar, the Unbowed",
+      "score": 99.74644933370357,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Thanos, the Mad Titan",
+      "score": 99.74644933370357,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Nekusar, the Mindrazer",
+      "score": 99.74644933370351,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Aurelia, the Warleader",
+      "score": 99.74644933370351,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Taskmaster, Mercenary Mimic",
+      "score": 99.74644933370351,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Rograkh, Son of Rohgahh / Tevesh Szat, Doom of Fools",
+      "score": 99.73106732685687,
+      "entries": 22,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 101.1996283759114,
+      "scoreWithoutLargestEvent": 97.69047344942524
+    },
+    {
+      "name": "Hakbal of the Surging Soul",
+      "score": 99.71877735563493,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ellivere of the Wild Court",
+      "score": 99.71680598164781,
+      "entries": 9,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 98.67571295141931,
+      "scoreWithoutLargestEvent": 100.19857302413246
+    },
+    {
+      "name": "Cazur, Ruthless Stalker / Ukkima, Stalking Shadow",
+      "score": 99.70518500719237,
+      "entries": 5,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.663257494251,
+      "scoreWithoutLargestEvent": 100.663257494251
+    },
+    {
+      "name": "Hapatra, Vizier of Poisons",
+      "score": 99.6994010370355,
+      "entries": 9,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 101.17511627873043,
+      "scoreWithoutLargestEvent": 100.01471784717337
+    },
+    {
+      "name": "Bruse Tarl, Boorish Herder / Francisco, Fowl Marauder",
+      "score": 99.68945546490872,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Hugs, Grisly Guardian",
+      "score": 99.68945546490872,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Zurgo and Ojutai",
+      "score": 99.68945546490872,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Black Panther, Wakandan King",
+      "score": 99.68945546490872,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Falco Spara, Pactweaver",
+      "score": 99.67719136776967,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.18977570667268,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Locust God",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "K-9, Mark I / The War Doctor",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Gwen Stacy // Ghost-Spider",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Nethroi, Apex of Death",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Aloy, Savior of Meridian",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ludevic, Necro-Alchemist / Yoshimaru, Ever Faithful",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Roxanne, Starfall Savant",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Tannuk, Steadfast Second",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jolene, the Plunder Queen",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Hazel of the Rootbloom",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Orvar, the All-Form",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Ragavan, Nimble Pilferer",
+      "score": 99.67412856384904,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Zacama, Primal Calamity",
+      "score": 99.65833013328722,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kyodai, Soul of Kamigawa",
+      "score": 99.65833013328722,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Titania, Protector of Argoth",
+      "score": 99.65833013328722,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sakashima of a Thousand Faces / Vial Smasher the Fierce",
+      "score": 99.65833013328722,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Captain America, First Avenger",
+      "score": 99.65833013328722,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Myra the Magnificent",
+      "score": 99.63966871206608,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jinnie Fay, Jetmir's Second",
+      "score": 99.62522798565539,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Karametra, God of Harvests",
+      "score": 99.62522798565539,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Livio, Oathsworn Sentinel / Thrasios, Triton Hero",
+      "score": 99.62522798565539,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Lazav, the Multifarious",
+      "score": 99.61728806095817,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Phenax, God of Deception",
+      "score": 99.61728806095817,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Narset, Enlightened Exile",
+      "score": 99.60866561833267,
+      "entries": 5,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 102.01959591439328,
+      "scoreWithoutLargestEvent": 100.33065877764645
+    },
+    {
+      "name": "Edgar Markov",
+      "score": 99.5824854724047,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.22181961597056,
+      "scoreWithoutLargestEvent": 100.22181961597056
+    },
+    {
+      "name": "Krark, the Thumbless / Reyhan, Last of the Abzan",
+      "score": 99.56670340142614,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kodama of the East Tree / Thrasios, Triton Hero",
+      "score": 99.5584794629322,
+      "entries": 8,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 97.1605492619734,
+      "scoreWithoutLargestEvent": 100.34511492538724
+    },
+    {
+      "name": "Meren of Clan Nel Toth",
+      "score": 99.55227972010678,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jodah, the Unifier",
+      "score": 99.55227972010678,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Jeska, Thrice Reborn / Thrasios, Triton Hero",
+      "score": 99.53091321958055,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Tinybones, Bauble Burglar",
+      "score": 99.52378898929665,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.26844289095838,
+      "scoreWithoutLargestEvent": 100.26844289095838
+    },
+    {
+      "name": "Gorma, the Gullet",
+      "score": 99.49070557787874,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Tifa, Martial Artist",
+      "score": 99.46868034486049,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Elmar, Ulvenwald Informant / Wernog, Rider's Chaplain",
+      "score": 99.46304754194352,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Inalla, Archmage Ritualist",
+      "score": 99.45986849378659,
+      "entries": 51,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 101.32765502139915,
+      "scoreWithoutLargestEvent": 100.52563622446459
+    },
+    {
+      "name": "Noctis, Prince of Lucis",
+      "score": 99.43746620800708,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.36581188673082,
+      "scoreWithoutLargestEvent": 100.36581188673082
+    },
+    {
+      "name": "Yisan, the Wanderer Bard",
+      "score": 99.4349892876655,
+      "entries": 9,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 101.3975296341726,
+      "scoreWithoutLargestEvent": 98.64310564761415
+    },
+    {
+      "name": "Kodama of the East Tree / Vial Smasher the Fierce",
+      "score": 99.43408838391031,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Loot, the Pathfinder",
+      "score": 99.42733202216023,
+      "entries": 7,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.69001876487397,
+      "scoreWithoutLargestEvent": 100.13290007504875
+    },
+    {
+      "name": "Sefris of the Hidden Ways",
+      "score": 99.42275302672768,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.03039405776697,
+      "scoreWithoutLargestEvent": 100.03039405776697
+    },
+    {
+      "name": "Ravos, Soultender / Thrasios, Triton Hero",
+      "score": 99.422119358071,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Sai, Master Thopterist",
+      "score": 99.422119358071,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Vraska, Soul of Stone",
+      "score": 99.40373274177776,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Silverquill, the Disputant",
+      "score": 99.40039162088594,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.1323507246128
+    },
+    {
+      "name": "Katara, Waterbending Master",
+      "score": 99.39433345211434,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.0621649590712,
+      "scoreWithoutLargestEvent": 100.0621649590712
+    },
+    {
+      "name": "Aminatou, Veil Piercer",
+      "score": 99.38824790450892,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.99533581265729,
+      "scoreWithoutLargestEvent": 99.99533581265729
+    },
+    {
+      "name": "Squall, SeeD Mercenary",
+      "score": 99.38242771522556,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.84315757506857,
+      "scoreWithoutLargestEvent": 99.84315757506857
+    },
+    {
+      "name": "Ardenn, Intrepid Archaeologist / Rograkh, Son of Rohgahh",
+      "score": 99.37187556548372,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Gisa and Geralf",
+      "score": 99.37187556548372,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Master Chef / Volo, Itinerant Scholar",
+      "score": 99.37187556548372,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Satoru, the Infiltrator",
+      "score": 99.35147505207264,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Okaun, Eye of Chaos / Zndrsplt, Eye of Wisdom",
+      "score": 99.34996705184366,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.95644948203076,
+      "scoreWithoutLargestEvent": 99.95644948203076
+    },
+    {
+      "name": "Omo, Queen of Vesuva",
+      "score": 99.34996705184366,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.95644948203076
+    },
+    {
+      "name": "Pantlaza, Sun-Favored",
+      "score": 99.34996705184366,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.95644948203076
+    },
+    {
+      "name": "Anje Falkenrath",
+      "score": 99.34778745365321,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.14181874262621,
+      "scoreWithoutLargestEvent": 100.14181874262621
+    },
+    {
+      "name": "Armix, Filigree Thrasher / Rograkh, Son of Rohgahh",
+      "score": 99.33583073054433,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.00263479557626,
+      "scoreWithoutLargestEvent": 100.00263479557626
+    },
+    {
+      "name": "Cultist of the Absolute / Vhal, Candlekeep Researcher",
+      "score": 99.31748669598574,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Lyse Hext",
+      "score": 99.28682304330945,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.23841760963896,
+      "scoreWithoutLargestEvent": 100.23841760963896
+    },
+    {
+      "name": "Francisco, Fowl Marauder / Ishai, Ojutai Dragonspeaker",
+      "score": 99.28535799799046,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.77892557345515,
+      "scoreWithoutLargestEvent": 99.77892557345515
+    },
+    {
+      "name": "The First Sliver",
+      "score": 99.26944051672068,
+      "entries": 5,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.27633244336162,
+      "scoreWithoutLargestEvent": 100.27633244336162
+    },
+    {
+      "name": "Inspirit, Flagship Vessel",
+      "score": 99.25927750234759,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.8643595129331,
+      "scoreWithoutLargestEvent": 99.8643595129331
+    },
+    {
+      "name": "Rydia, Summoner of Mist",
+      "score": 99.2584083887031,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Katilda, Dawnhart Prime",
+      "score": 99.23096365100096,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.0621649590712
+    },
+    {
+      "name": "Lagrella, the Magpie",
+      "score": 99.2113213767467,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.93967875557325
+    },
+    {
+      "name": "Unctus, Grand Metatect",
+      "score": 99.18536681655948,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.99533581265729
+    },
+    {
+      "name": "Tergrid, God of Fright // Tergrid's Lantern",
+      "score": 99.18417841297169,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.9221412123933,
+      "scoreWithoutLargestEvent": 99.9221412123933
+    },
+    {
+      "name": "Erinis, Gloom Stalker / Street Urchin",
+      "score": 99.16891013042994,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.11754090641786,
+      "scoreWithoutLargestEvent": 100.11754090641786
+    },
+    {
+      "name": "Teval, Arbiter of Virtue",
+      "score": 99.16225767949028,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Kitsa, Otterball Elite",
+      "score": 99.16225767949028,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "The Great Goblin",
+      "score": 99.14301549556615,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.16418272101802,
+      "scoreWithoutLargestEvent": 100.16418272101802
+    },
+    {
+      "name": "Blech, Loafing Pest",
+      "score": 99.12743410589326,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.95644948203076,
+      "scoreWithoutLargestEvent": 99.95644948203076
+    },
+    {
+      "name": "Urianger Augurelt",
+      "score": 99.12347332012124,
+      "entries": 1,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 100.71088994663086
+    },
+    {
+      "name": "Francisco, Fowl Marauder / Thrasios, Triton Hero",
+      "score": 99.11899264817083,
+      "entries": 14,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 100.61520568814052,
+      "scoreWithoutLargestEvent": 99.9879010225489
+    },
+    {
+      "name": "Six",
+      "score": 99.11177256726555,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.61728806095817,
+      "scoreWithoutLargestEvent": 99.61728806095817
+    },
+    {
+      "name": "Ms. Bumbleflower",
+      "score": 99.10660726380732,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.84315757506863,
+      "scoreWithoutLargestEvent": 99.84315757506863
+    },
+    {
+      "name": "Aang, at the Crossroads // Aang, Destined Savior",
+      "score": 99.09660391456211,
+      "entries": 41,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 96.51694096859751,
+      "scoreWithoutLargestEvent": 97.55941546480832
+    },
+    {
+      "name": "Ishai, Ojutai Dragonspeaker / Kodama of the East Tree",
+      "score": 99.09198095301522,
+      "entries": 3,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.42275302672768
+    },
+    {
+      "name": "Ezio Auditore da Firenze",
+      "score": 99.09140343515239,
+      "entries": 5,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.59947128078116,
+      "scoreWithoutLargestEvent": 100.16383029702214
+    },
+    {
+      "name": "Krark, the Thumbless / Silas Renn, Seeker Adept",
+      "score": 99.08055757155405,
+      "entries": 9,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 100.04952641167583,
+      "scoreWithoutLargestEvent": 99.64535439637598
+    },
+    {
+      "name": "Zimone, Mystery Unraveler",
+      "score": 99.0717925578933,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.67412856384904,
+      "scoreWithoutLargestEvent": 99.67412856384904
+    },
+    {
+      "name": "Breeches, Brazen Plunderer / Malcolm, Keen-Eyed Navigator",
+      "score": 99.043866011114,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.72684572745234,
+      "scoreWithoutLargestEvent": 99.72684572745234
+    },
+    {
+      "name": "Mica, Reader of Ruins",
+      "score": 99.04359153628121,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.67412856384904,
+      "scoreWithoutLargestEvent": 99.67412856384904
+    },
+    {
+      "name": "Ghyrson Starn, Kelermorph",
+      "score": 99.04154424787271,
+      "entries": 3,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.29487426699916,
+      "scoreWithoutLargestEvent": 99.77552045622522
+    },
+    {
+      "name": "The Unbeatable Squirrel Girl",
+      "score": 99.03718014354384,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.8643595129331
+    },
+    {
+      "name": "Lotho, Corrupt Shirriff",
+      "score": 99.03334255829668,
+      "entries": 18,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 95.5866560329311,
+      "scoreWithoutLargestEvent": 99.8619853848683
+    },
+    {
+      "name": "Tom, Bert, and William",
+      "score": 99.02536164397064,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.04347015282374,
+      "scoreWithoutLargestEvent": 100.04347015282374
+    },
+    {
+      "name": "Thada Adel, Acquisitor",
+      "score": 99.01260883041536,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.67412856384904,
+      "scoreWithoutLargestEvent": 99.67412856384904
+    },
+    {
+      "name": "Raffine, Scheming Seer",
+      "score": 99.00719184585293,
+      "entries": 10,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 101.2599951524912,
+      "scoreWithoutLargestEvent": 99.67944381712522
+    },
+    {
+      "name": "Dina, Soul Steeper",
+      "score": 99.0069383609434,
+      "entries": 5,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 101.02594187792982,
+      "scoreWithoutLargestEvent": 100.02673547845453
+    },
+    {
+      "name": "Thalia and The Gitrog Monster",
+      "score": 99.00134579391172,
+      "entries": 5,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 101.5805245619313,
+      "scoreWithoutLargestEvent": 97.12683295516166
+    },
+    {
+      "name": "Aragorn, the Uniter",
+      "score": 98.98553068494161,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 100.00263479557626,
+      "scoreWithoutLargestEvent": 100.00263479557626
+    },
+    {
+      "name": "Ishai, Ojutai Dragonspeaker / Jeska, Thrice Reborn",
+      "score": 98.94866189971978,
+      "entries": 5,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 97.55732210412415,
+      "scoreWithoutLargestEvent": 99.83783288485144
+    },
+    {
+      "name": "Thranduil, the Elvenking",
+      "score": 98.93162897993832,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.75509176361832,
+      "scoreWithoutLargestEvent": 99.75509176361832
+    },
+    {
+      "name": "Liesa, Shroud of Dusk",
+      "score": 98.89811398704045,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.67412856384904,
+      "scoreWithoutLargestEvent": 99.67412856384904
+    },
+    {
+      "name": "Jeska, Thrice Reborn / Tymna the Weaver",
+      "score": 98.8714975621811,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.53091321958055,
+      "scoreWithoutLargestEvent": 99.53091321958055
+    },
+    {
+      "name": "Glarb, Calamity's Augur",
+      "score": 98.8577013631127,
+      "entries": 46,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 95.99479455396332,
+      "scoreWithoutLargestEvent": 100.3572751533737
+    },
+    {
+      "name": "Beledros Witherbloom",
+      "score": 98.85054414791814,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.8643595129331,
+      "scoreWithoutLargestEvent": 99.8643595129331
+    },
+    {
+      "name": "Gyruda, Doom of Depths",
+      "score": 98.84433907351304,
+      "entries": 8,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 96.9990967604064,
+      "scoreWithoutLargestEvent": 99.16087190140786
+    },
+    {
+      "name": "Neheb, the Eternal",
+      "score": 98.83772032401367,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.67412856384904
+    },
+    {
+      "name": "Zhulodok, Void Gorger",
+      "score": 98.77666895633772,
+      "entries": 25,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 97.72408536409003,
+      "scoreWithoutLargestEvent": 99.45397543060982
+    },
+    {
+      "name": "Krenko, Mob Boss",
+      "score": 98.7649510765346,
+      "entries": 11,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.98644328543968,
+      "scoreWithoutLargestEvent": 99.63871890232929
+    },
+    {
+      "name": "Silas Renn, Seeker Adept / Yoshimaru, Ever Faithful",
+      "score": 98.76095244943727,
+      "entries": 7,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 100.8202095212574,
+      "scoreWithoutLargestEvent": 99.5516900729535
+    },
+    {
+      "name": "Sliver Overlord",
+      "score": 98.73606530849318,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.05959272418525,
+      "scoreWithoutLargestEvent": 98.05959272418525
+    },
+    {
+      "name": "Acererak the Archlich",
+      "score": 98.71293920411415,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.62522798565539,
+      "scoreWithoutLargestEvent": 99.62522798565539
+    },
+    {
+      "name": "Azami, Lady of Scrolls",
+      "score": 98.70823961742573,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.67412856384904,
+      "scoreWithoutLargestEvent": 99.67412856384904
+    },
+    {
+      "name": "The Wise Mothman",
+      "score": 98.70420245190701,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.43408838391031,
+      "scoreWithoutLargestEvent": 99.43408838391031
+    },
+    {
+      "name": "Meria, Scholar of Antiquity",
+      "score": 98.68841576930714,
+      "entries": 3,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.61728806095817,
+      "scoreWithoutLargestEvent": 99.28380231970372
+    },
+    {
+      "name": "Sakashima of a Thousand Faces / Tymna the Weaver",
+      "score": 98.60184173254831,
+      "entries": 3,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.15490871235525
+    },
+    {
+      "name": "Leonardo, the Balance / Michelangelo, the Heart",
+      "score": 98.57412532264551,
+      "entries": 24,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.99524936669378,
+      "scoreWithoutLargestEvent": 100.48920587537908
+    },
+    {
+      "name": "Rionya, Fire Dancer",
+      "score": 98.56438391162925,
+      "entries": 3,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.35985122258936
+    },
+    {
+      "name": "Evelyn, the Covetous",
+      "score": 98.55346699109202,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.37187556548372,
+      "scoreWithoutLargestEvent": 99.37187556548372
+    },
+    {
+      "name": "Shadow the Hedgehog",
+      "score": 98.55063074350397,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.25927750234759,
+      "scoreWithoutLargestEvent": 99.25927750234759
+    },
+    {
+      "name": "Frodo, Adventurous Hobbit / Sam, Loyal Attendant",
+      "score": 98.54376675042698,
+      "entries": 3,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.35881574141916
+    },
+    {
+      "name": "Narset, Jeskai Waymaster",
+      "score": 98.45634802905795,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.1066072638072,
+      "scoreWithoutLargestEvent": 99.1066072638072
+    },
+    {
+      "name": "Cormela, Glamour Thief",
+      "score": 98.4502618047521,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.61728806095817,
+      "scoreWithoutLargestEvent": 99.61728806095817
+    },
+    {
+      "name": "Prosper, Tome-Bound",
+      "score": 98.41402149541962,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.65833013328722,
+      "scoreWithoutLargestEvent": 99.65833013328722
+    },
+    {
+      "name": "Oloro, Ageless Ascetic",
+      "score": 98.39758969860148,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.11961971498204,
+      "scoreWithoutLargestEvent": 99.11961971498204
+    },
+    {
+      "name": "The Master of Keys",
+      "score": 98.39756115116325,
+      "entries": 7,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.11026830923048,
+      "scoreWithoutLargestEvent": 99.11026830923048
+    },
+    {
+      "name": "Tinybones, Trinket Thief",
+      "score": 98.38174187802815,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.43408838391031,
+      "scoreWithoutLargestEvent": 99.43408838391031
+    },
+    {
+      "name": "Terra, Magical Adept // Esper Terra",
+      "score": 98.37457320744889,
+      "entries": 52,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 99.07877543418178,
+      "scoreWithoutLargestEvent": 97.44914946075914
+    },
+    {
+      "name": "Plagon, Lord of the Beach",
+      "score": 98.36350810844353,
+      "entries": 6,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.91028304004159,
+      "scoreWithoutLargestEvent": 98.91028304004159
+    },
+    {
+      "name": "Ojer Axonil, Deepest Might // Temple of Power",
+      "score": 98.34578138978415,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.2269134753993
+    },
+    {
+      "name": "Grand Arbiter Augustin IV",
+      "score": 98.18914266341375,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.89144427303324,
+      "scoreWithoutLargestEvent": 98.89144427303324
+    },
+    {
+      "name": "Omnath, Locus of All",
+      "score": 98.16915507254954,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.90446354213492,
+      "scoreWithoutLargestEvent": 98.90446354213492
+    },
+    {
+      "name": "Avatar Aang // Aang, Master of Elements",
+      "score": 98.16250732083937,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.17267477906609,
+      "scoreWithoutLargestEvent": 99.17267477906609
+    },
+    {
+      "name": "Ureni of the Unwritten",
+      "score": 98.14248172503275,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.95644948203076,
+      "scoreWithoutLargestEvent": 99.95644948203076
+    },
+    {
+      "name": "Jacob Hauken, Inspector // Hauken's Insight",
+      "score": 98.13554876778338,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.23595199067324,
+      "scoreWithoutLargestEvent": 99.23595199067324
+    },
+    {
+      "name": "Light-Paws, Emperor's Voice",
+      "score": 98.13509927676888,
+      "entries": 2,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.96017094680545,
+      "scoreWithoutLargestEvent": 98.96017094680545
+    },
+    {
+      "name": "Shorikai, Genesis Engine",
+      "score": 98.13100115941009,
+      "entries": 14,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.95083557356133,
+      "scoreWithoutLargestEvent": 99.95083557356133
+    },
+    {
+      "name": "Francisco, Fowl Marauder / Malcolm, Keen-Eyed Navigator",
+      "score": 98.12306874759048,
+      "entries": 5,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 98.21372912680589,
+      "scoreWithoutLargestEvent": 99.58687114020373
+    },
+    {
+      "name": "Dargo, the Shipwrecker / Silas Renn, Seeker Adept",
+      "score": 98.05986486958965,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.77602801489374,
+      "scoreWithoutLargestEvent": 98.77602801489374
+    },
+    {
+      "name": "Longshot, Rebel Bowman",
+      "score": 98.03370831165995,
+      "entries": 6,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.1121117240473,
+      "scoreWithoutLargestEvent": 97.74574147130693
+    },
+    {
+      "name": "Zirda, the Dawnwaker",
+      "score": 97.9539819482257,
+      "entries": 38,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 95.4245750123228,
+      "scoreWithoutLargestEvent": 96.30389896878657
+    },
+    {
+      "name": "Malcolm, Keen-Eyed Navigator / Rograkh, Son of Rohgahh",
+      "score": 97.88012364262295,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.97522943159976,
+      "scoreWithoutLargestEvent": 98.97522943159976
+    },
+    {
+      "name": "Fire Lord Azula",
+      "score": 97.86672797265354,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.35365356331425,
+      "scoreWithoutLargestEvent": 98.35365356331425
+    },
+    {
+      "name": "Jetmir, Nexus of Revels",
+      "score": 97.82359113878745,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 99.10957160376773,
+      "scoreWithoutLargestEvent": 99.10957160376773
+    },
+    {
+      "name": "Akiri, Line-Slinger / Francisco, Fowl Marauder",
+      "score": 97.81577927176708,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.51860652177422,
+      "scoreWithoutLargestEvent": 98.51860652177422
+    },
+    {
+      "name": "Zur the Enchanter",
+      "score": 97.79551612215899,
+      "entries": 23,
+      "largestPilotEntries": 9,
+      "scoreWithoutLeadingPilot": 92.61670957938135,
+      "scoreWithoutLargestEvent": 98.47588713658259
+    },
+    {
+      "name": "Narset, Enlightened Master",
+      "score": 97.79387961333953,
+      "entries": 12,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.18010132144117,
+      "scoreWithoutLargestEvent": 98.36122265861971
+    },
+    {
+      "name": "Captain Sisay",
+      "score": 97.75817141162814,
+      "entries": 7,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 96.02181725717597,
+      "scoreWithoutLargestEvent": 99.22954581474522
+    },
+    {
+      "name": "Voja, Jaws of the Conclave",
+      "score": 97.71977282687826,
+      "entries": 2,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 100.71088994663086,
+      "scoreWithoutLargestEvent": 99.2584083887031
+    },
+    {
+      "name": "Ishai, Ojutai Dragonspeaker / Rograkh, Son of Rohgahh",
+      "score": 97.71534124684939,
+      "entries": 153,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 96.9477514110014,
+      "scoreWithoutLargestEvent": 97.25049399266328
+    },
+    {
+      "name": "Akiri, Line-Slinger / Thrasios, Triton Hero",
+      "score": 97.69602594849056,
+      "entries": 14,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.50849517888611,
+      "scoreWithoutLargestEvent": 95.95143231176033
+    },
+    {
+      "name": "Rakdos, the Muscle",
+      "score": 97.63734354159564,
+      "entries": 28,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 96.95084494779994,
+      "scoreWithoutLargestEvent": 98.84249928732855
+    },
+    {
+      "name": "Toph, Hardheaded Teacher",
+      "score": 97.5593165965356,
+      "entries": 4,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 98.69241228391924,
+      "scoreWithoutLargestEvent": 98.13596990090693
+    },
+    {
+      "name": "Shang-Chi, Master of Kung Fu",
+      "score": 97.5229081473682,
+      "entries": 13,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.91288072518385,
+      "scoreWithoutLargestEvent": 98.91288072518385
+    },
+    {
+      "name": "Slicer, Hired Muscle // Slicer, High-Speed Antagonist",
+      "score": 97.52180368070788,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.67429866443358,
+      "scoreWithoutLargestEvent": 98.67429866443358
+    },
+    {
+      "name": "Nissa, Resurgent Animist",
+      "score": 97.46584611667433,
+      "entries": 7,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 98.79637760563094,
+      "scoreWithoutLargestEvent": 98.70736766970924
+    },
+    {
+      "name": "Selvala, Explorer Returned",
+      "score": 97.42117472193124,
+      "entries": 8,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.08546293069897,
+      "scoreWithoutLargestEvent": 98.08546293069897
+    },
+    {
+      "name": "Super-Skrull",
+      "score": 97.3727739758422,
+      "entries": 17,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 94.41116744079353,
+      "scoreWithoutLargestEvent": 98.19116203709828
+    },
+    {
+      "name": "Tayam, Luminous Enigma",
+      "score": 97.3597843043251,
+      "entries": 104,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 94.56432740627723,
+      "scoreWithoutLargestEvent": 98.81127385414257
+    },
+    {
+      "name": "Hashaton, Scarab's Fist",
+      "score": 97.28052456171417,
+      "entries": 19,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 95.82669469799646,
+      "scoreWithoutLargestEvent": 98.57824859766248
+    },
+    {
+      "name": "Tiamat",
+      "score": 97.14064791447754,
+      "entries": 6,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.17406311105634,
+      "scoreWithoutLargestEvent": 98.17406311105634
+    },
+    {
+      "name": "Kaalia of the Vast",
+      "score": 97.01654975800187,
+      "entries": 4,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 97.79981511311567,
+      "scoreWithoutLargestEvent": 97.79981511311567
+    },
+    {
+      "name": "Tana, the Bloodsower / Tymna the Weaver",
+      "score": 96.8494097745776,
+      "entries": 9,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 98.05055245475106,
+      "scoreWithoutLargestEvent": 97.5480046913295
+    },
+    {
+      "name": "K'rrik, Son of Yawgmoth",
+      "score": 96.6052398628343,
+      "entries": 69,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 98.15034416693031,
+      "scoreWithoutLargestEvent": 94.25477510504727
+    },
+    {
+      "name": "Kethis, the Hidden Hand",
+      "score": 96.48786297616938,
+      "entries": 4,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 99.01157239148898,
+      "scoreWithoutLargestEvent": 97.61847381009444
+    },
+    {
+      "name": "Tazri, Stalwart Survivor",
+      "score": 96.32243217321499,
+      "entries": 3,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 98.29634513539258,
+      "scoreWithoutLargestEvent": 98.29634513539258
+    },
+    {
+      "name": "Golbez, Crystal Collector",
+      "score": 96.2047529406938,
+      "entries": 4,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 98.94046306010316,
+      "scoreWithoutLargestEvent": 96.88984639210246
+    },
+    {
+      "name": "Toph, the First Metalbender",
+      "score": 96.08460982451896,
+      "entries": 10,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 100.04184968422753,
+      "scoreWithoutLargestEvent": 96.61843725101738
+    },
+    {
+      "name": "Chatterfang, Squirrel General",
+      "score": 96.07401155206517,
+      "entries": 25,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 97.88081726890016,
+      "scoreWithoutLargestEvent": 94.81249596189244
+    },
+    {
+      "name": "Bruce Banner // The Incredible Hulk",
+      "score": 96.02699871266717,
+      "entries": 6,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 97.04428211835244,
+      "scoreWithoutLargestEvent": 96.9793560013723
+    },
+    {
+      "name": "Tatyova, Benthic Druid",
+      "score": 96.0147995912291,
+      "entries": 10,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 100.77883354117128,
+      "scoreWithoutLargestEvent": 96.85487007386413
+    },
+    {
+      "name": "Atraxa, Grand Unifier",
+      "score": 95.93941952099448,
+      "entries": 31,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 97.5009548801915,
+      "scoreWithoutLargestEvent": 94.4794418900032
+    },
+    {
+      "name": "Lumra, Bellow of the Woods",
+      "score": 95.92036346665878,
+      "entries": 65,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 95.63073634377307,
+      "scoreWithoutLargestEvent": 94.75163147122056
+    },
+    {
+      "name": "Rocco, Cabaretti Caterer",
+      "score": 95.90549370531983,
+      "entries": 50,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 97.95614153449546,
+      "scoreWithoutLargestEvent": 94.95630610698925
+    },
+    {
+      "name": "Alaundo the Seer",
+      "score": 95.90121077609646,
+      "entries": 6,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 96.55905120279434,
+      "scoreWithoutLargestEvent": 96.55905120279434
+    },
+    {
+      "name": "Lavinia, Azorius Renegade",
+      "score": 95.6057843962461,
+      "entries": 8,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 96.13874147951755,
+      "scoreWithoutLargestEvent": 96.13874147951755
+    },
+    {
+      "name": "Emry, Lurker of the Loch",
+      "score": 95.4870550014425,
+      "entries": 10,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 96.10813545260508,
+      "scoreWithoutLargestEvent": 93.21301936026367
+    },
+    {
+      "name": "Brigid, Clachan's Heart // Brigid, Doun's Mind",
+      "score": 95.43216968488876,
+      "entries": 74,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 95.34438620562872,
+      "scoreWithoutLargestEvent": 95.58604412197225
+    },
+    {
+      "name": "Korvold, Fae-Cursed King",
+      "score": 95.42724486513248,
+      "entries": 29,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 96.89641640860182,
+      "scoreWithoutLargestEvent": 96.87466104591503
+    },
+    {
+      "name": "Arabella, Abandoned Doll",
+      "score": 95.35451332808125,
+      "entries": 4,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 98.14720640838127,
+      "scoreWithoutLargestEvent": 96.88541562707196
+    },
+    {
+      "name": "Marwyn, the Nurturer",
+      "score": 95.20919124779914,
+      "entries": 7,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 96.39330850234568,
+      "scoreWithoutLargestEvent": 95.80181339868423
+    },
+    {
+      "name": "Ral, Monsoon Mage // Ral, Leyline Prodigy",
+      "score": 95.16900603603713,
+      "entries": 175,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 94.08718228357353,
+      "scoreWithoutLargestEvent": 96.11939016193145
+    },
+    {
+      "name": "Marath, Will of the Wild",
+      "score": 95.06810206313749,
+      "entries": 8,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 96.15370592441339,
+      "scoreWithoutLargestEvent": 95.73970341534971
+    },
+    {
+      "name": "Flubs, the Fool",
+      "score": 94.8924901977621,
+      "entries": 10,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 93.96918156442648,
+      "scoreWithoutLargestEvent": 95.52635989370339
+    },
+    {
+      "name": "Esika, God of the Tree // The Prismatic Bridge",
+      "score": 94.8534320399542,
+      "entries": 19,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 97.00463437444866,
+      "scoreWithoutLargestEvent": 95.67168344606345
+    },
+    {
+      "name": "Animar, Soul of Elements",
+      "score": 94.8090273184625,
+      "entries": 12,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 95.69809313352201,
+      "scoreWithoutLargestEvent": 95.69809313352201
+    },
+    {
+      "name": "Maralen, Fae Ascendant",
+      "score": 94.78743910585823,
+      "entries": 24,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 94.59111004379272,
+      "scoreWithoutLargestEvent": 93.67392299730238
+    },
+    {
+      "name": "Malcolm, Keen-Eyed Navigator / Vial Smasher the Fierce",
+      "score": 94.6676030029598,
+      "entries": 73,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 97.09190709567163,
+      "scoreWithoutLargestEvent": 94.10797596233596
+    },
+    {
+      "name": "Akiri, Line-Slinger / Malcolm, Keen-Eyed Navigator",
+      "score": 94.33818481270077,
+      "entries": 7,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 96.14320138268147,
+      "scoreWithoutLargestEvent": 95.14692488225532
+    },
+    {
+      "name": "Elsha of the Infinite",
+      "score": 94.30441077192117,
+      "entries": 14,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 95.9159398892458,
+      "scoreWithoutLargestEvent": 95.08719992422178
+    },
+    {
+      "name": "Ashling, Flame Dancer",
+      "score": 94.25501655511104,
+      "entries": 11,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 96.55562423055466,
+      "scoreWithoutLargestEvent": 94.8277637268282
+    },
+    {
+      "name": "Reyhan, Last of the Abzan / Rograkh, Son of Rohgahh",
+      "score": 94.04662584308183,
+      "entries": 15,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 95.17331120642675,
+      "scoreWithoutLargestEvent": 94.58772609192081
+    },
+    {
+      "name": "Krark, the Thumbless / Thrasios, Triton Hero",
+      "score": 93.94346561748092,
+      "entries": 15,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 94.8081624792496,
+      "scoreWithoutLargestEvent": 95.51081509904773
+    },
+    {
+      "name": "Selvala, Heart of the Wilds",
+      "score": 93.85544275711649,
+      "entries": 13,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 95.33642716570542,
+      "scoreWithoutLargestEvent": 94.5949071355593
+    },
+    {
+      "name": "Jhoira, Weatherlight Captain",
+      "score": 93.77291471993219,
+      "entries": 8,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 95.50600784566765,
+      "scoreWithoutLargestEvent": 94.59179719116618
+    },
+    {
+      "name": "The Wandering Minstrel",
+      "score": 93.73236124508001,
+      "entries": 46,
+      "largestPilotEntries": 6,
+      "scoreWithoutLeadingPilot": 94.70179855787691,
+      "scoreWithoutLargestEvent": 92.62667434362183
+    },
+    {
+      "name": "Stella Lee, Wild Card",
+      "score": 93.33426683296024,
+      "entries": 33,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 93.27864055288984,
+      "scoreWithoutLargestEvent": 94.26627823238606
+    },
+    {
+      "name": "Xyris, the Writhing Storm",
+      "score": 93.19671566161121,
+      "entries": 14,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 96.67646231138917,
+      "scoreWithoutLargestEvent": 93.86510436275078
+    },
+    {
+      "name": "Ashling, the Limitless",
+      "score": 92.96021354079747,
+      "entries": 9,
+      "largestPilotEntries": 1,
+      "scoreWithoutLeadingPilot": 93.97889017716074,
+      "scoreWithoutLargestEvent": 94.58155365688734
+    },
+    {
+      "name": "Najeela, the Blade-Blossom",
+      "score": 92.95326616293858,
+      "entries": 34,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 92.45695711771779,
+      "scoreWithoutLargestEvent": 94.14755735034029
+    },
+    {
+      "name": "Thrasios, Triton Hero / Yoshimaru, Ever Faithful",
+      "score": 91.07872761406756,
+      "entries": 109,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 89.94013019321503,
+      "scoreWithoutLargestEvent": 92.85118399064382
+    },
+    {
+      "name": "Celes, Rune Knight",
+      "score": 90.82248561373235,
+      "entries": 16,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 92.13939444660497,
+      "scoreWithoutLargestEvent": 91.53024520287426
+    },
+    {
+      "name": "Talion, the Kindly Lord",
+      "score": 90.7296837948568,
+      "entries": 19,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 89.82004228737208,
+      "scoreWithoutLargestEvent": 92.45264695949578
+    },
+    {
+      "name": "Raph & Mikey, Troublemakers",
+      "score": 90.41594247915211,
+      "entries": 35,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 92.09649861172156,
+      "scoreWithoutLargestEvent": 91.98878206114571
+    },
+    {
+      "name": "Krark, the Thumbless / Sakashima of a Thousand Faces",
+      "score": 89.96783385449801,
+      "entries": 26,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 91.47457939535003,
+      "scoreWithoutLargestEvent": 90.43138591416007
+    },
+    {
+      "name": "Y'shtola, Night's Blessed",
+      "score": 89.84068130905743,
+      "entries": 20,
+      "largestPilotEntries": 2,
+      "scoreWithoutLeadingPilot": 91.82377623759979,
+      "scoreWithoutLargestEvent": 90.44800760177495
+    },
+    {
+      "name": "Ob Nixilis, Captive Kingpin",
+      "score": 89.14339679987032,
+      "entries": 102,
+      "largestPilotEntries": 5,
+      "scoreWithoutLeadingPilot": 91.05923849570377,
+      "scoreWithoutLargestEvent": 88.42163546054327
+    },
+    {
+      "name": "Yuriko, the Tiger's Shadow",
+      "score": 88.52503357507689,
+      "entries": 46,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 90.35904976564638,
+      "scoreWithoutLargestEvent": 89.63675893943424
+    },
+    {
+      "name": "The Gitrog Monster",
+      "score": 87.3373474879856,
+      "entries": 32,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 89.00295067589514,
+      "scoreWithoutLargestEvent": 88.34977308197321
+    },
+    {
+      "name": "Vivi Ornitier",
+      "score": 83.6002440412357,
+      "entries": 158,
+      "largestPilotEntries": 8,
+      "scoreWithoutLeadingPilot": 81.62513289428622,
+      "scoreWithoutLargestEvent": 84.26117547296897
+    },
+    {
+      "name": "Urza, Lord High Artificer",
+      "score": 81.67868066427846,
+      "entries": 49,
+      "largestPilotEntries": 3,
+      "scoreWithoutLeadingPilot": 83.24423658078666,
+      "scoreWithoutLargestEvent": 81.54585044018629
+    },
+    {
+      "name": "Etali, Primal Conqueror // Etali, Primal Sickness",
+      "score": 79.84975201401792,
+      "entries": 150,
+      "largestPilotEntries": 4,
+      "scoreWithoutLeadingPilot": 80.92631008984726,
+      "scoreWithoutLargestEvent": 79.29194217870571
+    }
+  ]
+}
