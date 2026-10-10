@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "modelVersion": "conditional-cut-v1",
-  "generatedAt": "2026-10-10T00:10:09.741751+00:00",
+  "generatedAt": "2026-10-10T06:02:17.808608+00:00",
   "source": "https://edhtop16.com",
   "methodologyUrl": "https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md",
   "window": {
@@ -12,7 +12,7 @@
   "reference": "100 = qualification opportunity of the shared event field; not a win percentage",
   "intervalScope": "95% model interval, conditional on the fitted prior; not a rank interval or pilot-adjusted estimate",
   "parameters": {
-    "priorSigma": 0.22089354258399788,
+    "priorSigma": 0.2208935425313975,
     "referenceQualificationRate": 0.27112535042050445,
     "gridRange": [
       -5,
@@ -34,7 +34,7 @@
       "no_qualification_rounds": 3
     }
   },
-  "sourceSnapshotSha256": "414a5695234e360104435846d7fd3dd876e2c33c77e0cd739bb8cfa82dbc8a1f",
+  "sourceSnapshotSha256": "35e439cbf7572c5e5a231ea08520d93841696fe0aee09622e5f559f69e259138",
   "data": [
     {
       "commanderId": "Q29tbWFuZGVyOjMw",
