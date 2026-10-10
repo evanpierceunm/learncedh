@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "modelVersion": "conditional-cut-adoption-v2",
-  "generatedAt": "2026-10-10T17:55:35.315060+00:00",
+  "generatedAt": "2026-10-10T17:59:29.411237+00:00",
   "source": "https://edhtop16.com",
   "methodologyUrl": "https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md",
   "window": {
@@ -12,7 +12,7 @@
   "reference": "100 = qualification opportunity of the shared event field; not a win percentage",
   "intervalScope": "95% conditional model range, holding the fitted prior and adoption calibration fixed; excludes calibration, repeated-pilot and missing-label uncertainty; not a rank interval or pilot-skill-adjusted estimate",
   "parameters": {
-    "priorSigma": 0.24044449568906437,
+    "priorSigma": 0.24044449568927317,
     "referenceQualificationRate": 0.2363260447340391,
     "neutralCalibratedQualificationRate": 0.2272540367991837,
     "minimumCommanderCoverage": 0.95,
@@ -55,7 +55,7 @@
       "no_qualification_rounds": 3
     }
   },
-  "sourceSnapshotSha256": "555c3700b4ec41490e9616e0e286d3e5d52eda1712dab8eafdfb0dbdcf25c3bf",
+  "sourceSnapshotSha256": "62b594ac336e9f1153ed90e7abd75b3d16e753c8b980d152c9798ab72945ee85",
   "data": [
     {
       "commanderId": "Q29tbWFuZGVyOjIwNzI=",
