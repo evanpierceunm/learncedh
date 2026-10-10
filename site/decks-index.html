@@ -51,18 +51,21 @@
 #filtered-posts .post-item { display: flex; flex-direction: column; min-width: 0; }
 #filtered-posts .deck-card-link { display: block; color: inherit; text-decoration: none; flex: 1; }
 #filtered-posts .deck-card-link:focus-visible { outline: 2px solid #3159a7; outline-offset: -3px; }
-.deck-metrics { margin: 0 12px 14px; color: #222; }
-.deck-metrics > summary { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; cursor: pointer; list-style: none; }
-.deck-metrics > summary::-webkit-details-marker { display: none; }
-.deck-metrics > summary:focus-visible { outline: 2px solid #3159a7; outline-offset: 4px; border-radius: 6px; }
-.deck-metric { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; padding: 12px 3px; border: 1px solid #dedede; border-radius: 9px; background: #f9f9f9; text-align: center; }
+#filtered-posts .post-content { padding-bottom: 8px; }
+#filtered-posts .deck-excerpt > :last-child { margin-bottom: 0; }
+.deck-metrics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 6px; margin: 0 12px 10px; color: #222; }
+.deck-metric { position: relative; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 2px; padding: 9px 3px 7px; border: 1px solid #dedede; border-radius: 9px; background: #f9f9f9; text-align: center; }
+button.deck-metric { appearance: none; font: inherit; color: inherit; cursor: pointer; width: 100%; }
+button.deck-metric:hover, button.deck-metric[aria-expanded="true"] { border-color: #999; background: #f3f3f3; }
+button.deck-metric:focus-visible { outline: 2px solid #3159a7; outline-offset: 3px; }
 .deck-metric strong { font-size: clamp(18px, 1.7vw, 27px); font-weight: 800; line-height: 1.15; font-variant-numeric: tabular-nums; }
-.deck-metric-label { font-size: 10px; font-weight: 600; line-height: 1.3; color: #696969; text-transform: uppercase; letter-spacing: .025em; white-space: normal; min-height: 2.6em; display: flex; align-items: center; justify-content: center; }
-.deck-metric-info { position: absolute; top: 4px; right: 5px; font-size: 11px; text-transform: none; }
-.deck-metrics[open] .deck-metric:first-child { border-color: #888; }
-.deck-metric-details { padding: 12px 2px 0; text-align: left; font-size: 12px; line-height: 1.5; color: #555; }
-.deck-metric-details p { margin: 0 0 7px; }
-.deck-metric-details a { color: inherit; text-decoration: underline; }
+.deck-metric-label { font-size: 10px; font-weight: 600; line-height: 1.3; color: #696969; text-transform: uppercase; letter-spacing: .025em; white-space: normal; }
+.deck-metric-info { position: absolute; top: 3px; right: 4px; font-size: 10px; text-transform: none; }
+.deck-performance-popup { position: fixed; box-sizing: border-box; z-index: 10000; width: min(280px, calc(100vw - 24px)); max-height: calc(100vh - 24px); overflow: auto; padding: 12px 14px; border: 1px solid #d4d4d4; border-radius: 10px; background: #fff; color: #444; box-shadow: 0 5px 22px #0003; text-align: left; font-size: 12px; line-height: 1.45; }
+.deck-performance-popup[hidden] { display: none; }
+.deck-performance-popup p { margin: 0 0 6px; }
+.deck-performance-popup p:last-child { margin-bottom: 0; }
+.deck-performance-popup a { color: inherit; text-decoration: underline; }
 @media (min-width: 1025px) and (max-width: 1250px) {
   #filtered-posts { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
@@ -409,12 +412,78 @@
       });
     }
 
+    // A single floating panel avoids changing card heights or nesting controls in links.
+    const performancePopup = document.createElement('div');
+    performancePopup.id = 'deck-performance-popup';
+    performancePopup.className = 'deck-performance-popup';
+    performancePopup.setAttribute('role', 'dialog');
+    performancePopup.hidden = true;
+    document.body.appendChild(performancePopup);
+    let activePerformance = null;
+    let performancePinned = false;
+    let performanceDismissTimer;
+
+    function hidePerformance() {
+      clearTimeout(performanceDismissTimer);
+      if (activePerformance) activePerformance.setAttribute('aria-expanded', 'false');
+      activePerformance = null;
+      performancePinned = false;
+      performancePopup.hidden = true;
+    }
+
+    function showPerformance(trigger, content, pinned) {
+      clearTimeout(performanceDismissTimer);
+      if (activePerformance === trigger && performancePinned && !pinned) return;
+      hidePerformance();
+      activePerformance = trigger;
+      performancePinned = pinned;
+      performancePopup.replaceChildren(content.content.cloneNode(true));
+      performancePopup.setAttribute('aria-label', trigger.getAttribute('aria-label'));
+      performancePopup.hidden = false;
+      trigger.setAttribute('aria-expanded', 'true');
+      const box = trigger.getBoundingClientRect();
+      const panel = performancePopup.getBoundingClientRect();
+      const left = Math.max(12, Math.min(box.left, window.innerWidth - panel.width - 12));
+      const above = box.top - panel.height - 8;
+      const top = above >= 12 ? above : Math.max(12, Math.min(box.bottom + 8, window.innerHeight - panel.height - 12));
+      performancePopup.style.left = `${left}px`;
+      performancePopup.style.top = `${top}px`;
+    }
+
+    function dismissPerformanceSoon() {
+      clearTimeout(performanceDismissTimer);
+      if (!performancePinned) performanceDismissTimer = setTimeout(hidePerformance, 180);
+    }
+    performancePopup.addEventListener('pointerenter', () => clearTimeout(performanceDismissTimer));
+    performancePopup.addEventListener('pointerleave', dismissPerformanceSoon);
+    performancePopup.addEventListener('keydown', event => {
+      if (event.key === 'Tab' && event.shiftKey && activePerformance) {
+        event.preventDefault();
+        activePerformance.focus({preventScroll: true});
+      }
+    });
+    document.addEventListener('pointerdown', event => {
+      if (activePerformance && !activePerformance.contains(event.target) && !performancePopup.contains(event.target)) hidePerformance();
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && activePerformance) {
+        const trigger = activePerformance;
+        hidePerformance();
+        trigger.focus({preventScroll: true});
+      }
+    });
+    document.addEventListener('focusin', event => {
+      if (activePerformance && !activePerformance.contains(event.target) && !performancePopup.contains(event.target)) hidePerformance();
+    });
+    window.addEventListener('resize', hidePerformance);
+    window.addEventListener('scroll', hidePerformance, {passive: true});
+
     function displayPosts(posts) {
       const startIndex = (currentPage - 1) * itemsPerPage;
       const endIndex = startIndex + itemsPerPage;
       const itemsToDisplay = posts.slice(startIndex, endIndex);
 
-      if (currentPage === 1) postsContainer.innerHTML = "";
+      if (currentPage === 1) { hidePerformance(); postsContainer.innerHTML = ""; }
 
       if (posts.length === 0) {
         noResultsMessage.style.display = "block";
@@ -438,23 +507,37 @@
               <div class="deck-excerpt">${post.excerpt || "No description available."}</div>
             </div>
             </a>
-            <details class="deck-metrics">
-              <summary>
-                <span class="deck-metric"><strong>${hasPerformance(post.performance) ? post.performance.score.toFixed(1) : 'N/A'}</strong><span class="deck-metric-label">Performance <span class="deck-metric-info" aria-hidden="true">ⓘ</span></span></span>
+            <div class="deck-metrics">
+                <button type="button" class="deck-metric performance-trigger" aria-expanded="false" aria-haspopup="dialog" aria-controls="deck-performance-popup"><strong>${hasPerformance(post.performance) ? post.performance.score.toFixed(1) : 'N/A'}</strong><span class="deck-metric-label">Performance <span class="deck-metric-info" aria-hidden="true">ⓘ</span></span></button>
                 <span class="deck-metric"><strong>${conversionRate}%</strong><span class="deck-metric-label">Conversion Rate</span></span>
                 <span class="deck-metric"><strong>${metaShare}%</strong><span class="deck-metric-label">Metashare</span></span>
-              </summary>
-              <div class="deck-metric-details">
+            </div>
+              <template class="performance-content">
                 ${hasPerformance(post.performance) ? `
                   <p>95% range: ${post.performance.interval[0].toFixed(0)} to ${post.performance.interval[1].toFixed(0)}<br>${post.performance.entries.toLocaleString()} entries · ${post.performance.events} events · ${post.performance.pilots} pilots${post.performance.evidence === "limited" ? '<br>Limited data' : ''}</p>
                   <p>100 = field average; higher is better.</p>
                 ` : `<p>Performance ${performanceFeed ? 'has too little data.' : 'is unavailable; sorted by popularity.'}</p>`}
                 ${performanceFeed ? `<p>${performanceFeed.window.days} days through ${new Date(Date.parse(performanceFeed.window.endExclusive + 'T00:00:00Z') - 86400000).toISOString().slice(0,10)}.${Date.now() - Date.parse(performanceFeed.generatedAt) > 7 * 86400000 ? ' Update delayed.' : ''}</p>` : ''}
                 <p><a href="https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md" target="_blank" rel="noopener">Methodology</a></p>
-              </div>
-            </details>
+              </template>
           `;
-          postElement.querySelector('summary').setAttribute('aria-label', `Performance details for ${post.title}: ${hasPerformance(post.performance) ? post.performance.score.toFixed(1) : 'not available'}; conversion rate ${conversionRate}%; metashare ${metaShare}%`);
+          const trigger = postElement.querySelector('.performance-trigger');
+          const content = postElement.querySelector('.performance-content');
+          trigger.setAttribute('aria-label', `Performance details for ${post.title}: ${hasPerformance(post.performance) ? post.performance.score.toFixed(1) : 'not available'}`);
+          trigger.addEventListener('pointerenter', event => {
+            if (event.pointerType === 'mouse') showPerformance(trigger, content, false);
+          });
+          trigger.addEventListener('pointerleave', dismissPerformanceSoon);
+          trigger.addEventListener('click', () => {
+            if (activePerformance === trigger && performancePinned) hidePerformance();
+            else showPerformance(trigger, content, true);
+          });
+          trigger.addEventListener('keydown', event => {
+            if (event.key === 'Tab' && !event.shiftKey && activePerformance === trigger) {
+              const link = performancePopup.querySelector('a');
+              if (link) { event.preventDefault(); link.focus(); }
+            }
+          });
           postsContainer.appendChild(postElement);
         });
       }
