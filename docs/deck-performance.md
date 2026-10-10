@@ -42,6 +42,10 @@ Each card’s expandable details show a **95% model range**, eligible entries, d
 
 We sort the estimated average, rather than a conservative lower bound. A lower-bound sort would favor results with the strongest evidence and answer a different question. The distinction is discussed in [Bayesian ranking methods](https://www.evanmiller.org/bayesian-average-ratings.html).
 
+## Pilot review
+
+Unique pilot counts are currently descriptive; they do not change the score. An October 9 audit found modest predictive value and no demonstrated improvement from the tested pilot-aware deck-only alternatives. The separate pilot-history forecast improved, but it predicts the player plus deck rather than deck strength alone. See the [full audit](deck-performance-audit-2026-10-09.md).
+
 ## Historical validation
 
 The initial fetch contains 4,985 events over a year. We selected the 180-day window over a 90-day candidate using three earlier, nonoverlapping 30-day validation periods. Prior fitting uses only each training period. The most recent 30 days, September 7 through October 6, were held out of window selection. The difference between candidate windows was small; this does not establish that 180 days will always be optimal.

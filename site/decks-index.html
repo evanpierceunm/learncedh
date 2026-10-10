@@ -446,11 +446,11 @@
               </summary>
               <div class="deck-metric-details">
                 ${hasPerformance(post.performance) ? `
-                  <p>95% model range: ${post.performance.interval[0].toFixed(0)} to ${post.performance.interval[1].toFixed(0)}<br>${post.performance.entries.toLocaleString()} entries · ${post.performance.events} events · ${post.performance.pilots} pilots${post.performance.evidence === "limited" ? '<br>Limited data' : ''}</p>
-                  <p>100 is the field baseline. Higher is better; this is not a win percentage.</p>
-                ` : `<p>Performance ${performanceFeed ? 'has insufficient eligible data for this deck.' : 'is temporarily unavailable. Sorting by popularity until the feed returns.'}</p>`}
-                ${performanceFeed ? `<p>${performanceFeed.window.days}-day performance window: ${performanceFeed.window.start} to ${new Date(Date.parse(performanceFeed.window.endExclusive + 'T00:00:00Z') - 86400000).toISOString().slice(0,10)}.${Date.now() - Date.parse(performanceFeed.generatedAt) > 7 * 86400000 ? ' Update delayed; showing last available results.' : ''}</p>` : ''}
-                <p><a href="https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md" target="_blank" rel="noopener">How performance is calculated</a></p>
+                  <p>95% range: ${post.performance.interval[0].toFixed(0)} to ${post.performance.interval[1].toFixed(0)}<br>${post.performance.entries.toLocaleString()} entries · ${post.performance.events} events · ${post.performance.pilots} pilots${post.performance.evidence === "limited" ? '<br>Limited data' : ''}</p>
+                  <p>100 = field average; higher is better.</p>
+                ` : `<p>Performance ${performanceFeed ? 'has too little data.' : 'is unavailable; sorted by popularity.'}</p>`}
+                ${performanceFeed ? `<p>${performanceFeed.window.days} days through ${new Date(Date.parse(performanceFeed.window.endExclusive + 'T00:00:00Z') - 86400000).toISOString().slice(0,10)}.${Date.now() - Date.parse(performanceFeed.generatedAt) > 7 * 86400000 ? ' Update delayed.' : ''}</p>` : ''}
+                <p><a href="https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md" target="_blank" rel="noopener">Methodology</a></p>
               </div>
             </details>
           `;
