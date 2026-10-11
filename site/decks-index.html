@@ -518,7 +518,7 @@ button.deck-metric:focus-visible { outline: 2px solid #3159a7; outline-offset: 3
                   <p>100 = field average; higher is better.</p>
                 ` : `<p>Performance ${performanceFeed ? 'has too little data.' : 'is unavailable; sorted by popularity.'}</p>`}
                 ${performanceFeed ? `<p>${performanceFeed.window.days} days through ${new Date(Date.parse(performanceFeed.window.endExclusive + 'T00:00:00Z') - 86400000).toISOString().slice(0,10)}.${Date.now() - Date.parse(performanceFeed.generatedAt) > 7 * 86400000 ? ' Update delayed.' : ''}</p>` : ''}
-                <p><a href="https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md" target="_blank" rel="noopener">Methodology</a></p>
+                <p><a href="/performance-methodology">Methodology</a></p>
               </template>
           `;
           const trigger = postElement.querySelector('.performance-trigger');

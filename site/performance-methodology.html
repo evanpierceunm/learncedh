@@ -1,0 +1,145 @@
+
+<style>
+[data-section-id="6acbc0c51e75a02f7057440f"] .content-wrapper { padding-top:0 !important; padding-bottom:0 !important; }
+body.dark-mode [data-section-id="6acbc0c51e75a02f7057440f"] .section-background { background:#181a1f !important; }
+body.dark-mode #performance-methodology { --pm-ink:#f1f2f4; --pm-muted:#b9bec8; --pm-line:#3a3d45; }
+body.dark-mode #performance-methodology h1,body.dark-mode #performance-methodology h2,body.dark-mode #performance-methodology h3 { color:var(--pm-ink) !important; }
+body.dark-mode #performance-methodology .pm-guide article,body.dark-mode #performance-methodology pre,body.dark-mode #performance-methodology th { background:#23262d; }
+body.dark-mode #performance-methodology .pm-baseline { background:#f1f2f4; color:#222; }
+body.dark-mode #performance-methodology .pm-baseline p { color:#5d626b; }
+
+#performance-methodology { --pm-ink:#222; --pm-muted:#5d626b; --pm-line:#dedfe2; color:var(--pm-ink); font-family:"Space Grotesk",sans-serif; max-width:1100px; margin:0 auto; padding:clamp(28px,5vw,64px) 0; font-size:17px; line-height:1.65; }
+#performance-methodology * { box-sizing:border-box; }
+#performance-methodology a { color:inherit; text-decoration:underline; text-underline-offset:4px; }
+#performance-methodology a:focus-visible,#performance-methodology summary:focus-visible,#performance-methodology .pm-table:focus-visible { outline:3px solid #3159a7; outline-offset:5px; }
+#performance-methodology .pm-back { display:inline-block; font-size:14px; margin-bottom:28px; }
+#performance-methodology .pm-hero { display:grid; grid-template-columns:minmax(0,1fr) 230px; align-items:center; gap:42px; margin-bottom:38px; }
+#performance-methodology .pm-eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:12px; font-weight:600; margin:0 0 12px; color:var(--pm-muted); }
+#performance-methodology h1 { font-family:"Archivo Black",sans-serif; font-weight:400; font-size:clamp(32px,4.3vw,54px); line-height:1.08; letter-spacing:-.035em; text-transform:uppercase; margin:0 0 20px; max-width:750px; }
+#performance-methodology .pm-lead { color:var(--pm-muted); max-width:660px; margin:0; font-size:18px; line-height:1.55; }
+#performance-methodology .pm-baseline { background:#222; color:white; border-radius:16px; padding:28px 18px; text-align:center; }
+#performance-methodology .pm-baseline strong { display:block; font:400 68px/1 "Archivo Black",sans-serif; letter-spacing:-.035em; }
+#performance-methodology .pm-baseline span { display:block; margin:9px 0 4px; font-size:12px; text-transform:uppercase; letter-spacing:.08em; }
+#performance-methodology .pm-baseline p { margin:0; color:#d6d7dc; font-size:14px; }
+#performance-methodology .pm-guide { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin:0 0 42px; }
+#performance-methodology .pm-guide article { background:#f7f8fa; border:1px solid var(--pm-line); border-radius:12px; padding:21px; }
+#performance-methodology h2 { font-family:"Archivo Black",sans-serif; font-weight:400; text-transform:uppercase; font-size:23px; line-height:1.2; letter-spacing:-.02em; margin:0 0 14px; }
+#performance-methodology h3 { font:600 17px/1.35 "Space Grotesk",sans-serif; margin:0 0 9px; letter-spacing:0; text-transform:none; }
+#performance-methodology .pm-guide p { font-size:15px; line-height:1.55; color:var(--pm-muted); margin:0; }
+#performance-methodology .pm-method-intro { max-width:740px; color:var(--pm-muted); margin:0 0 23px; }
+#performance-methodology details { border-top:1px solid var(--pm-line); margin:0; }
+#performance-methodology details:last-of-type { border-bottom:1px solid var(--pm-line); }
+#performance-methodology summary { cursor:pointer; padding:21px 34px 21px 0; font-size:18px; font-weight:600; line-height:1.4; list-style:none; position:relative; }
+#performance-methodology summary::-webkit-details-marker { display:none; }
+#performance-methodology summary::after { content:'+'; position:absolute; right:4px; top:17px; font-size:26px; font-weight:400; }
+#performance-methodology details[open] summary::after { content:'−'; }
+#performance-methodology .pm-detail { padding:0 0 24px; max-width:880px; font-size:16px; overflow-wrap:anywhere; }
+#performance-methodology .pm-detail p { margin:0 0 18px; }
+#performance-methodology .pm-detail p:last-child { margin-bottom:0; }
+#performance-methodology pre { max-width:100%; overflow:auto; background:#f5f6f8; border:1px solid var(--pm-line); border-radius:8px; padding:16px; font-size:13px; line-height:1.65; white-space:pre-wrap; overflow-wrap:anywhere; }
+#performance-methodology code { font-size:.86em; }
+#performance-methodology .pm-table { overflow:auto; margin:20px 0; }
+#performance-methodology table { border-collapse:collapse; width:100%; min-width:460px; font-size:14px; }
+#performance-methodology th,#performance-methodology td { padding:12px; border-bottom:1px solid var(--pm-line); text-align:left; }
+#performance-methodology th { background:#f5f6f8; }
+#performance-methodology .pm-foot { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:20px; margin-top:32px; }
+#performance-methodology .pm-foot p { color:var(--pm-muted); font-size:13px; margin:0; }
+#performance-methodology .pm-cta { background:#222; color:white; border-radius:7px; padding:12px 20px; text-decoration:none; font-size:15px; font-weight:600; }
+@media(max-width:640px) {
+ #performance-methodology { font-size:16px; padding:28px 0; }
+ #performance-methodology .pm-hero { grid-template-columns:1fr; gap:24px; margin-bottom:22px; }
+ #performance-methodology .pm-baseline { display:grid; grid-template-columns:110px 1fr; column-gap:12px; align-items:center; text-align:left; padding:20px; }
+ #performance-methodology .pm-baseline strong { grid-row:span 2; font-size:54px; }
+ #performance-methodology .pm-baseline span { margin:0; }
+ #performance-methodology .pm-guide { grid-template-columns:1fr; gap:10px; margin-bottom:32px; }
+ #performance-methodology .pm-guide article { padding:17px 19px; }
+ #performance-methodology .pm-lead { font-size:17px; }
+ #performance-methodology .pm-detail { font-size:15px; }
+ #performance-methodology summary { font-size:17px; }
+}
+@media(prefers-reduced-motion:no-preference) { #performance-methodology .pm-cta { transition:background .15s; } #performance-methodology .pm-cta:hover { background:#454545; } }
+</style>
+<div id="performance-methodology">
+<a class="pm-back" href="/decks">← Back to decks</a>
+<header class="pm-hero">
+<div><p class="pm-eyebrow">Deck rankings · Methodology</p>
+<h1>How Performance works</h1>
+<p class="pm-lead">Performance estimates how well a deck makes tournament cuts, accounting for event context, sample size and breadth of adoption.</p></div>
+<aside class="pm-baseline" aria-label="Performance scale"><strong>100</strong><span>Field baseline</span><p>Higher is better.</p></aside>
+</header>
+<div class="pm-guide" aria-label="Reading the score">
+<article><h3>Read the score</h3><p>Compare tournament performance across decks. The number is an index, not a win percentage.</p></article>
+<article><h3>Check the range</h3><p>Overlapping ranges mean the order is uncertain. Small score differences do not establish which deck is stronger.</p></article>
+<article><h3>Look at the sample</h3><p>The popup shows entries, events and distinct pilots from the last 180 days. Conversion and metashare use a separate three-month window.</p></article>
+</div>
+<section aria-labelledby="pm-method-title"><h2 id="pm-method-title">Behind the numbers</h2>
+<p class="pm-method-intro">Results come from <a href="https://edhtop16.com/">EDHTop16</a>. The model reduces the influence of small samples and includes a modest adjustment for unique pilots. It does not isolate deck strength from pilot skill.</p>
+<details><summary>Results included</summary><div class="pm-detail"><p>We use a rolling 180-day window from <a href="https://edhtop16.com/">EDHTop16</a>. The daily build ends two UTC days before its build date, exclusively, to allow reporting time. Each card's popup gives the actual included dates.</p>
+<p>An event must have at least 16 entrants, qualification rounds, a complete entrant roster, a valid cut smaller than its field, and commander identities for at least <strong>95% of entrants</strong>. Missing commander identities remain unknown. An event needs both identified qualifiers and identified nonqualifiers to contribute comparative information.</p>
+<p>Final standings must identify exactly the stated number of qualifiers and one winner. Every qualifier must have a recorded bracket result, the winner must have a bracket win, and nonqualifiers cannot have bracket results. These are completion checks, not a source-provided guarantee. Duplicate records, explicit test/custom-rule flags, invalid standings, out-of-window events and incomplete rosters are excluded.</p>
+<p>The previous version required every commander to be known, which disproportionately excluded large tournaments. Version 2 retains mostly complete events while preserving the other checks. The public feed reports total entrants, identified and unknown entrants, partial-label event counts, coverage and exclusion reasons. Card sample counts include only identified entrants on that archetype.</p>
+<p>Reporting can depend on results and archetype, so this policy does not eliminate selection bias. Events below 95% coverage are excluded even if some useful results remain. The threshold balances coverage and missing information; it is not a statistically proven optimum. Raw conversion and metashare retain their separate EDHTop16 three-month definitions and need not match the performance sample.</p>
+</div></details><details><summary>Base model</summary><div class="pm-detail"><p>Within each event, use only entrants with known commanders for the comparison. Let <code>N</code> be their count, <code>c</code> their number of qualifiers, <code>m</code> the count on one deck, and <code>k</code> its qualifiers:</p>
+<pre><code>P(k | N,c,m,theta) ∝ choose(m,k) × choose(N-m,c-k) × exp(k × theta)
+</code></pre>
+<p>This is <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.nchypergeom_fisher.html">Fisher's noncentral hypergeometric distribution</a>. Unknown entrants are not assigned another deck or silently treated as opponents of every named deck. For complete-label events this is the original likelihood. The conditional comparison still assumes missing-label selection does not distort relative success odds differently by archetype.</p>
+<p><code>theta</code> is the deck's qualification log-odds advantage against the pooled identified field. A zero-centered Normal prior shrinks sparse results toward neutral. Its spread is fitted by marginal likelihood across all observed commander groups, not only decks with primers. We integrate on the grid -5 to 5 in steps of 0.01. Separate fits do not constitute a joint matchup or pilot-skill model.</p>
+<p>For scoring, all decks use the same entry-weighted mix of <strong>full-event</strong> cut fractions. The base reference probability <code>p_d</code> is the posterior mean single-entrant prediction across that mix. Full field sizes remain in the reference even when a few commander identities are missing. Event size describes the qualification opportunity, not the strength of its players.</p>
+</div></details><details><summary>Learned adoption adjustment</summary><div class="pm-detail"><p>The versioned calibration uses the number <code>u_d</code> of distinct identified pilots on that deck in its 180-day training window:</p>
+<pre><code>s_d = -0.0550359053 + 0.0395358518 × (log(1 + u_d) - 4.6918455687)
+p'_d = logistic(logit(p_d) + s_d)
+</code></pre>
+<p>The coefficient is small: at substantial pilot counts, doubling adoption increases predicted odds by about 2.8%, holding the base prediction fixed. It was learned from earlier chronological forecasts, not chosen to put specific decks higher. Repeat entries from one pilot do not increase the distinct-pilot feature. They still contribute base-model results, so this does not remove dependence between repeated observations or adjust for skill. Missing pilot IDs contribute no invented identities and mark a deck's evidence as limited.</p>
+<p>The coefficients and centering are <strong>frozen</strong>, stored in <code>scripts/ranking/adoption-calibration.json</code>. Daily builds update results and pilot counts but do not silently refit the coefficients. New calibration requires explicit versioning and evaluation.</p>
+<p>Training used three 30-day validation periods from June 9 through September 6, 2026. Each forecast used only its preceding 180-day training window. Logistic calibration used the predicted event-specific log odds as an offset, an intercept and log pilot count, with fixed L2 penalty 1. The following historical month was used for comparison, not coefficient fitting. It had already been examined in prior research and is not an untouched prospective test. The feature is a predictive association with breadth of adoption, not evidence that choosing a popular deck causes better results.</p>
+</div></details><details><summary>Common scale and ranges</summary><div class="pm-detail"><p>Let <code>b</code> be the shared full-event qualification fraction. For every observed deck compute its neutral calibrated probability <code>logistic(logit(b) + s_d)</code>. Average those probabilities using identified entrant counts as weights to obtain one common neutral baseline <code>B</code>. The published index is:</p>
+<pre><code>Performance_d = 100 × p'_d / B
+</code></pre>
+<p>A neutral field with this adoption mix averages 100. This does not force the actual scores to average 100. Every deck shares <code>B</code>, including after website filters change. Sorting uses the score stored to three decimals; cards display one decimal, and alphabetical order resolves exact ties. Unobserved decks remain unranked.</p>
+<p>The displayed 95% range transforms the base posterior's 2.5th and 97.5th percentiles through the same adoption adjustment and common scale. It is conditional on the fitted prior, reference mix and fixed calibration. It excludes calibration-estimation uncertainty, unknown-label selection, repeated-pilot dependence and changing opponents. It is not a confidence interval for leaderboard position. The score is a calibrated point estimate, not a claim that transforming a posterior mean equals the mean of a transformed posterior.</p>
+<p>The popup also shows eligible entries, events and identified pilots. Fewer than five events, fewer than five pilots, or any missing pilot IDs produce a “Limited data” label. This display rule is not a significance threshold.</p>
+</div></details><details><summary>Historical evidence</summary><div class="pm-detail"><p>On four chronological months, broader-coverage mean ranking distinguished a qualifier from a nonqualifier on a different deck within the same event in 56.08% of pairs, compared with 54.21% for the original coverage policy. Conservative lower-quantile ranking did not improve pooled discrimination, so it was not adopted.</p>
+<p>In the final historical month, on the same 2,657 identified entrants in events with at least 95% labels:</p>
+<div aria-label="Historical validation results" class="pm-table" role="region" tabindex="0"><table>
+<thead>
+<tr>
+<th>Candidate</th>
+<th style="text-align:right;">Log loss, lower is better</th>
+<th style="text-align:right;">Rank concordance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Original strict coverage</td>
+<td style="text-align:right;">0.538409</td>
+<td style="text-align:right;">54.74%</td>
+</tr>
+<tr>
+<td>Broader coverage</td>
+<td style="text-align:right;">0.536409</td>
+<td style="text-align:right;">56.75%</td>
+</tr>
+<tr>
+<td>Broader coverage, intercept-only calibration</td>
+<td style="text-align:right;">0.536138</td>
+<td style="text-align:right;">56.75%</td>
+</tr>
+<tr>
+<td>Broader coverage, learned pilot count</td>
+<td style="text-align:right;">0.534925</td>
+<td style="text-align:right;">57.25%</td>
+</tr>
+</tbody>
+</table></div>
+<p>The paired event-bootstrap 95% interval for the final row's log-loss difference from intercept-only calibration was [-0.002170, -0.000244]. These are modest retrospective improvements. Event resampling does not remove shared-pilot dependence or all missingness and model-selection uncertainty. The broader-coverage ranking improvement alone had an interval spanning zero. These results do not validate a precise deck ordering or independently establish intrinsic strength.</p>
+<p>The <a href="https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance-v2-validation.json">v2 validation summary</a> retains provenance, comparisons and calibration details. The <a href="https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance-audit-2026-10-09.md">earlier pilot audit</a> and original validation files are historical v1 evidence, not fresh v2 evaluations. <code>validate.py</code> compares base likelihoods before adoption calibration; it is not a full v2 validation tool.</p>
+<p>To reproduce the frozen coefficient fit using the archived full-year snapshot:</p>
+<pre><code>python scripts/ranking/fit_calibration.py --snapshot PATH/events.json --evaluation-end 2026-10-07 --output calibration-review.json
+</code></pre>
+<p>This explicit research command does not overwrite the production calibration. Source data must cover the 300 days through that endpoint. Historical source corrections can change a later rerun.</p>
+</div></details><details><summary>Updates and failure behavior</summary><div class="pm-detail"><p>The GitHub workflow runs daily at 00:20 UTC. It fetches complete pages, runs tests, builds the feed and publishes only on success. Raw snapshots and exclusions are retained as workflow artifacts for 14 days; the public score feed contains no player identities. Fewer than 20 eligible events, insufficient coverage, invalid scores, backward windows or a greater-than-30% event-coverage drop within the same model version stop publication and retain the prior feed.</p>
+<p>The website's Performance default, hover/tap popup, card styling and other sorts are unchanged. If the feed fails, Performance displays N/A and sorting falls back to popularity. Details flag feeds older than seven days. Original conversion/metashare feeds and primer content remain separate.</p>
+<p>Model version: <code>conditional-cut-adoption-v2</code>. Implementation: <code>scripts/ranking/</code>; tests: <code>tests/ranking/</code>; website: <code>site/decks-index.html</code>.</p>
+</div></details></section>
+<footer class="pm-foot"><p>Model: conditional-cut-adoption-v2<br>Methodology updated October 11, 2026 · <a href="https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md">Source documentation</a></p><a class="pm-cta" href="/decks">Explore the decks →</a></footer>
+</div>
