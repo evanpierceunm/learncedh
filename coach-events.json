@@ -465,6 +465,17 @@
     "topCut": 4,
     "wins": 1
    },
+   "cedh-664": {
+    "date": 1791675000,
+    "draws": 1,
+    "losses": 1,
+    "madeTopCut": true,
+    "name": "CEDH",
+    "place": 1,
+    "players": 26,
+    "topCut": 4,
+    "wins": 3
+   },
    "cedh-715": {
     "date": 1789862400,
     "draws": 2,
@@ -5743,6 +5754,17 @@
     "topCut": 16,
     "wins": 2
    },
+   "sunshine-showdown-cedh-tournament": {
+    "date": 1791640800,
+    "draws": 2,
+    "losses": 3,
+    "madeTopCut": false,
+    "name": "Land, Go: Sunshine Showdown $10k+ cEDH",
+    "place": 28,
+    "players": 67,
+    "topCut": 16,
+    "wins": 1
+   },
    "the-cookout-2025": {
     "date": 1759672800,
     "draws": 2,
@@ -9449,7 +9471,7 @@
    }
   }
  },
- "fetchedThrough": 1791719422,
+ "fetchedThrough": 1791813385,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
