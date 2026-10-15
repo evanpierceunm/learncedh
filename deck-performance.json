@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "modelVersion": "conditional-cut-adoption-v2",
-  "generatedAt": "2026-10-14T05:03:07.394558+00:00",
+  "generatedAt": "2026-10-15T04:52:12.513438+00:00",
   "source": "https://edhtop16.com",
   "methodologyUrl": "https://github.com/evanpierceunm/learncedh/blob/main/docs/deck-performance.md",
   "window": {
-    "start": "2026-04-15",
-    "endExclusive": "2026-10-12",
+    "start": "2026-04-16",
+    "endExclusive": "2026-10-13",
     "days": 180
   },
   "reference": "100 = qualification opportunity of the shared event field; not a win percentage",
@@ -47,16 +47,15 @@
     "partiallyLabeledEvents": 161,
     "excludedEvents": 2467,
     "exclusionReasons": {
-      "outside_date_bounds": 1,
-      "no_valid_cut": 1325,
-      "commander_coverage_below_95_percent": 1076,
+      "no_valid_cut": 1324,
+      "commander_coverage_below_95_percent": 1078,
       "unconfirmed_finished_bracket": 23,
       "incomplete_field": 27,
       "test_event_name": 12,
       "no_qualification_rounds": 3
     }
   },
-  "sourceSnapshotSha256": "d033a3cd6fec5c9e43e61270e85af9ca97b3231d338a55305d8574c31a496d24",
+  "sourceSnapshotSha256": "128d097d65fa4f25a69567c4ee92277c1f0dd1664dc59d22ee3e8dab2c888804",
   "data": [
     {
       "commanderId": "Q29tbWFuZGVyOjIwNzI=",
