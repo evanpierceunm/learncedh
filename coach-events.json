@@ -498,6 +498,17 @@
     "topCut": 4,
     "wins": 0
    },
+   "cedh-920": {
+    "date": 1792279800,
+    "draws": 2,
+    "losses": 1,
+    "madeTopCut": true,
+    "name": "CEDH",
+    "place": 2,
+    "players": 13,
+    "topCut": 4,
+    "wins": 1
+   },
    "cedh-dual-land-event": {
     "date": 1753027200,
     "draws": 3,
@@ -860,6 +871,17 @@
     "players": 21,
     "topCut": 4,
     "wins": 0
+   },
+   "level-7-englewood-cedh": {
+    "date": 1792197900,
+    "draws": 1,
+    "losses": 1,
+    "madeTopCut": false,
+    "name": "Level 7 Englewood cedh",
+    "place": 10,
+    "players": 40,
+    "topCut": 4,
+    "wins": 1
    },
    "level-7-englewood-cedh-814": {
     "date": 1786753800,
@@ -5116,6 +5138,17 @@
     "topCut": 4,
     "wins": 2
    },
+   "cedh-920": {
+    "date": 1792279800,
+    "draws": 2,
+    "losses": 0,
+    "madeTopCut": true,
+    "name": "CEDH",
+    "place": 1,
+    "players": 13,
+    "topCut": 4,
+    "wins": 2
+   },
    "cedh-tabernacle-platinum-tournament": {
     "date": 1772895600,
     "draws": 4,
@@ -8611,6 +8644,17 @@
     "topCut": 10,
     "wins": 3
    },
+   "commander-invitational-qualifier-riddle-rune-3": {
+    "date": 1792256700,
+    "draws": 1,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "Commander Invitational Qualifier - Riddle & Rune",
+    "place": 4,
+    "players": 59,
+    "topCut": 10,
+    "wins": 4
+   },
    "commander-invitational-qualifier-tcgcon": {
     "date": 1760799600,
     "draws": 1,
@@ -9471,7 +9515,7 @@
    }
   }
  },
- "fetchedThrough": 1792230890,
+ "fetchedThrough": 1792318022,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
