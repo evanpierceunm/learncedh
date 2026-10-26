@@ -454,6 +454,17 @@
     "topCut": 4,
     "wins": 3
    },
+   "cedh-419": {
+    "date": 1792886400,
+    "draws": 3,
+    "losses": 0,
+    "madeTopCut": true,
+    "name": "CEDH",
+    "place": 1,
+    "players": 16,
+    "topCut": 4,
+    "wins": 2
+   },
    "cedh-456": {
     "date": 1789256700,
     "draws": 1,
@@ -897,13 +908,13 @@
    "level-7-englewood-cedh-but-halloween-is-next-week-but-yall": {
     "date": 1792801800,
     "draws": 1,
-    "losses": 1,
+    "losses": 0,
     "madeTopCut": true,
     "name": "Level 7 Englewood Cedh But halloween is next week but yall should still wear costumes and be sick asf",
     "place": 1,
     "players": 31,
     "topCut": 4,
-    "wins": 2
+    "wins": 3
    },
    "level-7-englewood-cedh-weekly": {
     "date": 1754094600,
@@ -8776,6 +8787,17 @@
     "topCut": 4,
     "wins": 0
    },
+   "commander-invitational-scarlet-raven-gaming-3": {
+    "date": 1792863900,
+    "draws": 0,
+    "losses": 0,
+    "madeTopCut": false,
+    "name": "Commander Invitational - Scarlet Raven Gaming",
+    "place": 19,
+    "players": 22,
+    "topCut": 4,
+    "wins": 0
+   },
    "css-20000-cedh-invitational-qualifier-3": {
     "date": 1781359200,
     "draws": 0,
@@ -9581,7 +9603,7 @@
    }
   }
  },
- "fetchedThrough": 1792923920,
+ "fetchedThrough": 1793015676,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
