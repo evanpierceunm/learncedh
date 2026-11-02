@@ -3115,6 +3115,17 @@
     "topCut": 16,
     "wins": 3
    },
+   "mulligan-championship-series-november-w-guaranteed": {
+    "date": 1793546100,
+    "draws": 1,
+    "losses": 3,
+    "madeTopCut": false,
+    "name": "Mulligan Championship Series - November w/ Guaranteed Prizing",
+    "place": 33,
+    "players": 74,
+    "topCut": 16,
+    "wins": 1
+   },
    "mulligan-championship-series-october-w-guaranteed": {
     "date": 1791122400,
     "draws": 2,
@@ -9625,7 +9636,7 @@
    }
   }
  },
- "fetchedThrough": 1793535698,
+ "fetchedThrough": 1793628995,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
