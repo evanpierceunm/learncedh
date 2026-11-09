@@ -1928,6 +1928,17 @@
     "topCut": 4,
     "wins": 1
    },
+   "riftgate-redemption": {
+    "date": 1794155400,
+    "draws": 1,
+    "losses": 0,
+    "madeTopCut": true,
+    "name": "Riftgate Redemption",
+    "place": 1,
+    "players": 86,
+    "topCut": 4,
+    "wins": 4
+   },
    "sDRIjn0Dx6yBObcGNTDA": {
     "date": 1717250400,
     "draws": 0,
@@ -2190,6 +2201,17 @@
     "place": 2,
     "players": 26,
     "topCut": 4,
+    "wins": 2
+   },
+   "yapsgiving-10k": {
+    "date": 1794069000,
+    "draws": 3,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "Yapsgiving - cEDH 10K",
+    "place": 21,
+    "players": 150,
+    "topCut": 40,
     "wins": 2
    },
    "z7QZLqDEri1txWnD3uqv": {
@@ -3587,6 +3609,17 @@
     "players": 28,
     "topCut": 4,
     "wins": 1
+   },
+   "yapsgiving-10k": {
+    "date": 1794069000,
+    "draws": 2,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "Yapsgiving - cEDH 10K",
+    "place": 2,
+    "players": 150,
+    "topCut": 40,
+    "wins": 4
    },
    "zMdH3rRUPGZA3cQKMULL": {
     "date": 1715515200,
@@ -7207,6 +7240,17 @@
     "players": 22,
     "topCut": 0,
     "wins": 0
+   },
+   "yapsgiving-10k": {
+    "date": 1794069000,
+    "draws": 1,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "Yapsgiving - cEDH 10K",
+    "place": 1,
+    "players": 150,
+    "topCut": 40,
+    "wins": 5
    }
   },
   "rwicYTdWeoC1vk8xXIwl": {
@@ -9370,6 +9414,17 @@
     "topCut": 16,
     "wins": 2
    },
+   "rocket-city-liftoff": {
+    "date": 1794067200,
+    "draws": 2,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "Rocket City Liftoff 5k+ cEDH",
+    "place": 5,
+    "players": 57,
+    "topCut": 16,
+    "wins": 2
+   },
    "sO941x8CUyI6j9aSJ1nn": {
     "date": 1723330800,
     "draws": 0,
@@ -9490,6 +9545,17 @@
     "players": 20,
     "topCut": 4,
     "wins": 1
+   },
+   "the-spashdown-cedh-redemption": {
+    "date": 1794162600,
+    "draws": 0,
+    "losses": 1,
+    "madeTopCut": false,
+    "name": "The Splashdown - cEDH Redemption",
+    "place": 2,
+    "players": 24,
+    "topCut": 0,
+    "wins": 2
    },
    "tm-circuit-act-2-threshold-cutter": {
     "date": 1739635200,
@@ -9636,7 +9702,7 @@
    }
   }
  },
- "fetchedThrough": 1794140970,
+ "fetchedThrough": 1794235487,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
