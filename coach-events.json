@@ -960,6 +960,17 @@
     "topCut": 4,
     "wins": 2
    },
+   "level-7-englewood-weekly-cedh-tournament-where-all-of-the": {
+    "date": 1794619800,
+    "draws": 0,
+    "losses": 0,
+    "madeTopCut": true,
+    "name": "Level 7 Englewood Weekly CEDH tournament where all of the people being gone for Magic Con might make the sweat a little less salty",
+    "place": 1,
+    "players": 31,
+    "topCut": 4,
+    "wins": 4
+   },
    "level-7-englewood-weekly-cedh-tournament-where-horses-say": {
     "date": 1788568200,
     "draws": 0,
@@ -5226,6 +5237,17 @@
     "topCut": 4,
     "wins": 2
    },
+   "cedh-599": {
+    "date": 1794098700,
+    "draws": 1,
+    "losses": 2,
+    "madeTopCut": false,
+    "name": "CEDH",
+    "place": 7,
+    "players": 20,
+    "topCut": 4,
+    "wins": 1
+   },
    "cedh-750": {
     "date": 1791070200,
     "draws": 0,
@@ -5555,6 +5577,17 @@
     "players": 38,
     "topCut": 4,
     "wins": 1
+   },
+   "level-7-englewood-weekly-cedh-tournament-where-all-of-the": {
+    "date": 1794619800,
+    "draws": 1,
+    "losses": 2,
+    "madeTopCut": false,
+    "name": "Level 7 Englewood Weekly CEDH tournament where all of the people being gone for Magic Con might make the sweat a little less salty",
+    "place": 17,
+    "players": 31,
+    "topCut": 4,
+    "wins": 0
    },
    "level-7-englewood-weekly-cedh-tournament-where-horses-say": {
     "date": 1788568200,
@@ -9702,7 +9735,7 @@
    }
   }
  },
- "fetchedThrough": 1794577183,
+ "fetchedThrough": 1794660249,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
