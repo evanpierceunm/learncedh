@@ -1103,6 +1103,17 @@
     "topCut": 4,
     "wins": 1
    },
+   "level-7-north-cedh-2": {
+    "date": 1794704400,
+    "draws": 2,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "Level 7 NORTH CEDH",
+    "place": 4,
+    "players": 17,
+    "topCut": 4,
+    "wins": 1
+   },
    "level-7-weekly-cedh-happy-fun-times-where-everyone-wins-and": {
     "date": 1789173000,
     "draws": 2,
@@ -5611,6 +5622,17 @@
     "topCut": 4,
     "wins": 1
    },
+   "level-7-north-cedh-2": {
+    "date": 1794704400,
+    "draws": 2,
+    "losses": 1,
+    "madeTopCut": false,
+    "name": "Level 7 NORTH CEDH",
+    "place": 7,
+    "players": 17,
+    "topCut": 4,
+    "wins": 1
+   },
    "level-7s-first-of-the-season-1k": {
     "date": 1790442000,
     "draws": 0,
@@ -9735,7 +9757,7 @@
    }
   }
  },
- "fetchedThrough": 1794660249,
+ "fetchedThrough": 1794748286,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
