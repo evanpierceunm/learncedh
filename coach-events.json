@@ -586,6 +586,17 @@
     "topCut": 4,
     "wins": 3
    },
+   "criticaledh-circuitone-top-40": {
+    "date": 1793469600,
+    "draws": 0,
+    "losses": 1,
+    "madeTopCut": true,
+    "name": "CriticalEDH CircuitONE Top 40",
+    "place": 38,
+    "players": 42,
+    "topCut": 40,
+    "wins": 0
+   },
    "d-grid-on-the-stack": {
     "date": 1780156800,
     "draws": 3,
@@ -4174,6 +4185,17 @@
     "players": 16,
     "topCut": 4,
     "wins": 2
+   },
+   "criticaledh-circuitone-top-40": {
+    "date": 1793469600,
+    "draws": 0,
+    "losses": 1,
+    "madeTopCut": true,
+    "name": "CriticalEDH CircuitONE Top 40",
+    "place": 18,
+    "players": 42,
+    "topCut": 40,
+    "wins": 0
    },
    "eternal-games-warren-dual-land-cedh-tournament": {
     "date": 1749918600,
@@ -9790,7 +9812,7 @@
    }
   }
  },
- "fetchedThrough": 1795013403,
+ "fetchedThrough": 1795100166,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
