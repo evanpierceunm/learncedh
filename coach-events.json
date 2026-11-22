@@ -432,6 +432,17 @@
     "topCut": 13,
     "wins": 2
    },
+   "california-invitational-championship-2026-bitw": {
+    "date": 1795204800,
+    "draws": 2,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "California Invitational Championship 2026 -BitW",
+    "place": 6,
+    "players": 68,
+    "topCut": 16,
+    "wins": 2
+   },
    "cedh-1k-5": {
     "date": 1791050400,
     "draws": 0,
@@ -3148,6 +3159,17 @@
     "topCut": 10,
     "wins": 1
    },
+   "monthly-cedh-tournament-gaeas-cradle": {
+    "date": 1795273200,
+    "draws": 2,
+    "losses": 1,
+    "madeTopCut": true,
+    "name": "Monthly cEDH Tournament - Gaea's Cradle",
+    "place": 1,
+    "players": 46,
+    "topCut": 16,
+    "wins": 4
+   },
    "mulligan-championship-series-february-5k": {
     "date": 1771686000,
     "draws": 1,
@@ -5336,6 +5358,17 @@
     "topCut": 16,
     "wins": 1
    },
+   "colorado-card-conquest-cedh-1-k": {
+    "date": 1795278600,
+    "draws": 0,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "Colorado Card Conquest Non-Meta CEDH 1 K",
+    "place": 2,
+    "players": 37,
+    "topCut": 10,
+    "wins": 3
+   },
    "commader-event": {
     "date": 1736017200,
     "draws": 1,
@@ -6457,6 +6490,17 @@
     "name": "BREACH THE BAY - cEDH 10K",
     "place": 98,
     "players": 183,
+    "topCut": 16,
+    "wins": 1
+   },
+   "california-invitational-championship-2026-bitw": {
+    "date": 1795204800,
+    "draws": 3,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "California Invitational Championship 2026 -BitW",
+    "place": 14,
+    "players": 68,
     "topCut": 16,
     "wins": 1
    },
@@ -9812,7 +9856,7 @@
    }
   }
  },
- "fetchedThrough": 1795269307,
+ "fetchedThrough": 1795355308,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
