@@ -2115,6 +2115,17 @@
     "topCut": 4,
     "wins": 3
    },
+   "the-antrium-2-too": {
+    "date": 1795370400,
+    "draws": 2,
+    "losses": 2,
+    "madeTopCut": true,
+    "name": "The Atrium 2 Too",
+    "place": 9,
+    "players": 37,
+    "topCut": 10,
+    "wins": 1
+   },
    "the-fishbowl-san-diego-copy": {
     "date": 1761408000,
     "draws": 0,
@@ -3853,6 +3864,17 @@
     "players": 16,
     "topCut": 4,
     "wins": 0
+   },
+   "commander-invitational-qualifier-wzkd-games-2": {
+    "date": 1795280400,
+    "draws": 0,
+    "losses": 3,
+    "madeTopCut": true,
+    "name": "Commander Invitational Qualifier - WZKD Games scaling 1k+",
+    "place": 5,
+    "players": 32,
+    "topCut": 10,
+    "wins": 2
    },
    "end-step-naus-cedh-1k-commander-invitational-qualifier-1": {
     "date": 1772298000,
@@ -6482,6 +6504,17 @@
     "topCut": 10,
     "wins": 2
    },
+   "brainstorm-tacomas-cedh-open-10k": {
+    "date": 1795280400,
+    "draws": 0,
+    "losses": 0,
+    "madeTopCut": false,
+    "name": "Brainstorm: Tacoma's cEDH Open 10k$",
+    "place": 106,
+    "players": 108,
+    "topCut": 16,
+    "wins": 0
+   },
    "breach-the-bay-cedh-10k": {
     "date": 1769270400,
     "draws": 1,
@@ -7240,6 +7273,17 @@
     "players": 58,
     "topCut": 10,
     "wins": 1
+   },
+   "the-antrium-2-too": {
+    "date": 1795370400,
+    "draws": 1,
+    "losses": 1,
+    "madeTopCut": false,
+    "name": "The Atrium 2 Too",
+    "place": 28,
+    "players": 37,
+    "topCut": 10,
+    "wins": 0
    },
    "the-atrium-1": {
     "date": 1774717200,
@@ -9856,7 +9900,7 @@
    }
   }
  },
- "fetchedThrough": 1795355308,
+ "fetchedThrough": 1795452802,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
