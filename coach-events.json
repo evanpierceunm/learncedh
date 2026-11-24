@@ -2126,6 +2126,17 @@
     "topCut": 10,
     "wins": 1
    },
+   "the-atrium-2-1": {
+    "date": 1795284000,
+    "draws": 3,
+    "losses": 1,
+    "madeTopCut": false,
+    "name": "The Atrium 2",
+    "place": 19,
+    "players": 100,
+    "topCut": 16,
+    "wins": 1
+   },
    "the-fishbowl-san-diego-copy": {
     "date": 1761408000,
     "draws": 0,
@@ -7296,6 +7307,17 @@
     "topCut": 16,
     "wins": 4
    },
+   "the-atrium-2-1": {
+    "date": 1795284000,
+    "draws": 1,
+    "losses": 1,
+    "madeTopCut": true,
+    "name": "The Atrium 2",
+    "place": 5,
+    "players": 100,
+    "topCut": 16,
+    "wins": 4
+   },
    "the-birdcage-iv": {
     "date": 1757653201,
     "draws": 1,
@@ -9900,7 +9922,7 @@
    }
   }
  },
- "fetchedThrough": 1795452802,
+ "fetchedThrough": 1795538633,
  "ids": [
   "10XZGpOw5vVlD7VeYRO1XvBv3Ft2",
   "GHPNb0E7DnWMVIsJIhYSXre58rB3",
