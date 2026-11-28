@@ -59,9 +59,9 @@
     "name": "The Cookout 2026",
     "players": 238
    },
-   "conversion": 0.38,
+   "conversion": 0.3775,
    "eventWins": 15,
-   "events": 159,
+   "events": 160,
    "gameWinRate": 0.3118,
    "games": {
     "draws": 111,
@@ -77,17 +77,17 @@
     "name": "SIEGE cEDH 10K",
     "players": 308
    },
-   "conversion": 0.7463,
-   "eventWins": 62,
-   "events": 208,
-   "gameWinRate": 0.473,
+   "conversion": 0.7476,
+   "eventWins": 63,
+   "events": 209,
+   "gameWinRate": 0.4741,
    "games": {
-    "draws": 246,
+    "draws": 247,
     "losses": 251,
-    "wins": 446
+    "wins": 449
    },
    "profile": "https://topdeck.gg/profile/@fenodreams",
-   "topCuts": 153,
+   "topCuts": 154,
    "topdeckId": "10XZGpOw5vVlD7VeYRO1XvBv3Ft2"
   },
   "Joseph Fago": {
@@ -95,17 +95,17 @@
     "name": "Level 7's  Second of the Season 1k",
     "players": 57
    },
-   "conversion": 0.4202,
+   "conversion": 0.425,
    "eventWins": 12,
-   "events": 121,
-   "gameWinRate": 0.311,
+   "events": 122,
+   "gameWinRate": 0.3124,
    "games": {
     "draws": 152,
-    "losses": 229,
-    "wins": 172
+    "losses": 231,
+    "wins": 174
    },
    "profile": "https://topdeck.gg/profile/@pigeonize",
-   "topCuts": 50,
+   "topCuts": 51,
    "topdeckId": "cOHH27D1bKSu9TTa2FkZ3frml9Y2"
   },
   "Kevin Simmons": {
@@ -146,5 +146,5 @@
   }
  },
  "source": "https://topdeck.gg",
- "updated": "2026-11-27T15:51:50Z"
+ "updated": "2026-11-28T14:46:58Z"
 }
